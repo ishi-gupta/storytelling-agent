@@ -1,0 +1,136 @@
+{
+  "overall_score": 70.25,
+  "character_depth_score": 65.0,
+  "story_craft_score": 82.5,
+  "character_analyses": [
+    {
+      "name": "Mara",
+      "specific_want": "To impose control over a chaotic environment and prove the 'haunting' is an engineered con, partly to protect Olivia and partly to quiet her own vulnerability to noise and misdirection.",
+      "fear": "Losing control/credibility; being manipulated by spectacle; her tinnitus making her miss or misread signals (professional shame).",
+      "choice_reveals": "Kills the duct-feed mid-séance knowing it will damage trust; plants covert optics despite Olivia’s protest; chases Felix into the storm rather than preserve personal safety.",
+      "change_arc": "Shifts from hyper-controlled, lone-operator to pragmatic collaborator (trusts Caleb, hands evidence to Ortega, prioritizes Olivia’s stability over the ‘perfect’ record).",
+      "psychological_specificity": 8,
+      "issues": [
+        "competence_fantasy"
+      ],
+      "dialogue_patterns": "Terse, procedural, measurement-focused; declarative and boundary-setting ('I’ll inform. I won’t ask.').",
+      "subtext_examples": [
+        "“I don’t do risks. I do controls.” (control as coping mechanism, not just method)",
+        "“Turn off the lie.” (protecting Olivia while asserting a worldview)",
+        "“We log knocks, we don’t interpret them.” (distance from belief to avoid personal entanglement)"
+      ]
+    },
+    {
+      "name": "Olivia",
+      "specific_want": "To keep the house’s legacy intact while seeking emotionally safe validation about its ‘listening’—closure without humiliation.",
+      "fear": "Public embarrassment/manipulation; confronting unresolved grief (her mother); losing authority over her own house.",
+      "choice_reveals": "Grants conditional access; allows the séance to proceed despite dread; ultimately sides with Mara/Ortega against her own contractors.",
+      "change_arc": "Moves from guarded ambivalence to decisive agency (chooses truth over spectacle and control over being 'handled').",
+      "psychological_specificity": 7,
+      "issues": [],
+      "dialogue_patterns": "Measured, managerial politeness that cracks under pressure; short refusals (“I decline.”).",
+      "subtext_examples": [
+        "“You don’t get to decide how this happens in my house.” (control masking fear of powerlessness)",
+        "“Just—don’t say my mother’s name.” (boundary around unresolved grief)"
+      ]
+    },
+    {
+      "name": "Ortega",
+      "specific_want": "Maintain order and minimize liability; keep the house and staff within controllable protocols.",
+      "fear": "Being made responsible for a debacle; loss of authority.",
+      "choice_reveals": "Allows flexible access with conditions; executes arrest decisively when evidence is presented.",
+      "change_arc": "From obstructive gatekeeper to cooperative enforcer who validates Mara’s process.",
+      "psychological_specificity": 6,
+      "issues": [],
+      "dialogue_patterns": "Clipped, policy-first (‘That’s not how we do it.’).",
+      "subtext_examples": [
+        "“Cameras stay live. You keep your phone on.” (control via surveillance)"
+      ]
+    },
+    {
+      "name": "Kline",
+      "specific_want": "Protect donor optics and financial camouflage while retaining plausible deniability.",
+      "fear": "Exposure of ledger manipulation; donor blowback.",
+      "choice_reveals": "Hands over ‘working copy’ that reveals the shell game yet insists totals align.",
+      "change_arc": "Little change; stays slippery and image-conscious.",
+      "psychological_specificity": 5,
+      "issues": [],
+      "dialogue_patterns": "Oil-smooth, euphemistic (‘Reconciliations… Our donors enjoy privacy.’).",
+      "subtext_examples": [
+        "“Don’t mistake prudence for subterfuge.” (knows it’s subterfuge)"
+      ]
+    },
+    {
+      "name": "Caleb",
+      "specific_want": "Keep people alive and systems honest; be respected as the practical conscience of the place.",
+      "fear": "Preventable disaster on his watch; complicity by inaction.",
+      "choice_reveals": "Insists on safety harness; blocks the culvert; tackles Felix; backs evidence handling.",
+      "change_arc": "From cautious operations guy to moral actor taking risk to stop the con.",
+      "psychological_specificity": 7,
+      "issues": [],
+      "dialogue_patterns": "Plain-spoken, safety-forward pragmatism (‘People drown.’).",
+      "subtext_examples": [
+        "“You don’t launch tonight.” (moral line, not just procedural)"
+      ]
+    },
+    {
+      "name": "Marla",
+      "specific_want": "A flawless, goosebump-generating performance to grow her brand and authority over the room.",
+      "fear": "Debunking and loss of mystique/control.",
+      "choice_reveals": "Continues the séance after Mara cuts the duct; remaps channels to shut out Mara’s monitoring; reframes disruption as ‘sharing electricity.’",
+      "change_arc": "Doubles down on showmanship; no introspection.",
+      "psychological_specificity": 6,
+      "issues": [],
+      "dialogue_patterns": "Silky, performative, pseudo-reverent.",
+      "subtext_examples": [
+        "“We’re sharing electricity now?” (minimizing sabotage to keep control)",
+        "“If we’re to be courteous to the dead…” (audience management, not belief)"
+      ]
+    },
+    {
+      "name": "Felix",
+      "specific_want": "Thrill/control of the system; protect the con and his status as the clever insider.",
+      "fear": "Being seen as a small-time grifter; losing belonging and leverage.",
+      "choice_reveals": "Initiates remote wipe; steals laptop; physically risks storm and fight to destroy evidence.",
+      "change_arc": "Unravels from cocky charmer to cornered operator who still clings to the last move.",
+      "psychological_specificity": 7,
+      "issues": [],
+      "dialogue_patterns": "Flippant, teasing until pressured; then blunt.",
+      "subtext_examples": [
+        "“House perks. I charm. Doors open.” (identity is access/con)",
+        "“We’re done talking.” (switch to survival mode)"
+      ]
+    },
+    {
+      "name": "Rao",
+      "specific_want": "Keep consultancy income and legitimacy intact; distance himself from the mechanism while running it.",
+      "fear": "A paper trail tying him to the fraud; legal exposure.",
+      "choice_reveals": "Directs multi-stage remote wipe; gaslights with ‘acoustics study’ defense; threatens litigation.",
+      "change_arc": "None; remains calculating and evasive to the end.",
+      "psychological_specificity": 6,
+      "issues": [],
+      "dialogue_patterns": "Cool, technical, legalistic.",
+      "subtext_examples": [
+        "“App payload shredded. Final pass.” (criminal competence masked as procedure)"
+      ]
+    }
+  ],
+  "story_craft": {
+    "stakes_clarity": 8,
+    "emotional_beats_ratio": 0.9,
+    "subtext_quality": 8,
+    "plot_friction": 8,
+    "issues": []
+  },
+  "suggestions": [
+    "Give Mara a private beat where tinnitus misleads her into a wrong inference or forces her to choose between perfect evidence and Olivia’s dignity; let her be wrong once and repair it.",
+    "Add a quiet scene of Olivia alone in the house (pre- or post-séance) confronting an object tied to her mother; let her choose to proceed for a personal reason, not just plot momentum.",
+    "Humanize an antagonist: a candid exchange where Marla frames the show as ‘helping’ patrons grieve, or Rao reveals financial pressure; complicate their ethics.",
+    "Intertwine Kline with the con emotionally (fear of losing donor that saved the trust), then force him to either perjure himself or help Mara; make the choice cost him.",
+    "Escalate a cost to Mara in the storm: sacrifice a key recording to save Felix/Caleb or Olivia’s reputation; show what she values when control fails.",
+    "Seed a false mechanism early (e.g., chimney drafts) that Mara pursues before realizing the newel-latch system; this adds interpretive friction.",
+    "Let Felix attempt to recruit Mara (‘You like control; we just engineered it’) to test her identity and tempt her alignment.",
+    "After arrests, include a denouement beat where Mara returns the house ‘hum’ to Olivia, acknowledging what can’t be measured; deepen their bond and the theme."
+  ],
+  "llm_analysis": "{\n    \"character_analyses\": [\n        {\n            \"name\": \"Mara\",\n            \"specific_want\": \"To impose control over a chaotic environment and prove the 'haunting' is an engineered con, partly to protect Olivia and partly to quiet her own vulnerability to noise and misdirection.\",\n            \"fear\": \"Losing control/credibility; being manipulated by spectacle; her tinnitus making her miss or misread signals (professional shame).\",\n            \"choice_reveals\": \"Kills the duct-feed mid-séance knowing it will damage trust; plants covert optics despite Olivia’s protest; chases Felix into the storm rather than preserve personal safety.\",\n            \"change_arc\": \"Shifts from hyper-controlled, lone-operator to pragmatic collaborator (trusts Caleb, hands evidence to Ortega, prioritizes Olivia’s stability over the ‘perfect’ record).\",\n            \"psychological_specificity\": 8,\n            \"issues\": [\"competence_fantasy\", \"limited_overt_vulnerability\"],\n            \"dialogue_patterns\": \"Terse, procedural, measurement-focused; declarative and boundary-setting ('I’ll inform. I won’t ask.').\",\n            \"subtext_examples\": [\n                \"“I don’t do risks. I do controls.” (control as coping mechanism, not just method)\",\n                \"“Turn off the lie.” (protecting Olivia while asserting a worldview)\",\n                \"“We log knocks, we don’t interpret them.” (distance from belief to avoid personal entanglement)\"\n            ]\n        },\n        {\n            \"name\": \"Olivia\",\n            \"specific_want\": \"To keep the house’s legacy intact while seeking emotionally safe validation about its ‘listening’—closure without humiliation.\",\n            \"fear\": \"Public embarrassment/manipulation; confronting unresolved grief (her mother); losing authority over her own house.\",\n            \"choice_reveals\": \"Grants conditional access; allows the séance to proceed despite dread; ultimately sides with Mara/Ortega against her own contractors.\",\n            \"change_arc\": \"Moves from guarded ambivalence to decisive agency (chooses truth over spectacle and control over being 'handled').\",\n            \"psychological_specificity\": 7,\n            \"issues\": [\"underexplored_grief\"],\n            \"dialogue_patterns\": \"Measured, managerial politeness that cracks under pressure; short refusals (“I decline.”).\",\n            \"subtext_examples\": [\n                \"“You don’t get to decide how this happens in my house.” (control masking fear of powerlessness)\",\n                \"“Just—don’t say my mother’s name.” (boundary around unresolved grief)\"\n            ]\n        },\n        {\n            \"name\": \"Ortega\",\n            \"specific_want\": \"Maintain order and minimize liability; keep the house and staff within controllable protocols.\",\n            \"fear\": \"Being made responsible for a debacle; loss of authority.\",\n            \"choice_reveals\": \"Allows flexible access with conditions; executes arrest decisively when evidence is presented.\",\n            \"change_arc\": \"From obstructive gatekeeper to cooperative enforcer who validates Mara’s process.\",\n            \"psychological_specificity\": 6,\n            \"issues\": [\"functional_role_over_inner_life\"],\n            \"dialogue_patterns\": \"Clipped, policy-first (‘That’s not how we do it.’).\",\n            \"subtext_examples\": [\n                \"“Cameras stay live. You keep your phone on.” (control via surveillance)\"\n            ]\n        },\n        {\n            \"name\": \"Kline\",\n            \"specific_want\": \"Protect donor optics and financial camouflage while retaining plausible deniability.\",\n            \"fear\": \"Exposure of ledger manipulation; donor blowback.\",\n            \"choice_reveals\": \"Hands over ‘working copy’ that reveals the shell game yet insists totals align.\",\n            \"change_arc\": \"Little change; stays slippery and image-conscious.\",\n            \"psychological_specificity\": 5,\n            \"issues\": [\"opaque_motives\", \"low_internal_conflict\"],\n            \"dialogue_patterns\": \"Oil-smooth, euphemistic (‘Reconciliations… Our donors enjoy privacy.’).\",\n            \"subtext_examples\": [\n                \"“Don’t mistake prudence for subterfuge.” (knows it’s subterfuge)\"\n            ]\n        },\n        {\n            \"name\": \"Caleb\",\n            \"specific_want\": \"Keep people alive and systems honest; be respected as the practical conscience of the place.\",\n            \"fear\": \"Preventable disaster on his watch; complicity by inaction.\",\n            \"choice_reveals\": \"Insists on safety harness; blocks the culvert; tackles Felix; backs evidence handling.\",\n            \"change_arc\": \"From cautious operations guy to moral actor taking risk to stop the con.\",\n            \"psychological_specificity\": 7,\n            \"issues\": [\"limited_backstory\"],\n            \"dialogue_patterns\": \"Plain-spoken, safety-forward pragmatism (‘People drown.’).\",\n            \"subtext_examples\": [\n                \"“You don’t launch tonight.” (moral line, not just procedural)\"\n            ]\n        },\n        {\n            \"name\": \"Marla\",\n            \"specific_want\": \"A flawless, goosebump-generating performance to grow her brand and authority over the room.\",\n            \"fear\": \"Debunking and loss of mystique/control.\",\n            \"choice_reveals\": \"Continues the séance after Mara cuts the duct; remaps channels to shut out Mara’s monitoring; reframes disruption as ‘sharing electricity.’\",\n            \"change_arc\": \"Doubles down on showmanship; no introspection.\",\n            \"psychological_specificity\": 6,\n            \"issues\": [\"villain_flatness\"],\n            \"dialogue_patterns\": \"Silky, performative, pseudo-reverent.\",\n            \"subtext_examples\": [\n                \"“We’re sharing electricity now?” (minimizing sabotage to keep control)\",\n                \"“If we’re to be courteous to the dead…” (audience management, not belief)\"\n            ]\n        },\n        {\n            \"name\": \"Felix\",\n            \"specific_want\": \"Thrill/control of the system; protect the con and his status as the clever insider.\",\n            \"fear\": \"Being seen as a small-time grifter; losing belonging and leverage.\",\n            \"choice_reveals\": \"Initiates remote wipe; steals laptop; physically risks storm and fight to destroy evidence.\",\n            \"change_arc\": \"Unravels from cocky charmer to cornered operator who still clings to the last move.\",\n            \"psychological_specificity\": 7,\n            \"issues\": [\"motivation_scope_unclear_beyond_thrill\"],\n            \"dialogue_patterns\": \"Flippant, teasing until pressured; then blunt.\",\n            \"subtext_examples\": [\n                \"“House perks. I charm. Doors open.” (identity is access/con)\",\n                \"“We’re done talking.” (switch to survival mode)\"\n            ]\n        },\n        {\n            \"name\": \"Rao\",\n            \"specific_want\": \"Keep consultancy income and legitimacy intact; distance himself from the mechanism while running it.\",\n            \"fear\": \"A paper trail tying him to the fraud; legal exposure.\",\n            \"choice_reveals\": \"Directs multi-stage remote wipe; gaslights with ‘acoustics study’ defense; threatens litigation.\",\n            \"change_arc\": \"None; remains calculating and evasive to the end.\",\n            \"psychological_specificity\": 6,\n            \"issues\": [\"externalized_motive\", \"no_private_cost\"],\n            \"dialogue_patterns\": \"Cool, technical, legalistic.\",\n            \"subtext_examples\": [\n                \"“App payload shredded. Final pass.” (criminal competence masked as procedure)\"\n            ]\n        }\n    ],\n    \"story_craft\": {\n        \"scene_functions\": [\n            {\n                \"scene_number\": 1,\n                \"protagonist_learns\": \"Power dynamics; foghorn interval; house baseline hum; admin protocols.\",\n                \"choice_made\": \"Demands autonomy; accepts conditional access without permission gate.\",\n                \"change\": \"Access granted; working terms with Olivia/Ortega set.\",\n                \"is_mechanical\": false\n            },\n            {\n                \"scene_number\": 2,\n                \"protagonist_learns\": \"Evidence of deliberate tampering (lock plate, nailed sash, gouged rail).\",\n                \"choice_made\": \"Meticulous evidence collection despite tinnitus spike.\",\n                \"change\": \"Locked-room premise reframed as engineered.\",\n                \"is_mechanical\": false\n            },\n            {\n                \"scene_number\": 3,\n                \"protagonist_learns\": \"Dual ledgers; suspicious audio purchases; culvert/grate map; Felix’s key access.\",\n                \"choice_made\": \"Documents ledger discrepancies; plans culvert route; decides to test key reach.\",\n                \"change\": \"Conspiracy gains financial and physical vectors.\",\n                \"is_mechanical\": false\n            },\n            {\n                \"scene_number\": 4,\n                \"protagonist_learns\": \"RF/PA coupling into HVAC; measurable link between show and anomalies.\",\n                \"choice_made\": \"Maps frequencies; requests controlled tests.\",\n                \"change\": \"First causal mechanism established.\",\n                \"is_mechanical\": false\n            },\n            {\n                \"scene_number\": 5,\n                \"protagonist_learns\": \"Invoices to shells; boathouse locker used; Felix ping at Granite Pier.\",\n                \"choice_made\": \"Breaks into Kline’s desk; prioritizes data capture; triangulates cache.\",\n                \"change\": \"Evidence ties money, parts, waterside cache.\",\n                \"is_mechanical\": false\n            },\n            {\n                \"scene_number\": 6,\n                \"protagonist_learns\": \"Séance is actively engineered; Olivia’s threshold of belief/fear.\",\n                \"choice_made\": \"Cuts DUCT SUB 2 mid-ceremony; risks rapport to keep Olivia upright.\",\n                \"change\": \"Marla counters; RF channels remapped; tension with Olivia spikes.\",\n                \"is_mechanical\": false\n            },\n            {\n                \"scene_number\": 7,\n                \"protagonist_learns\": \"Hidden bell wire to latch; remote actuation path via banister.\",\n                \"choice_made\": \"Reconstructs mechanism; tests it at risk of being discovered.\",\n                \"change\": \"Mechanism confirmed on camera.\",\n                \"is_mechanical\": false\n            },\n            {\n                \"scene_number\": 8,\n                \"protagonist_learns\": \"Sightlines and coverage points; Olivia’s tolerance for surveillance.\",\n                \"choice_made\": \"Plants covert cams/decibel logger despite pushback.\",\n                \"change\": \"Observation net set; social friction increases.\",\n                \"is_mechanical\": false\n            },\n            {\n                \"scene_number\": 9,\n                \"protagonist_learns\": \"Real-time proof: relay actuation synced to knocks; E-glass fibers on gouges.\",\n                \"choice_made\": \"Holds back from immediate confrontation to deepen record; collects fibers.\",\n                \"change\": \"Probative evidence solidifies chain.\",\n                \"is_mechanical\": false\n            },\n            {\n                \"scene_number\": 10,\n                \"protagonist_learns\": \"Felix/Rao initiate evidence wipe; Felix is willing to escalate.\",\n                \"choice_made\": \"Pursues in storm; prioritizes physical interception over safety.\",\n                \"change\": \"Cat-and-mouse becomes kinetic; partial data loss risked.\",\n                \"is_mechanical\": false\n            },\n            {\n                \"scene_number\": 11,\n                \"protagonist_learns\": \"Caleb is willing to physically intervene; Felix will destroy evidence if free.\",\n                \"choice_made\": \"Commits to physical rescue of laptop; teams with Caleb to subdue Felix.\",\n                \"change\": \"Laptop saved; perpetrators pinned.\",\n                \"is_mechanical\": false\n            },\n            {\n                \"scene_number\": 12,\n                \"protagonist_learns\": \"Her record is enough to trigger arrests; Olivia will back her publicly.\",\n                \"choice_made\": \"Hands chain of custody to Ortega; relinquishes control at the right moment.\",\n                \"change\": \"Conspiracy exposed; legal process initiated; relational trust reset.\",\n                \"is_mechanical\": false\n            }\n        ],\n        \"stakes_clarity\": 8,\n        \"emotional_beats_ratio\": 0.9,\n        \"subtext_quality\": 8,\n        \"plot_friction\": 8,\n        \"issues\": [\"competence_bias_toward_protagonist\", \"antagonists_internal_life_thin\", \"limited_wrong_leads\"]\n    },\n    \"overall_assessment\": {\n        \"character_strengths\": [\n            \"Mara’s control-vs-chaos psychology is embedded in method and sensory details (tinnitus, timing, baselines).\",\n            \"Olivia has credible competing motives (legacy vs. truth) that create tension with Mara.\",\n            \"Caleb’s practical ethics give the climax moral weight.\",\n            \"Antagonists’ actions are coherent and tactically smart (remap channels, staged wipe).\"\n        ],\n        \"character_weaknesses\": [\n            \"Mara’s inner life is implied but rarely confronted on-page; vulnerability stays subtext.\",\n            \"Olivia’s grief is gestured at but underexplored in private moments.\",\n            \"Kline/Marla/Rao lack personal costs or humanizing contradictions beyond the con.\",\n            \"Felix’s deeper motive (money vs belonging vs ideology) is thin.\"\n        ],\n        \"story_strengths\": [\n            \"Procedural cause-and-effect is crisp; evidence accrues through concrete actions.\",\n            \"Scenes force choices under pressure (séance cut, storm chase, chain-of-custody handoff).\",\n            \"Physical mechanisms (HVAC coupling, bell wire/newel pulley) make the ‘haunting’ thematically about control.\",\n            \"Subtext and power negotiation carry through dialogue rhythms.\"\n        ],\n        \"story_weaknesses\": [\n            \"Few wrong turns or interpretive risks for Mara keep tension mostly tactical, not existential.\",\n            \"Antagonists’ inner stakes and relationships (Marla–Felix–Rao–Kline) could be more tangled.\",\n            \"Emotional fallout (Olivia post-séance, Mara after partial data loss) is brief.\",\n            \"Climax resolves cleanly; minimal cost to Mara beyond weathering the storm.\"\n        ],\n        \"biggest_issues\": [\n            \"Protagonist invincibility: high competence with low personal cost reduces emotional resonance.\",\n            \"Underdeveloped inner stakes for antagonists and Olivia dampen thematic depth about belief vs control.\"\n        ],\n        \"suggestions\": [\n            \"Give Mara a private beat where tinnitus misleads her into a wrong inference or forces her to choose between perfect evidence and Olivia’s dignity; let her be wrong once and repair it.\",\n            \"Add a quiet scene of Olivia alone in the house (pre- or post-séance) confronting an object tied to her mother; let her choose to proceed for a personal reason, not just plot momentum.\",\n            \"Humanize an antagonist: a candid exchange where Marla frames the show as ‘helping’ patrons grieve, or Rao reveals financial pressure; complicate their ethics.\",\n            \"Intertwine Kline with the con emotionally (fear of losing donor that saved the trust), then force him to either perjure himself or help Mara; make the choice cost him.\",\n            \"Escalate a cost to Mara in the storm: sacrifice a key recording to save Felix/Caleb or Olivia’s reputation; show what she values when control fails.\",\n            \"Seed a false mechanism early (e.g., chimney drafts) that Mara pursues before realizing the newel-latch system; this adds interpretive friction.\",\n            \"Let Felix attempt to recruit Mara (‘You like control; we just engineered it’) to test her identity and tempt her alignment.\",\n            \"After arrests, include a denouement beat where Mara returns the house ‘hum’ to Olivia, acknowledging what can’t be measured; deepen their bond and the theme.\"\n        ]\n    }\n}"
+}

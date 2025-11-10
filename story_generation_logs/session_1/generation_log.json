@@ -1,0 +1,23 @@
+{
+  "session_id": "1",
+  "timestamp": "2025-11-03T14:12:32.851275",
+  "topic": "a detective solving a mystery in a haunted mansion",
+  "steps": [
+    {
+      "step": "generate_story_start",
+      "timestamp": "2025-11-03T14:12:32.851313",
+      "status": "info",
+      "data": {
+        "topic": "a detective solving a mystery in a haunted mansion"
+      }
+    },
+    {
+      "step": "init_book_spec_start",
+      "timestamp": "2025-11-03T14:12:32.851607",
+      "status": "info",
+      "data": {
+        "topic": "a detective solving a mystery in a haunted mansion"
+      }
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+GOAT Storytelling Agent - Session 1
+Generated: 2025-11-03T14:12:32.851275
+Topic: a detective solving a mystery in a haunted mansion
+================================================================================
+
+
+[2025-11-03T14:12:32.851313] GENERATE_STORY_START (info)
+----------------------------------------
+{
+  "topic": "a detective solving a mystery in a haunted mansion"
+}
+
+
+[2025-11-03T14:12:32.851607] INIT_BOOK_SPEC_START (info)
+----------------------------------------
+{
+  "topic": "a detective solving a mystery in a haunted mansion"
+}
+

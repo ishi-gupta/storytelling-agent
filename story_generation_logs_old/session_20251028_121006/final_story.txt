@@ -1,0 +1,535 @@
+
+==================== SCENE 1 ====================
+Dusk made a bruise of the harbor. The ferry’s ramp hit the main dock with a hollow clatter, and fog swept in as if it owned the place. Mara stepped off with a single duffel and a hard-shell case, the wet air slicking her hair flat. A foghorn moaned somewhere deep in the white—low, rounded, twice before it swallowed itself. She tapped her phone. Eighteen seconds between calls. Good.
+
+Olivia waited under a sodium lamp, a small bright island in the gloom, blazer clinging dark at the shoulders. “Ms. Voss? I’m Olivia Crane.” Her smile held, her eyes measured. “You made good time.”
+
+“Marine forecast said I had a window.” Mara hoisted the case. “Let’s use it. I’ll need unrestricted access to the east wing, roofline, subfloor. And anything with a lock on it.”
+
+A cough of boots behind Olivia announced Ortega—security jacket zipped to the throat, cap pulled low, hands empty but not relaxed. “That’s not how we do it.”
+
+“It’s how I do it,” Mara said. The foghorn went again. She thumbed the stopwatch. Seventeen this time. “We can argue or we can work.”
+
+Olivia angled her body between them, damp blazer squeaking. “We have liability concerns. Contractors have slipped, broken— We’re not set up for free range.”
+
+“Your board hired me to fix a problem efficiently. Efficiency requires autonomy, not a parade.” Mara’s tone softened half a step. “I don’t do risks. I do controls.”
+
+Olivia’s gaze flicked to Ortega, then to the lights ribboning the bulk of the building beyond the dock. “Conditional full access,” she said at last. “Keycard, system codes. You notify before entering restricted zones. No roof in high wind. No solo ladder work.”
+
+“Notification, yes,” Mara said. “Permission, no.”
+
+Ortega snorted and started walking. “Admin’s this way. Stay with me.” He didn’t add please.
+
+They moved off the dock, shoes ticking the grating, fog pebbled with sodium halos. The main doors sighed them into the lobby’s warm dryness. Under the HVAC chill, the building carried a low, even hum—electric, steady, a solid baseline in the bones. Mara held her breath for a beat and counted it against the horn outside, the two rhythms crossing like threads. Baseline: sixty-cycle with a vibrato from the older air handlers. She logged it.
+
+Ortega badge-tapped them through to the admin corridor. Fluorescents ran like a spine. “You’ll sign for the keycard,” he said. “Cameras stay live. You keep your phone on.”
+
+Olivia produced a lanyard and a slim black fob, plus a folded list of numeric codes. “Everything but payroll,” she said. “If a door denies you, call me. I’ll override. I’m trusting your judgment.”
+
+Mara accepted the card, the paper, the weight of what she needed. “I’ll inform. I won’t ask.”
+
+Ortega watched her slide the lanyard over her head. “I walk you through once. After that, you ping me if you want a shadow.”
+
+“Soft escort,” Olivia said. “Not constant.”
+
+The foghorn reached them even here, a muted pulse through the walls. Eighteen again. Mara wrote it down, along with the hum. “That works,” she said.
+
+“Good,” Olivia replied, and the three of them set off down the corridor, their footsteps matching the building’s measured purr.
+
+
+==================== SCENE 2 ====================
+The sealed wing door sat under a strip of dead exit light, paint puckered where the warning sticker had been peeled years ago. The corridor breathed cold through the weatherstrip. Mara pulled nitrile tight over her knuckles and clicked her body cam.
+
+“Case log, zero two forty-one. East wing access, exterior side.”
+
+She set a ruler and a gray card to the jamb, snapped the wide, then macro on the lock plate. The screws showed crescent polish. She slid a feeler gauge beneath the brass—resistance, then give. Pale grit winked along the seam.
+
+“Plaster dust under the plate. Color matches wall coat, not old; no binder yellowing. This plate’s been off since the last repaint.”
+
+She tapped a pinch into a sterile vial, labeled it, bagged it. Q-tip swabbed the screw heads for oil. Another bag.
+
+Her tinnitus flickered—thin wineglass sing in the left ear. She paused, jaw loosed, tongue to the roof of her mouth, counting back from five as the building’s base hum pressed steady through her sternum. The horn outside cut a clean slab through the night, far and precise. Eighteen-count from the last mark. She logged it without looking.
+
+Inside, the corridor was a silvered tunnel of covered furniture and taped doors. Dust bloom drifted in her headlamp. At the first landing window, she found the sash painted shut and still… newly stubborn. She probed the seam. The blade hit metal. Mara scraped paint with a dental pick until two nail heads showed bright as fish eyes.
+
+“Fresh nails through the sash rail. Cut heads, not countersunk. Oxide minimal. No painter did this.”
+
+She photographed the heads, the alignment to the stop, the shallow hammer bruises dimpling the enamel. She levered carefully; the sash didn’t offer.
+
+“Window jammed after the fact,” she said into the mic. “Imposed closure.”
+
+The ring in her ear rose two notches, a mosquito octave. She exhaled slow. “Noted.”
+
+The stairwell spiraled down with a Victorian seriousness—deep treads, polished banister. At hip height, the walnut showed parallel gouges, notched arcs bite-marked in progression around the newel. She angled the light.
+
+“Multiple linear gouges, about two millimeters apart. Fresh—edges pale, finish flaked. Directional drag toward the turn.”
+
+She shot it with scale, then with oblique light. She lifted a curl of varnish with tweezers, bagged it. Her gloved thumb traced the track and drew a faint resin squeak. The ring in her head bit hard, pressure behind the eyes, a shimmer at the edge of her vision. She stopped moving until it settled to a tolerable hiss.
+
+She stepped back, looked at door, window, rail in sequence, and felt the locked-room premise not shrink but harden.
+
+“Summary: anomalies suggest deliberate tampering while maintaining outward seal. Evidence collected, photographed, preserved. Continuing.”
+
+She clicked off the mic long enough to swallow, palm pressed flat to the cool of the banister as if it were a pulse. Then she bagged the last flake and kept working.
+
+
+==================== SCENE 3 ====================
+The records office smelled like toner and lemon oil. Kline was already at the table, a banker’s smile on, two fat binders and a thinner twin stacked like nested dolls.
+
+“Per your request,” he said, sliding the thinner one toward her. “Working copy.”
+
+Mara flipped it open. The columns mirrored the main ledger—dates, vendors, line codes—until they didn’t. A run of purchases flagged “facility maintenance” in the official book appeared as “audio support” here, with line items that read like scavenged tech jargon: piezo stacks, impedance-matching transformers, cable by the kilometer.
+
+“You do two sets?” Mara asked, pen hovering.
+
+“Reconciliations,” Kline said. “One for audit, one with vendor detail. Our donors enjoy privacy. You’ll find totals align.”
+
+“Yet the labels change.” She tapped a row. “Why does a historic trust need twenty-four ‘acoustic transducers’ and four ‘amplifier chassis, weatherized’?”
+
+Kline’s smile thinned. “We host events. The gala. Lectures. You saw the hall.”
+
+“These ship to a P.O. box,” she said, turning the page. “Not the hall.”
+
+He stiffened. “That’s a receiving service. Coastal properties complicate delivery. Caleb knows.”
+
+“I know we sign for what we install,” Caleb said from the doorway, maps under his arm. “If it passed my dock, I’d recall it.”
+
+Kline’s gaze went cool. “You’re free to reconcile, Ms.—Mara. But don’t mistake prudence for subterfuge.”
+
+She photographed pages, the vendor list, the PO box numbers, then closed the duplicate with care. “I’m noting the differences. That’s all.”
+
+“That’s never all with you,” he said, almost softly, then checked his watch. “I have donors by ten.”
+
+The service-tunnel map room was a white cinderblock cube with a light that hummed in a key her ear didn’t like. Caleb unrolled blue mylar like a card trick.
+
+“Four culvert mouths,” he said, tapping grease-pencil to a coastal profile. “Main sluice at the east seawall—grated, padlocked. Secondary drains under the rose slope—smaller mesh. Overflows tie into the service crawl, here and here. Hearth ash pits share a chase, but they’re dead.”
+
+“Clearance?” Mara asked.
+
+“Main culvert can fit a man in spring outflow if he’s stupid. Today the tide’s low; you could crouch. But the grate is bolted from our side. Rusted like hell.”
+
+“Bolts loosen,” she said.
+
+“People drown,” he said. “We do this with a harness and an extra set of eyes, or not at all.”
+
+She nodded, already marking a route in her head. “We’ll need eyes, then.”
+
+They stepped onto the boathouse deck into salt and gulls. Felix leaned on a piling, sun on his cheekbones, spinning a brass key on a carabiner.
+
+“Tour concludes with refreshments?” he said, grin easy. He held the key up. “Because if you want the executive entrance—ta-da.”
+
+Caleb went flint-hard. “Who issued you that?”
+
+“House perks,” Felix said. “I charm. Doors open.”
+
+“Protocol says that stays logged,” Caleb said, hand out.
+
+Felix let the key drop into his palm, then tugged it back, playful. “Relax. I’m not starting the launch.”
+
+Mara’s eyes stayed on the boathouse door. “We’re going to log it now. And we’re going to see which doors it opens.”
+
+Felix twirled the key once more before surrendering it. “After you, inspector.”
+
+Kline’s binders were weight in her bag. The map lines were clean in her pocket. The deck boards creaked under three sets of shoes that didn’t share a cadence.
+
+
+==================== SCENE 4 ====================
+
+The comms room breathed in a steady, metallic hush. Racks rose like black monoliths, LEDs blinking polite Morse. Cable trays laced the ceiling. In the adjacent hall, a portable truss was half-built, gaffer tape like stitches across the baseboards.
+
+“Don’t step on the orange,” Marla said, kneeling with a fistful of XLR. “That’s my return to the PA. We’re doing a thirty-second tease at two. Little goosebumps appetizer.”
+
+“I need five clean minutes before you flood the spectrum,” Mara said, setting her case on a rolling stool. She popped the latches: tablet, SDR, near-field probe, patch pigtails. “Baseline hum’s at sixty with a fat third harmonic. I want to see what moves when your show hits.”
+
+Marla tilted her chin at the racks. “You hear a hymn, I hear an audience. Same church.” She flicked on a compact mixer. “We’re only riding the house feed, plus my wireless. It’ll be gentle.”
+
+In the hall, a staffer on a ladder aimed a horn speaker at the plaster. “We’ll pipe the medium from the green room,” Marla called. “She’s camera-shy until tonight.”
+
+A test tone chirped. Mara clipped the probe to a patch bay faceplate and watched the waterfall bloom. “Okay. Map grid,” she said, and taped off eight chalked letters along the hall’s baseboard. She moved the probe from A to H, logging amplitudes, snapping photos.
+
+Over the PA, a woman’s voice rolled in velvet. “Can you feel it? The room remembering—”
+
+“Hold,” Mara said.
+
+Marla rolled her eyes but lifted a hand to the staffer. The promo hung like perfume.
+
+Mara’s screen bled in a new comb at 540.3 MHz, teeth at 200 kHz intervals. Another lobe flared near 2.408 GHz. She nudged the probe toward the conduit that ducked into the east wall. The signal jumped.
+
+“Your wireless pack?” she asked.
+
+“Blocks 24 through 26,” Marla said, already scrolling her phone. “We’re on 542.125 for the medium. Legal as pie.”
+
+Mara overlaid the trace on her baseline. The sixty-cycle hump pulsed—just perceptible—beating with the PA content. She touched the probe to the HVAC control can. The comb brightened.
+
+“Again,” she said.
+
+Marla dropped the hand. The medium’s voice returned, honeyed, selling wonder. “We’ll listen together—”
+
+Mara swept the hall. H: low. G: higher. F, at the junction by the east-wing chase: hot. She leaned into the grille; the duct thrummed in sympathy, her tinnitus narrowing, a fine wire.
+
+“Your ‘gentle’ is coupling into the control bus,” she said. “HVAC’s acting like an antenna. The hum modulates when the PA runs.”
+
+Marla plugged a TRS with her teeth, talking around it. “So it’s not ghosts, it’s spreadsheets.”
+
+“It’s wires,” Mara said, not looking up. She saved the plot, tagged the map, circled F in grease pencil. “Give me ten seconds of silence. Then bring her up soft, then full.”
+
+They ran it twice, Mara pinballing between racks and grille, building a crude heat map in photos and arrows. When the second pass ended, she exhaled.
+
+“Recorded and localized,” she said. “The anomalies ride your show, and the system helps them travel. That’s our first clean link.”
+
+Marla slung a coil over her shoulder, grinning despite herself. “Congratulations. You just made my teaser measurable.” She tipped her head toward the PA. “Two on the dot. Ready to ruin the magic?”
+
+“Ready to log it,” Mara said, thumb on record. The room hummed, obedient. The hall held its breath.
+
+
+==================== SCENE 5 ====================
+
+The estate office smelled like lemon oil and paper dust. Mara slid Kline’s duplicate ledgers aside and tried the right-hand drawer on his desk. Locked. She palmed a thin feeler from her kit, listening to the corridor: rubber-soled steps, a whisper of a handcart, voices shelving books. The pick clicked. The drawer rolled an inch.
+
+Inside: embossed invoices, a neat paperclip army. She photographed the stack, then slowed on the phrase that kept repeating: audio transducer, qty 24, 36, 48. Vendors with water names—Brackish Group LLC, Estuary Integrations—routing numbers masked by highlighter. Kline’s tidy penciled checks in the margins: received, received, install?
+
+“Office closes at five,” a staffer said, hovering in the doorway with a box of catalog cards.
+
+“I’m under the wire,” Mara replied, and smiled without teeth.
+
+She set the invoices side by side with her laptop, hotspot pulsing two grudging bars. A spreadsheet bloomed: vendor names, ABA codes, shells daisy-chaining through a community bank. She traced a payment hop to a consulting retainer with Rao’s initials in the memo—“R.M. oversight”—and another to a private email she’d seen in his bio. She flagged the rows, exported, watched the progress wheel stick and lurch. The signal dropped to one bar.
+
+“Just a second,” she murmured, relocking the drawer as the cart squeaked past. She shouldered the bag and moved—library stacks, side door, gravel crunch—to the boathouse.
+
+The air there was brine and old rope. The locker row bore fresh scrapes; one door had crescent scuffs at knee height, paint abraded to raw wood. She measured the spacing with her phone case, photographed the gouges, the faint ghost of a shipping label peeled at the corner. The adhesive left an outline she could read by touch: TD-50. Her camera caught the scale—the locker depth, the drag marks on the floor where something heavy had kissed the threshold. She crouched to see inside: salt grit, paper confetti, a stray desiccant pack.
+
+“Boathouse is for staff only,” someone called from outside.
+
+“Two minutes,” she said, already walking backward, still shooting. “Promise.”
+
+On the dock, the signal wavered. She climbed to the roofline ladder until the bay opened, her phone finally catching. She pinged Felix’s burner—silent, then a single dot appeared on her map history, time-stamped: 16:22, Granite Pier, end of the breakwater. She screen-captured the tile, dropped a pin, named it CACHE? Granite Pier sat across the cove like a plugged socket.
+
+Back in the office alcove where the Wi‑Fi reached, Mara stacked her proof: ledger flags on bulk transducers, shell payments bending toward Rao, and a locker scuffed by crates that matched the part code. She added the Granite Pier ping beneath. Money, hardware, waterside storage: three points, one line. She saved, backed up to two drives, and closed the laptop as the grandfather clock in the hall tolled the hour.
+
+
+==================== SCENE 6 ====================
+The east wing parlor breathed cold even before they dimmed the sconces. Marla stood at the hearth in her silk wrap, rings turned inward, her voice pitched to thread the room.
+
+“Olivia, may I ask for stillness?”
+
+Olivia knotted her fingers in her shawl. “Just—don’t say my mother’s name. Don’t—”
+
+“Only what answers.” Marla’s smile was candlelight.
+
+The vents sighed. A bass thrum woke inside the walls, not sound so much as a pressure behind the eyes. The lace on the side table rustled though the windows were shut, and a hairline creep of ash sketched across the cold grate.
+
+Mara leaned in near Olivia’s shoulder, keeping her tone a breath. “That’s not a draft. Feel the frequency?”
+
+Olivia’s eyes shone and slid. “Mara—please. If this is… if she’s—”
+
+A picture frame knocked against plaster as if someone tapped it from inside. The horn interval she’d logged last night rode under the thrum like a metronome. Mara’s ear rang to the pitch, tinnitus answering the system.
+
+In the hallway, Ortega’s silhouette moved past, hands in his coat, doing his best impression of not-seeing.
+
+Marla’s eyes fluttered shut. “Who is present?”
+
+The vent above the chaise gave a single cough, and Olivia flinched hard enough to jolt the table. Teacups chimed. Her breath hitched—too fast.
+
+“Stop,” Olivia said, not to anyone in particular, and then louder, scrambling backward, “Stop.”
+
+Marla didn’t. The gauze she’d tied to the chandelier stirred in a slow, unnatural loop.
+
+“Olivia,” Mara said, already moving. “I need thirty seconds.”
+
+“To do what?” Olivia’s voice snapped high with fear.
+
+“Turn off the lie,” Mara said, and slid toward the service door before anyone could grab the word.
+
+The corridor was narrow, painted utility green, smelling of dust and lemon oil. She jogged past the linen carts to the HVAC subpanel, stripped wire labels taped like dog-eared flags. Her phone’s flashlight found the breaker row. DUCT SUB 2 was handwritten, slanted, recent.
+
+Back in the parlor, the bass climbed. Olivia’s panic tipped toward a sob.
+
+Mara flipped DUCT SUB 2.
+
+Silence dropped like a canvas tarp. The gauze fell dead. The vent stopped coughing. The ash stilled. Marla’s lids opened, calm dissolving into a hard professional flatness.
+
+“What did you do?” Olivia said, cheeks blotched, looking both relieved and betrayed.
+
+Mara returned, breathing carefully. “Cut an auxiliary. It’s a speaker stuck to ductwork. It’s all speakers.”
+
+Marla’s laugh came brittle. “We’re sharing electricity now?”
+
+A second beat. Then the rest of the room adjusted—another tone threaded in from the far wall, faint but there, a residual hum from somewhere she hadn’t traced. The chandelier ticked with settling metal.
+
+Marla lifted her chin. “We’ll take five,” she said to no one and everyone. She turned to her assistant in the doorway, a shadow with a road case. “Alternate. Soft line. No duct.”
+
+The assistant vanished down the hall, quick.
+
+Olivia stepped toward Mara, chest rising and falling. “You said you were observing, not sabotaging.”
+
+“I’m keeping you upright,” Mara said. “You were about to faint.”
+
+“You don’t get to decide how this happens in my house,” Olivia said, and it landed harder than volume.
+
+From the corridor, a relay popped—different panel, different feed. In Mara’s ear, her phone app blinked: the little RF bars she’d been watching went flat. When they came back, they were scrambled, channels remapped, labels wiped. Someone had closed a loop she’d been piggybacking.
+
+Marla smiled again, silk back in her voice. “Shall we begin, Olivia?”
+
+Mara stood with her hands out and empty, hearing only the part of the room they let her hear.
+
+
+==================== SCENE 7 ====================
+Night had gone thin and metallic. Mara lay on her side in the east-wing service alcove, shoulder wedged to a cold pipe, breath timed to the dull cycle of the boiler. Her phone’s camera sat on a magnet clamp at her cheek, red tally dot steady. She pressed two fingers to the latch cavity cut into the back of the door frame—paint score-marks fresh, screws with new bluing. Under the strike plate, a thread of bell wire gleamed where someone had tin-soldered it to the latch tongue.
+
+“Got you,” she whispered, mostly for the mic.
+
+She eased the plate back, one screw at a time, capturing each with a strip of painter’s tape so they wouldn’t ping on tile. The cavity smelled of rosin. The wire was old-cloth insulated until the last inch, where it went shiny and raw, looped neat through a drilled hole, and tied off like a surgeon’s knot.
+
+She filmed the knot, the solder bead, the heat bloom on the brass. “Recent work,” she said, keeping voice low, consonants clipped. “Assist wire—traction to latch tongue.”
+
+In the corridor beyond the panel, someone’s steps passed, the floorboards giving a polite, sympathetic creak. Mara’s spine went rigid against the pipe. She thumbed the phone light off, sealed in dark, counting the footfalls until the sound dissolved into the stairwell’s hush. When she brought the light back, her hands felt larger than they were. She set the plate back with its screws three-quarters home and slipped out, flattening herself to the utility molding. The east corridor ran quiet and walnut-dark to the grand stair.
+
+At the newel, she pulled a coil from her pocket: white yacht line, slick as tendon. The banister’s inside curve bore crescent scars, each one aligned, each one shallow, like a careful mistake repeated. She fed the line low around the newel, keeping it seated in the groove of damage, then snaked it along the baseboard to the latch cavity. The bell wire’s free tag waited. She tied the two with a compact bend and checked the load path—around the newel, along the run, into the latch tongue.
+
+She filmed her hands. “Path reproduces gouge geometry. Pulley effect via newel. Remote actuation.”
+
+Another board sighed upstairs. She froze again, then braced her foot, took the line like a halyard, and gave it a slow, even pull.
+
+The door whispered, then clicked. The latch tongue slid back, obedient. In her phone mic, the sound was a clean metallic sip.
+
+She eased off. Let it seat. Pulled again, smaller, feeling the wire stretch a hair, the tongue travel, the catch release. The gouges took the angle of load; the line hummed faintly against varnish. She stepped to the far end of the corridor and tried it from there, hand low, tugging with two fingers. Click. The same.
+
+Mara’s breathing finally showed in the shot, fogging the black. She cut the knot and reeled the line, rewound it to its compact coil, retaped the strike plate flush. She held the camera once more on the damage: solder bright, rope bites scrolled like a secret code. Then she whispered, flat and satisfied, “Mechanism confirmed,” and slipped back into the alcove’s shadow to file the clip.
+
+
+==================== SCENE 8 ====================
+
+The east wing landing breathed cold through the keyhole seams. The nor’easter shuddered against Harbor House, guttering light across the walnut banister, the crescent scars along its inside curve pale as old teeth.
+
+Mara cupped a thumb-sized pinhole cam under the lip of the picture rail, pressed its adhesive pad, and felt it take. A blink—green to black—disappeared it into shadow. She eased along the wall, counting boards, noting sightlines. Another cam nested in the throat of a carved acanthus at the stair post. A third went low, a black dot inside the brass rosette of a floor vent.
+
+“Ms. Keene.” Olivia’s voice was level behind her. “You promised minimal intrusion.”
+
+“No drills,” Mara said. “No nails. Just optics.” She kept her tone uninflected, her hands steady. Tape hissed soft as breath.
+
+From the parlor, a spoon chimed the rim of a glass. Marla, in velvet that drank candlelight, smiled too widely for the room. “Friends—if we’re to be courteous to the dead, let’s start on time.”
+
+Wind banged a shutter. The lamps blinked, recovered, trembling in their shades.
+
+Olivia stepped closer, her perfume salt and iris over damp wood. “You are not planting surveillance on my guests.”
+
+“Acoustic baselines,” Mara said. She slid a credit-card decibel meter from her sleeve and tucked it into the belly of a blue-and-white jar on the landing table, the lid’s dragon mouths aiming the slit toward the corridor. “We log knocks, we don’t interpret them.”
+
+Olivia looked at the jar, then at Mara. “I don’t like being handled.”
+
+“Then don’t be,” Mara said. She checked her phone: each camera returned a grainy slice—stair run, landing corners, the east door’s polished throat. She typed a thumbed cue: Go loud on the legend, soft on the tech. Stall ten.
+
+Marla’s voice deepened. “This house has always listened,” she told the semicircle in the parlor—Kline with his ledger-creased hands, Felix bored and coiled, two guests clutching napkins. “Tonight, we listen back.”
+
+Mara drifted to the parlor threshold and ghosted another cam into the bead of a wall sconce, twisting it to catch the east doorway. She held up a gauze pouch of iron keys. “Props,” she said to Olivia, letting the lie be thin enough to breathe. “No one loves pure audio.”
+
+Olivia folded her arms. “You think I don’t see you hiding your little fish eyes?”
+
+“I think you’d rather I hide them well,” Mara said. “For effect.”
+
+Marla dimmed the lamps to amber. The storm gave a long, wet moan through the chimney, a bass that tickled glass. “If anyone hears a name, you say it,” Marla told the circle. “If you feel a draft, you welcome it.”
+
+Mara stepped back to the landing and palmed the last cam under the newel’s underside. Her phone showed her the room in nine-inch truths: candleflame, knuckles, the critical door. The decibel graph twitched with the house’s throat-clears.
+
+Olivia didn’t leave. She took a chair at the parlor’s edge, spine straight, eyes on Marla, then on Mara, then on the east hall. “Very well,” she said. “If we’re doing this, we’ll do it properly.”
+
+Marla shut her eyes, hands hovering above the table like tuning forks. “Harbor House,” she said, barely above the rain, “we’re with you.” The circle breathed in, a long intake that seemed to pull the weather closer.
+
+Mara slid her phone into her palm and let her face go blank. The gear was down. The show had begun. The house buzzed, charged and waiting. Olivia watched, suspicious but still.
+
+
+==================== SCENE 9 ====================
+The jar’s meter ticked up and down with the weather—rain drumming, chimney bass, a hiss where the hall narrowed. At 9:12 p.m., Marla’s voice rolled in from the parlor, warm and slow. “Knock if you’re with us.”
+
+Three taps came from the east wing, wood on hollow wood. The decibel graph spiked, clean little teeth.
+
+Mara stood in the corridor between the stairwell and the east door, shoulder to the wainscot, phone tilted low. On her screen: four feeds—newel underside, stair run, sconce bead, the east plate’s bevel. The lock’s strike filled a quarter of one frame like a chrome mouth.
+
+Marla again: “Knock twice for yes, once for no.”
+
+Two. Then one. Then a flourish like someone showing off.
+
+Mara breathed once and thumbed a text: Hold them at table. Give me three rounds. Emphasize names.
+
+From the parlor, Marla purred, “Olivia, hear that? Say your grandfather’s name.”
+
+Olivia, off, clipped: “I decline.”
+
+“Then the house may choose.” Marla let the circle murmur.
+
+Mara slid closer to the stair. Storm noise fattened, the roof booming. She checked the jar graph: the knocks sat at a higher frequency band than the rain, sharp little transients. Good separation. She set an auto-clip at 20 dB above baseline, 100 ms window.
+
+On the east feed, the latch trembled. A twitch inside the plate. At 9:18, the actuator jumped—half a centimeter of clean mechanical draw—and the lock snicked open. The sound vanished into thunder, but the meter spiked, and the camera caught the relay’s miniature piston retracting and releasing. In the stairwell feed, the newel shadow moved: a line, taut, then slack.
+
+Mara didn’t look up. She pinched the screen and tagged the frame: RELAY ACTUATION, 9:18:07. She let the hall be empty.
+
+“Again,” Marla said. “If you can shift the air, do it.”
+
+The east door settled back as if chastened. The latch eased, then kissed the strike. A pause, then one soft celebratory tap from the panel, like a thank-you.
+
+Mara crouched by the banister where the gouges showed pale and fibrous against old shellac. She flicked her penlight. Lodged along the cut: translucent strands feathering like hair, too clean for cedar, too straight for hemp. She unzipped a pouch, drew tweezers, and teased three filaments free. They clung with static. She dropped them into a glassine, labeled: E-WING BANISTER GOUGE, 9:21, E-glass?
+
+From the parlor, Olivia: “What are you doing out there?”
+
+“Logging,” Mara called, neutral. “Stair draft.”
+
+Marla covered with a soft run of patter about tides and listening.
+
+The jar’s graph jittered. Mara held until the weather fell back. She sent one more cue: One last set. Build to threes.
+
+Marla obliged. The house gave three brisk knocks. The relay popped once more, a quick dry kiss, and the east plate flickered with movement. Clearer this time; the thunder lagged.
+
+Mara tagged the clip, saved redundant copies, sealed the glassine with a press of her thumbnail. Control held. Exposure achieved. She slid the pouch into her pocket and took one step back into the stair’s cool echo, the cameras blinking their little truths. 9:26 p.m.
+
+
+==================== SCENE 10 ====================
+The house went dark as if a lung collapsed. The chandeliers died, the jar screens blinked to night, and the storm rushed in louder, a sheet of noise against old wood.
+
+“Power?” Olivia’s voice snapped from the parlor. “Who did that—”
+
+“Main breaker,” Mara said, already moving, her phone light a dime of milk. Staff murmured, chairs scraped. A metal tray clanged somewhere like a dropped cymbal.
+
+Felix appeared as a shape with edges, a pale face under a hood. Marla’s open laptop lay under his arm like a stolen book. He didn’t look at Mara. “Sorry,” he told the air, and slipped past a swinging door into the service corridor.
+
+“Hey!” Mara lunged, shoulder clipping the jamb, and followed. The corridor breathed cold detergent and old onions. Her beam skittered over racks, mops, the glare of EXIT signs gummy with dust. Ahead, Felix’s light remained off—a darker dark that moved.
+
+“Rao,” Felix hissed into his collar, “kill it.”
+
+On the other end, a calm voice: “Initiated. Wipe one of three. Sixty seconds.”
+
+Mara’s thumb flew on glass: hotspot, scan. No house Wi-Fi; the AP light dead. She killed her own screen and ran by memory, hand sliding along tile, toe catching on a buckled mat. “Olivia, keep everyone at table!” she shouted back. “Count heads!”
+
+“What is happening?” Olivia again, smaller with distance.
+
+“A theft,” Mara said, breath rounding the word. “Stay put.”
+
+Felix took the service stairs two at a time, boots thudding. Rain sharpened as the door at the bottom banged open, the storm thrusting fingers of water up the steps. Mara beat after him, heat in her face, the air a river.
+
+Outside was black-on-black, the grounds reduced to shape and temperature. The boathouse lights were gone; the storm made its own dim geometry. Felix cut left along the gravel path, the crunch giving him away. Mara splashed after, shoes filling. Wind shoved her sideways, hard.
+
+“Wipe two initiating,” Rao said, voice tinny. “Don’t plug it in. Do not connect.”
+
+“Not touching anything,” Felix said, breath steady, a runner in night.
+
+Mara angled her light low: tracks in water, the suggestion of crushed shells glimmering when the beam found them. “Felix!” she called. “You don’t need to burn it. We just talk.”
+
+He laughed without slowing. “We’re done talking.”
+
+The boathouse showed itself as a darker block against the bay. Rope snapped against cleats. The door had a padlock, but Felix had a key, a small punctual sound against the weather. He slipped in and vanished, the door breathing once on its hinges.
+
+Mara hit the plank and nearly went down; algae slick as soap. She caught the railing, palm biting on a screw head, and swore. The phone light swung wild, caught a gull wing nailed to a post, then nothing.
+
+Inside: the faint ghost of a screen, then black. Rao, crisp: “App payload shredded. Final pass. Thirty percent.”
+
+Mara pushed the door. It held. She put her shoulder to it and it opened grudging inches, wind fighting her. Felix’s silhouette moved deeper in the dark, a cable coiled over his shoulder like a pet snake.
+
+“Stop,” she said.
+
+“Can’t,” he said, not unkind.
+
+Behind her the storm rose to a sheet of needles. Her beam stuttered on spray and wood and a wet floor that refused traction. She could hear typing, decision, the hard quiet of a man doing a thing and finishing it.
+
+“Final pass,” Rao said. “Ninety.”
+
+Mara felt the night lean. She shoved forward and slid, caught herself on a boat cradle, breath torn thin. The laptop’s lid flashed once as if winking, then shut. Felix lifted it again, shoulders set.
+
+“Done,” Rao said. “It’s gone.”
+
+Mara swallowed wind and salt and the fact of it. Felix moved toward the dock side, already turning away, rain making a silver noise on everything. She was close enough to see the water run off his jaw, and not close enough to reach him.
+
+
+==================== SCENE 11 ====================
+Wind knifed through the boathouse slats, turning breath to grit. Felix shouldered the skiff along its cradle, laptop clamped in the crook of his arm, one hand dragging the cable like a tail. The culvert gate clanged as he hit the lever.
+
+Nothing moved.
+
+From the shadows under the winch, Caleb’s voice: “Try it again, champ.”
+
+Felix’s head snapped up. “Caleb—”
+
+Caleb stepped into Mara’s beam, soaked to the ribs, hand white-knuckled around a length of galvanized rod wedged through the gear teeth. The tide shouldered at the gate in dull heaves. “You don’t launch tonight.”
+
+Felix ground the lever. The rod rang, held. He swore, pivoted, and shoved the skiff toward the dock apron instead, aiming for open water past the pilings.
+
+Mara moved to cut him off, soles skating. Spray swept the dock and vanished into dark. “Felix. Hand me the laptop.”
+
+“Get off the apron,” he shot back. “I mean it.”
+
+Caleb came at him from the side. Felix feinted low, surprising quick, scraping the skiff’s bow past. The laptop slipped, he snatched it, and for an instant his fingers were only screen and rain.
+
+Mara lunged. Her palm hit the lid. “Don’t.”
+
+“It’s dead,” he said, teeth bared. “You heard it. Let go.”
+
+A gust shoved them sideways as one. The skiff slammed the dock edge. Rope sang on a cleat. Under the boards, the bay talked, a deep, indifferent chuckle.
+
+Felix yanked free and ran for the lip where the apron opened to black. He drew the laptop back, ready to pitch.
+
+Caleb hit him in the waist, a clean tackle that folded them both. The laptop flew, skittered, and teetered on the brink like a fish flashing silver.
+
+Mara left her feet. She slid belly-first, fingers out, and clapped both hands around the machine at the last inch. The corner bit her palm. She hauled, boots kicking for purchase, salt in her mouth.
+
+“Got it,” she spat.
+
+Felix twisted under Caleb, feral, heel hammering at Caleb’s thigh. “Off!”
+
+“Stay down,” Caleb grunted, tightening an arm around Felix’s shoulders. Felix drove an elbow back; it thunked bone. Caleb hissed and shifted, using his weight, cheek mashed to wet wood. “Mara?”
+
+She crawled backward, clutching the laptop to her jacket. The cable snaked after and snagged a cleat; she tore it free. Felix saw it and surged again, a last try for the edge.
+
+Mara set the laptop on the bench, turned back, and went for his wrist as he bridged. “Felix. Enough.”
+
+“Let—go—” His breath broke on each word.
+
+“Not tonight,” Caleb said, and cinched. Felix’s fight ran thin. The storm filled the space where his breath had been.
+
+Mara pressed his free hand to the planks until the tendons stopped jumping. She met his eyes, rain beating their faces to blur. “We’re done.”
+
+Caleb nodded without looking up. “Laptop?”
+
+“Secured,” she said. “He’s pinned.”
+
+
+==================== SCENE 12 ====================
+The great room held the storm at the windows like a hand on glass. Rugs darkened where they’d trailed in, everyone rimmed in wet. Mara set the laptop on the long oak table beside her camera and a plastic bag with the yacht line fibers she’d taped from the banister gouges. Ortega stood opposite, shoulders squared, not bothering with a coat. Kline and Olivia watched from the hearth, stiff as portraits. Caleb leaned on the doorframe, panting quietly through the bruise rising on his cheek.
+
+Felix sat, wrists on his knees, jaw clenched. Rao hovered a step behind him, blinking water from his lashes.
+
+“We’ll be quick,” Mara said, voice flat. She opened her camera and scrolled to the photo of the bell wire laced to the east-wing latch, the solder still glassy. “Rao’s diagram. You taped it to the junction box,” she added, sliding to the shot of the schematic with his handwriting, the relay labeled E-W LOCK. “Dated three nights ago. Ten thirty-one p.m.”
+
+Rao’s lips shaped a no before sound came. “That drawing is part of an acoustics study. It proves nothing.”
+
+Ortega’s pen ticked. “You told me earlier you’d never been in that alcove.”
+
+Mara tapped the screen again, bringing up a map overlaid with cell pings. “Burner one, registered to a shell that pays Rao Consulting through two cutouts—Black Cormorant LLC and Pierson Capital. Pings at Granite Pier at 7:12 on Wednesday”—she flicked—“and at Harbor House service door at 9:58. Burner two,” she added, eyes on Felix, “hits Granite Pier at 7:14, east lawn at 9:59, boathouse at 10:03.”
+
+Felix laughed, a dry bark. “You’ve got colored dots and rain. That’s your case?”
+
+Mara hit play on a clip. The decibel meter spiked. A muted clack sounded, followed by the latch popping on camera. “Relay snap at 10:13 tonight. Here’s the chain: Kline’s ledger shows bulk ‘audio transducers’ billed to Pierson, delivered to the boathouse locker with these scuffs,” she said, tapping the photo of fresh rubs inside the locker. “Felix’s key, Felix’s locker. Yacht line matching these fibers run around the newel to pull the lock. Payment lands in Rao’s account twelve minutes after the Granite Pier ping.”
+
+Rao’s face hardened. “You will be sued into vapor. You accessed proprietary systems without consent.”
+
+“Olivia consented,” Ortega said, without turning. “Twice.”
+
+Olivia nodded, hoarse. “I did.”
+
+Kline swallowed. “And those ledgers were mine to hand over. I did.”
+
+Mara slid the laptop across. “Felix attempted to destroy this. Cache held. Control app was wiped, but the system log writes locally first. It shows UID ‘labfelix’ authorizing the east-wing test. Time-stamped 10:10.”
+
+Felix surged to his feet. “Lawyer.”
+
+“Great,” Ortega said, calm as ice. He stepped in, took Felix’s wrists, and clicked cuffs with a decisive, domestic sound. “Felix Morrell, you’re under arrest for burglary, criminal mischief, and conspiracy to defraud. Rao Nandakumar, same charges.”
+
+Rao flinched when the steel touched. “This is—Olivia, tell him.”
+
+Olivia didn’t move. “No.”
+
+Caleb lifted the plastic bag with the fibers. “You want this logged?”
+
+“Bag it, tag it, sign it,” Ortega said. He met Mara’s eyes. “Chain starts now.”
+
+Mara handed over the camera, the map printouts, the laptop. “All yours.”
+
+The storm went on rapping the panes. Inside, it was very quiet.
+

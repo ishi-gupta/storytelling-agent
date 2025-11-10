@@ -1,0 +1,33 @@
+GOAT Storytelling Agent - Session 20251027_161929
+Generated: 2025-10-27T16:19:29.447894
+Topic: a detective solving a mystery in a haunted mansion
+================================================================================
+
+
+[2025-10-27T16:19:29.447931] GENERATE_STORY_START (info)
+----------------------------------------
+{
+  "topic": "a detective solving a mystery in a haunted mansion"
+}
+
+
+[2025-10-27T16:19:29.448264] INIT_BOOK_SPEC_START (info)
+----------------------------------------
+{
+  "topic": "a detective solving a mystery in a haunted mansion"
+}
+
+
+[2025-10-27T16:19:29.601427] INIT_BOOK_SPEC_ERROR (error)
+----------------------------------------
+{
+  "error": "cannot import name 'OpenAI' from 'openai' (/Users/ishita/Desktop/GOAT-AGENT /GOAT-Storytelling-Agent/venv/lib/python3.13/site-packages/openai/__init__.py)"
+}
+
+
+[2025-10-27T16:19:29.601745] GENERATE_STORY_ERROR (error)
+----------------------------------------
+{
+  "error": "cannot import name 'OpenAI' from 'openai' (/Users/ishita/Desktop/GOAT-AGENT /GOAT-Storytelling-Agent/venv/lib/python3.13/site-packages/openai/__init__.py)"
+}
+

@@ -1,0 +1,39 @@
+{
+  "session_id": "20251027_161755",
+  "timestamp": "2025-10-27T16:17:55.511962",
+  "topic": "a detective solving a mystery in a haunted mansion",
+  "steps": [
+    {
+      "step": "generate_story_start",
+      "timestamp": "2025-10-27T16:17:55.511988",
+      "status": "info",
+      "data": {
+        "topic": "a detective solving a mystery in a haunted mansion"
+      }
+    },
+    {
+      "step": "init_book_spec_start",
+      "timestamp": "2025-10-27T16:17:55.512208",
+      "status": "info",
+      "data": {
+        "topic": "a detective solving a mystery in a haunted mansion"
+      }
+    },
+    {
+      "step": "init_book_spec_error",
+      "timestamp": "2025-10-27T16:17:55.680171",
+      "status": "error",
+      "data": {
+        "error": "cannot import name 'OpenAI' from 'openai' (/Users/ishita/Desktop/GOAT-AGENT /GOAT-Storytelling-Agent/venv/lib/python3.13/site-packages/openai/__init__.py)"
+      }
+    },
+    {
+      "step": "generate_story_error",
+      "timestamp": "2025-10-27T16:17:55.680452",
+      "status": "error",
+      "data": {
+        "error": "cannot import name 'OpenAI' from 'openai' (/Users/ishita/Desktop/GOAT-AGENT /GOAT-Storytelling-Agent/venv/lib/python3.13/site-packages/openai/__init__.py)"
+      }
+    }
+  ]
+}
