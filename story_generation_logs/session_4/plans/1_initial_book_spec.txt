@@ -1,0 +1,9 @@
+Genre: Science Fiction / Time Travel
+Place: San Francisco Bay Area, 1969
+Time: Summer 1969, alternate timeline branches
+Theme: Unintended consequences, technological determinism, the weight of knowledge
+Tone: Thoughtful with moments of humor, tinged with melancholy
+Point of View: Third person limited, following Dr. Maya Chen
+Characters: Dr. Maya Chen (physicist, 35), Douglas Engelbart (inventor), Karen (Maya's colleague from 2025)
+Premise: Maya Chen time-travels to witness the first computer mouse demo but accidentally causes a fire that destroys Engelbart's lab, erasing decades of foundational computing work and preventing the internet's invention.
+

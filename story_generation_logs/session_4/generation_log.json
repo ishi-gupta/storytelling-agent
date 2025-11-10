@@ -1,0 +1,38 @@
+{
+  "session_id": "4",
+  "timestamp": "2025-11-10T15:30:12.456789",
+  "topic": "a time traveler who accidentally prevents the invention of the internet",
+  "steps": [
+    {
+      "step": "generate_story_start",
+      "timestamp": "2025-11-10T15:30:12",
+      "data": {
+        "topic": "a time traveler who accidentally prevents the invention of the internet",
+        "length_preset": "short"
+      }
+    },
+    {
+      "step": "init_book_spec_success",
+      "timestamp": "2025-11-10T15:30:18",
+      "data": {
+        "book_spec": "Genre: Science Fiction / Time Travel\nPlace: San Francisco Bay Area, 1969\nTime: Summer 1969..."
+      }
+    },
+    {
+      "step": "enhance_book_spec_success",
+      "timestamp": "2025-11-10T15:30:25",
+      "data": {
+        "enhanced_spec": "Genre: Science Fiction / Time Travel Thriller\nPlace: Stanford Research Institute..."
+      }
+    },
+    {
+      "step": "generate_story_complete",
+      "timestamp": "2025-11-10T15:30:57",
+      "data": {
+        "scene_count": 4,
+        "word_count": 987
+      }
+    }
+  ]
+}
+

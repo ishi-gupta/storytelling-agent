@@ -1,0 +1,89 @@
+================================================================================
+STORY STRUCTURE ANALYSIS
+Session: 20251028_121006
+================================================================================
+
+1) WHAT HAPPENS (Plot Summary)
+
+Harbor House, a historic coastal estate under renovation on a foggy New England harbor, is preparing for a high-profile séance and media event as a nor’easter rolls in. The board hires Mara, a meticulous forensic investigator/engineer, to diagnose unexplained “hauntings” and building anomalies that have spooked the staff and enticed donors. On arrival, she negotiates conditional full access with Olivia Crane (who runs the house), over the objections of Ortega (security). Early surveys reveal suspicious details: a recently opened lock plate, newly nailed-shut windows, fresh gouges on the banister, and a carefully preserved outward “seal” suggesting staged phenomena inside a “locked” wing.
+
+Mara digs into records with Kline (finance) and finds dual ledgers masking bulk purchases of “audio transducers” and weatherized amplifiers routed through shell companies to a P.O. box. With Caleb (facilities), she maps service tunnels and culverts and notes physical vulnerabilities. In the comms room, Marla (the medium/producer) rehearses the show; Mara measures RF and audio bleed, proving the house’s HVAC and control systems are being used as antennas to carry and modulate signals that feel like “hauntings.”
+
+During a demo séance, Mara flips an “aux” breaker labeled to a duct and instantly kills the room’s ghost effects, exposing a covert speaker feed. The conspirators quickly change channels and wipe her live RF taps. That night, Mara confirms a hidden mechanical trick: a bell wire soldered to the latch tongue of the east-wing door and a yacht-line path run around the newel post (the source of the banister gouges), allowing remote “locked-room” door pops synchronized to staged knocks. She plants micro-cameras and a decibel logger, then captures on video the relay firing, the latch retracting, and physical evidence (e-glass filaments from the improvised pulley line).
+
+When the house abruptly goes dark, Felix (charismatic staffer with a master key) steals Marla’s laptop and flees to the boathouse to dump the control logs while Rao (outside consultant) remotely wipes the app. In a storm-lashed chase, Caleb blocks the culvert launch and, with Mara’s help, they stop Felix from tossing the laptop into the bay—though much of the control app is wiped, the local logs remain. Back in the great room, Mara presents a clean chain: masked purchases, boathouse locker scuffs matching crate codes, relay diagrams in Rao’s hand, synchronized cell pings at Granite Pier and Harbor House, filmed relay actuation and audio spikes, and fibers from the pulley track. Ortega arrests Felix and Rao for burglary, criminal mischief, and conspiracy to defraud. Olivia backs the arrests. The storm rages outside; inside, the scheme is laid bare.
+
+2) WHO’S IN IT (Characters)
+
+- Mara (Keene/Voss) – Protagonist
+  - A forensic investigator specializing in systems, acoustics, and physical evidence; cool, methodical, tinnitus attuned to hums.
+  - Goal: diagnose and stop staged “hauntings”; retain autonomy to investigate.
+  - Central to exposing the technical con: RF mapping, speaker feeds, relay-and-line lock rig, financial shells.
+  - Ends having documented the mechanism and paper trail; hands evidence to security.
+
+- Olivia Crane – Supporting (stakeholder)
+  - Executive lead/host for Harbor House; wants a successful, safe event and donor confidence, but is emotionally vulnerable.
+  - Caught between spectacle and liability; grants Mara access.
+  - Ends siding with evidence and security, allowing arrests.
+
+- Ortega – Supporting (security)
+  - Head of security; skeptical of outsiders but procedure-focused.
+  - Enforces access, later executes arrests.
+  - Ends initiating chain of custody and charges against Felix and Rao.
+
+- Caleb – Supporting (facilities/operations)
+  - Practical, safety-first; knows the estate’s physical plant and culverts.
+  - Aids Mara with maps; physically stops Felix at the boathouse.
+  - Ends bruised but instrumental; helps secure evidence.
+
+- Kline – Supporting (finance/admin)
+  - Keeper of ledgers; smooth but defensive about donor privacy.
+  - His “working copy” reveals masked purchases and shell routing.
+  - Ends having provided documents that tie the fraud together.
+
+- Marla – Antagonistic pressure/foil (medium/producer)
+  - Runs the séance/show; uses house PA and wireless systems.
+  - Her setup unwittingly demonstrates how the “haunting” travels through the building.
+  - Not arrested; pivots when Mara kills one feed.
+
+- Felix Morrell – Antagonist
+  - Charming insider with unauthorized keys; tech facilitator and on-site executor.
+  - Tries to destroy logs; physically executes the door trick and app control.
+  - Ends arrested after the boathouse struggle.
+
+- Rao Nandakumar – Antagonist
+  - Outside consultant/engineer; financial beneficiary via shells; remote tech controller.
+  - Designs relay circuit and oversees remote wipes.
+  - Ends arrested; denies involvement.
+
+- Harbor House (the setting) – Atmospheric presence
+  - Historic estate with HVAC, ducts, chases, culverts; its infrastructure is the conduit for the con.
+  - The storm and foghorn rhythms become the story’s metronome.
+
+3) THE SPINE (Major Plot Beats)
+
+1) Mara arrives at fogbound Harbor House, secures conditional full access over security’s objections.
+2) She documents tampered locks, nailed sashes, and fresh banister gouges that imply staged “locked-room” effects.
+3) Ledger review reveals dual books and shell vendors buying bulk “audio transducers” and gear to a P.O. box.
+4) RF/acoustic survey during promo rehearsal shows PA wireless and HVAC coupling, carrying “hauntings” through the building.
+5) Mara finds boathouse locker scuffs matching crate codes; maps culverts and suspects waterside caches; logs a Granite Pier ping.
+6) During the séance, she cuts a duct subpanel and kills the ghost effects, prompting the conspirators to re-route and wipe channels.
+7) Overnight, she exposes the mechanical trick: a soldered bell wire on the latch and a yacht-line pulley path around the newel.
+8) She plants covert cams and a decibel logger; films the relay actuating and the latch retracting in sync with staged knocks.
+9) Power fails; Felix steals the laptop as Rao begins a remote wipe; Mara pursues into the storm.
+10) At the boathouse, Caleb blocks the gate; together they stop Felix and save the laptop before it’s dumped.
+11) Local logs on the laptop survive; Mara correlates them with cell pings, ledgers, locker evidence, and fibers from the banister.
+12) Ortega arrests Felix and Rao; Olivia and Kline affirm consent and documentation; chain of custody begins.
+
+4) THE CORE (Story Essence)
+
+- Type: Contemporary mystery/techno-thriller with a locked-room twist; procedural drama with atmospheric gothic trappings.
+- Central tension: Are the Harbor House “hauntings” real, and if not, who is engineering them and why?
+- Distinctiveness: Forensic acoustics and RF analysis replace superstition; a tactile, engineered “ghost” built from duct speakers, relays, and a rope-and-wire latch trick; the storm and foghorn cadence act as a structural metronome.
+
+5) DOES IT WORK? (Coherence Check)
+
+- Plot complete and resolved: Yes; the mechanism, motive (fraudulent spectacle and funding), and perpetrators are exposed and arrested.
+- Motivations clear: Yes for Mara, Ortega, Olivia, Felix, and Rao; Marla’s role is performative/complicit-adjacent but not central to the crime.
+- Confusions/loose ends: Minor name slip (Mara addressed as Ms. Voss vs. Ms. Keene) reads like a typo or alias; Marla’s exact legal exposure and long-term board fallout aren’t covered.
+- Ending addresses setup: Yes; the “haunting” is deconstructed with documented evidence, and the attempted cover-up fails.

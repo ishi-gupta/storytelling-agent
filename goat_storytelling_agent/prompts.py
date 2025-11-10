@@ -59,10 +59,15 @@ def enhance_book_spec_messages(book_spec, form):
     return messages
 
 
-def create_plot_chapters_messages(book_spec, form):
+def create_plot_chapters_messages(book_spec, form, length_config=None):
+    if length_config:
+        instruction = length_config['chapters_instruction'].format(form=form)
+    else:
+        instruction = f"Come up with a plot for a bestseller-grade {form} in 3 acts taking inspiration from its description"
+    
     messages = [
         {"role": "user", "content": (
-            f"Come up with a plot for a bestseller-grade {form} in 3 acts taking inspiration from its description. "
+            f"{instruction}. "
             "Break down the plot into chapters using the following structure:\nActs\n- Chapters\n\n"
             f"Early {form} description:\n\"\"\"{book_spec}\"\"\".")}
     ]
@@ -80,22 +85,32 @@ def enhance_plot_chapters_messages(act_num, text_plan, book_spec, form):
     return messages
 
 
-def split_chapters_into_scenes_messages(act_num, text_act, form):
+def split_chapters_into_scenes_messages(act_num, text_act, form, length_config=None):
+    if length_config:
+        scenes_instruction = length_config['scenes_instruction'].format(act_num=act_num)
+    else:
+        scenes_instruction = f"Break each chapter in Act {act_num} into scenes (number depends on how packed a chapter is)"
+    
     messages = [
         {"role": "system", "content": system},
         {"role": "user", "content": (
-            f"Break each chapter in Act {act_num} into scenes (number depends on how packed a chapter is), give scene specifications for each.\n"
+            f"{scenes_instruction}, give scene specifications for each.\n"
             f"Here is the by-chapter plot summary for the act in a {form}:\n\"\"\"{text_act}\"\"\"\n\n"
             f"Scene spec format:\n\"\"\"{scene_spec_format}\"\"\"")}
     ]
     return messages
 
 
-def scene_messages(scene, sc_num, ch_num, text_plan, form):
+def scene_messages(scene, sc_num, ch_num, text_plan, form, length_config=None):
+    if length_config:
+        scene_instruction = length_config['scene_length_instruction'].format(form=form)
+    else:
+        scene_instruction = f"Write a long detailed scene for a {form}"
+    
     messages = [
         {"role": "system", "content": 'You are an expert fiction writer. Write detailed scenes with lively dialogue.'},
         {"role": "user",
-            "content": f"Write a long detailed scene for a {form} for scene {sc_num} in chapter {ch_num} based on the information. "
+            "content": f"{scene_instruction} for scene {sc_num} in chapter {ch_num} based on the information. "
             "Be creative, explore interesting characters and unusual settings. Do NOT use foreshadowing.\n"
             f"Here is the scene specification:\n\"\"\"{scene}\"\"\"\n\nHere is the overall plot:\n\"\"\"{text_plan}\"\"\""},
         {"role": "assistant", "content": f"\nChapter {ch_num}, Scene {sc_num}\n"},

@@ -1,0 +1,13 @@
+Genre: Science Fiction / Time Travel Thriller
+Place: Stanford Research Institute and surrounding Bay Area, 1969; brief glimpses of dystopian 2025
+Time: July-August 1969 (primary timeline), with bookend scenes in 2025
+Theme: The burden of historical knowledge; the fragility of technological progress; individual responsibility versus systemic inevitability
+Tone: Initially wonder-filled, shifts to tense and melancholic as consequences unfold; dry humor from period details
+Point of View: Third person limited, Maya Chen's perspective
+Characters: 
+- Dr. Maya Chen: Quantum physicist, 35, pragmatic and curious but haunted by her mistake
+- Douglas Engelbart: Visionary computer scientist, brilliant but naïve about fire safety
+- Karen Zhao: Maya's colleague and friend, stuck in 2025 trying to fix the timeline
+- Bill English: Engelbart's engineer, suspicious of Maya's "consultant" story
+Premise: Maya Chen travels back to witness the legendary "Mother of All Demos" but her temporal displacement causes an electrical surge. The resulting fire destroys Engelbart's lab and years of research. Stranded in 1969 without the tech infrastructure to return, Maya must decide whether to rebuild the foundational work herself (risking further contamination) or accept a world without the internet—while 2025 Karen experiences the ripple effects in real-time.
+

@@ -1,0 +1,29 @@
+{
+  "acts": [
+    {
+      "act_num": 1,
+      "act_summary": "Setup and Inciting Incident",
+      "chapters": [
+        "Maya arrives in 1969 and witnesses the demo",
+        "The fire breaks out; Maya realizes her mistake"
+      ]
+    },
+    {
+      "act_num": 2,
+      "act_summary": "Confrontation and Dilemma",
+      "chapters": [
+        "Maya tries to fix things but makes it worse",
+        "She connects with Karen via impossible means"
+      ]
+    },
+    {
+      "act_num": 3,
+      "act_summary": "Resolution",
+      "chapters": [
+        "Maya accepts the new timeline",
+        "Epilogue: the world without internet"
+      ]
+    }
+  ]
+}
+

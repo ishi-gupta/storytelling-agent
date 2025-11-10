@@ -1,0 +1,85 @@
+.session-list {
+  width: 20%;
+  background: white;
+  border-radius: 8px;
+  padding: 1.5rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  display: flex;
+  flex-direction: column;
+}
+
+.session-list h2 {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.session-items {
+  flex: 1;
+  overflow-y: auto;
+}
+
+.session-item {
+  padding: 1rem;
+  margin-bottom: 0.5rem;
+  border-radius: 6px;
+  cursor: pointer;
+  background: #f8f9fa;
+  border: 2px solid transparent;
+  transition: all 0.2s;
+}
+
+.session-item:hover {
+  background: #e9ecef;
+  transform: translateX(4px);
+}
+
+.session-item.selected {
+  background: #e3f2fd;
+  border-color: #667eea;
+}
+
+.session-id {
+  font-size: 0.75rem;
+  color: #667eea;
+  font-weight: 600;
+  margin-bottom: 0.3rem;
+}
+
+.session-title {
+  font-size: 0.9rem;
+  color: #333;
+  margin-bottom: 0.5rem;
+  line-height: 1.4;
+}
+
+.session-meta {
+  font-size: 0.75rem;
+  color: #666;
+}
+
+.length-badge {
+  display: inline-block;
+  margin-left: 0.5rem;
+  padding: 0.15rem 0.4rem;
+  font-size: 0.65rem;
+  border-radius: 4px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.length-badge.short {
+  background: #e3f2fd;
+  color: #1976d2;
+}
+
+.length-badge.medium {
+  background: #fff3e0;
+  color: #f57c00;
+}
+
+.length-badge.long {
+  background: #fce4ec;
+  color: #c2185b;
+}
+

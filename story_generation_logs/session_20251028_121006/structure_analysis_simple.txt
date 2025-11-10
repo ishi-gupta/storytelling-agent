@@ -1,0 +1,32 @@
+================================================================================
+SIMPLE STRUCTURE ANALYSIS
+Session: 20251028_121006
+================================================================================
+
+THE CORE PLOT (2-3 sentences max)
+A forensic investigator is hired to assess “hauntings” at a coastal estate and proves they’re engineered with hidden audio, HVAC coupling, and a remote latch mechanism. She tracks the gear and payments to a tech consultant and a staffer, intercepts a data wipe, and they’re arrested for staging phenomena to defraud.
+
+MAIN CHARACTERS (3-5 people max)
+- Mara (Voss/Keene): Contract investigator who methodically documents and exposes the staged hauntings.
+- Olivia Crane: Estate head torn between believing and needing control; authorizes the investigation.
+- Ortega: Security chief who enforces access, then executes the arrests.
+- Felix Morrell: Charming staffer tied to keys, lockers, and the control app; tries to destroy evidence.
+- Rao Nandakumar: Outside consultant who designs the relay/audio system and coordinates the wipe.
+
+KEY EVENTS (5-8 beats)
+1) Mara negotiates access and establishes technical baselines (hum, horn intervals).
+2) She documents tampered seals, jammed windows, and gouged banister—signs of a remote latch scheme.
+3) Discrepancies in ledgers and shell vendors reveal bulk “audio transducers” routed off-books.
+4) RF mapping shows the séance PA coupling into HVAC, propagating effects; she kills a duct feed mid-demo.
+5) She proves a mechanical assist: bell wire to latch, rope path around the newel; confirms remote door actuation on camera.
+6) Cameras capture the staged “knocks” and relay firing during the séance; fibers from the gouges are collected.
+7) Power is cut; Felix flees with Marla’s laptop while Rao wipes data; in a storm chase, Mara and Caleb secure the laptop.
+8) Mara links gear, payments, pings, and system logs to Felix and Rao; Ortega arrests them.
+
+STORY TYPE
+Modern investigative mystery/tech thriller: Are the hauntings real, or an engineered con—and who’s running it?
+
+ISSUES (if any)
+- Mara is called both “Ms. Voss” and “Ms. Keene.”
+- Kline’s role in the dual ledgers is ambiguous; complicit or “prudence” remains unresolved.
+- Marla’s knowledge/complicity is unclear; she isn’t charged.

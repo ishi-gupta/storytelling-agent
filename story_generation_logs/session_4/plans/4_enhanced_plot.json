@@ -1,0 +1,43 @@
+{
+  "acts": [
+    {
+      "act_num": 1,
+      "act_summary": "Arrival and Catastrophe - Maya's excitement turns to horror",
+      "chapters": [
+        {
+          "chapter_num": 1,
+          "summary": "Maya materializes in SRI's parking lot; sneaks into the demo as a 'consultant'; witnesses the mouse in action",
+          "value_charge": "positive"
+        },
+        {
+          "chapter_num": 2,
+          "summary": "Her temporal anchor destabilizes, causing an electrical surge; fire erupts; she saves Engelbart but the lab and prototypes are destroyed",
+          "value_charge": "negative"
+        }
+      ]
+    },
+    {
+      "act_num": 2,
+      "act_summary": "Failed Repairs and Growing Consequences",
+      "chapters": [
+        {
+          "chapter_num": 3,
+          "summary": "Maya tries to recreate the mouse from memory; Bill English grows suspicious of her technical knowledge; partial success but components don't exist yet",
+          "value_charge": "negative"
+        }
+      ]
+    },
+    {
+      "act_num": 3,
+      "act_summary": "Acceptance and New Path",
+      "chapters": [
+        {
+          "chapter_num": 4,
+          "summary": "Maya stops trying to rebuild and begins documenting for a slower, more deliberate technological future; bittersweet acceptance",
+          "value_charge": "positive"
+        }
+      ]
+    }
+  ]
+}
+

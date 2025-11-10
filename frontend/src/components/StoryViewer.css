@@ -1,0 +1,56 @@
+.story-viewer {
+  flex: 1;
+  background: white;
+  border-radius: 0 0 8px 8px;
+  padding: 1.5rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  min-height: 0;
+}
+
+.story-viewer.empty {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #999;
+}
+
+.story-header {
+  margin-bottom: 1.5rem;
+  padding-bottom: 1rem;
+  border-bottom: 2px solid #f0f0f0;
+}
+
+.story-header h2 {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 0.5rem;
+}
+
+.story-meta {
+  font-size: 0.85rem;
+  color: #667eea;
+  font-weight: 500;
+}
+
+.story-content {
+  flex: 1;
+  overflow-y: auto;
+}
+
+.story-text {
+  font-family: 'Georgia', serif;
+  font-size: 1rem;
+  line-height: 1.8;
+  color: #333;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+.no-story {
+  color: #999;
+  font-style: italic;
+}
+

@@ -1,0 +1,17 @@
+{
+  "acts": [
+    {
+      "act_num": 1,
+      "act_scenes": "Chapter 1:\nScene 1:\nCharacters: Maya Chen, Douglas Engelbart, Bill English, demo attendees\nPlace: Stanford Research Institute, main demonstration hall\nTime: July 1969, mid-morning\nEvent: Maya watches Engelbart demonstrate the computer mouse for the first time\nConflict: Maya struggles to maintain her cover as a consultant while marveling at history\nStory value: Wonder/Discovery\nStory value charge: Positive\nMood: Awed, electric with possibility\nOutcome: Maya is entranced but her temporal device begins to flicker\n\nChapter 2:\nScene 1:\nCharacters: Maya Chen, Douglas Engelbart, Bill English\nPlace: SRI laboratory, equipment room\nTime: July 1969, immediately after demo\nEvent: Maya's device causes an electrical surge; fire breaks out; she helps evacuate\nConflict: Maya must choose between revealing herself or letting the fire spread\nStory value: Safety/Danger\nStory value charge: Negative\nMood: Chaotic, horrified\nOutcome: Lab destroyed, prototypes lost, Maya stuck in 1969"
+    },
+    {
+      "act_num": 2,
+      "act_scenes": "Chapter 3:\nScene 1:\nCharacters: Maya Chen, Bill English\nPlace: Makeshift workshop in Menlo Park\nTime: August 1969, two weeks later\nEvent: Maya attempts to rebuild the mouse from memory using period materials\nConflict: Components don't exist yet; Bill questions her suspiciously accurate knowledge\nStory value: Hope/Despair\nStory value charge: Negative\nMood: Frustrated, desperate\nOutcome: Partial prototype works but highlights how much infrastructure was lost"
+    },
+    {
+      "act_num": 3,
+      "act_scenes": "Chapter 4:\nScene 1:\nCharacters: Maya Chen, Douglas Engelbart\nPlace: Coffee shop in Palo Alto\nTime: Late August 1969\nEvent: Maya confesses she's from the future; Engelbart surprisingly believes her\nConflict: Should she try to force-feed the future or let it unfold naturally?\nStory value: Truth/Deception\nStory value charge: Positive\nMood: Melancholic but accepting\nOutcome: Maya decides to document principles, not prescriptions; begins teaching foundational concepts for a more thoughtful tech evolution"
+    }
+  ]
+}
+
