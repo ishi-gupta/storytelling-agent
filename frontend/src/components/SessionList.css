@@ -12,11 +12,31 @@
 
 .session-list h2 {
   font-size: 0.9375rem;
-  margin-bottom: 1.25rem;
+  margin-bottom: 1rem;
   color: #2c2c2c;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.03em;
+}
+
+.new-story-btn {
+  width: 100%;
+  padding: 0.75rem;
+  margin-bottom: 1.25rem;
+  background: #2c2c2c;
+  color: #ffffff;
+  border: none;
+  border-radius: 6px;
+  font-size: 0.875rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.new-story-btn:hover {
+  background: #1a1a1a;
+  transform: translateY(-1px);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
 }
 
 .session-items {
@@ -68,12 +88,13 @@
 }
 
 .session-id {
-  font-size: 0.6875rem;
-  color: #a8a8a8;
-  font-weight: 600;
-  margin-bottom: 0.375rem;
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
+  font-size: 1.125rem;
+  color: #2c2c2c;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
 }
 
 .session-title {

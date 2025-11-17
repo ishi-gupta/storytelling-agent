@@ -37,7 +37,7 @@ def get_next_session_id(logs_dir: str) -> int:
 class LoggingStoryAgent(StoryAgent):
     """Enhanced StoryAgent with comprehensive logging"""
     
-    def __init__(self, topic=None, length_preset='medium', *args, **kwargs):
+    def __init__(self, topic=None, length_preset='medium', session_id=None, *args, **kwargs):
         super().__init__(*args, **kwargs)
         
         # Store generation metadata
@@ -49,8 +49,12 @@ class LoggingStoryAgent(StoryAgent):
         self.logs_dir = "story_generation_logs"
         os.makedirs(self.logs_dir, exist_ok=True)
         
-        # Get next numeric session ID
-        session_num = get_next_session_id(self.logs_dir)
+        # Use provided session ID or get next available
+        if session_id is not None:
+            session_num = session_id
+        else:
+            session_num = get_next_session_id(self.logs_dir)
+        
         self.session_id = str(session_num)
         self.session_dir = os.path.join(self.logs_dir, f"session_{self.session_id}")
         os.makedirs(self.session_dir, exist_ok=True)
@@ -310,6 +314,12 @@ Examples:
         default='a detective solving a mystery in a haunted mansion',
         help='Story topic/premise (default: "a detective solving a mystery in a haunted mansion")'
     )
+    parser.add_argument(
+        '--session-id',
+        type=int,
+        default=None,
+        help='Use specific session ID (if not provided, will auto-generate)'
+    )
     args = parser.parse_args()
     
     # Load environment variables from .env file
@@ -327,6 +337,7 @@ Examples:
     writer = LoggingStoryAgent(
         topic=args.topic,
         length_preset=args.length,
+        session_id=args.session_id,  # Use provided session ID if available
         backend_uri=OPENAI_API_KEY,
         backend="openai",
         model="gpt-5",

@@ -23,7 +23,7 @@ if not OPENAI_API_KEY:
     raise ValueError("Please set OPENAI_API_KEY environment variable (you can use a .env file)")
 
 MODEL = "gpt-5"
-SESSION_ID = "9"  # Numeric session ID (e.g., "1", "2", "3") or old format (e.g., "20251028_121006")
+SESSION_ID = "7"  # Numeric session ID (e.g., "1", "2", "3") or old format (e.g., "20251028_121006")
 # =======================
 
 

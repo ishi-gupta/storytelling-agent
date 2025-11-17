@@ -15,21 +15,34 @@ function App() {
   const [viewMode, setViewMode] = useState('story'); // 'story' or 'plans'
 
   useEffect(() => {
-    // Load data from public/data.json
-    fetch('/data.json')
-      .then(res => res.json())
-      .then(data => {
+    // Fetch sessions from Flask backend
+    const fetchSessions = async () => {
+      try {
+        const response = await fetch('http://localhost:5001/api/sessions');
+        const data = await response.json();
         setSessions(data.sessions);
-        if (data.sessions.length > 0) {
+        
+        // Auto-select first session if none selected
+        if (data.sessions.length > 0 && !selectedSession) {
           setSelectedSession(data.sessions[0]);
         }
+        
         setLoading(false);
-      })
-      .catch(err => {
-        console.error('Error loading data:', err);
+      } catch (err) {
+        console.error('Error loading sessions from Flask:', err);
         setLoading(false);
-      });
-  }, []);
+      }
+    };
+
+    // Initial fetch
+    fetchSessions();
+
+    // Poll for updates every 3 seconds (live updates!)
+    const pollInterval = setInterval(fetchSessions, 3000);
+
+    // Cleanup interval when component unmounts
+    return () => clearInterval(pollInterval);
+  }, [selectedSession]);
 
   if (loading) {
     return (

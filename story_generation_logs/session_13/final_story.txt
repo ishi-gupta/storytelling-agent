@@ -1,0 +1,1457 @@
+
+==================== SCENE 1 ====================
+Meyer Green shimmered under floodlights and pajama pants. The fire alarm finally choked off, leaving a hush of crickets and whispers.
+
+“Two a.m. is a crime,” Ines said, rubbing her eyes. “I’ve got one Coupa coupon.”
+
+“Split it,” Ishita said, already tapping her phone. “Half-caf, no regrets.”
+
+A cluster of EVGR residents hovered nearby, shivering in flip-flops. “Are we going home or what?” someone asked.
+
+“Home,” Ines said. “We’ll walk in groups.”
+
+Ishita held up the QR. “Order placed. Pick up en route.” She glanced at her calendar. “I’m teaching 9 a.m. lab safety. I can do midnight rounds most nights, though.”
+
+Ines thumbed her own schedule open. “I’m heavy on dinner shift. Free late Tuesdays and… now, apparently.” She angled the screen. “You cover Sundays?”
+
+“Deal if you take Thursdays.” Ishita grinned. “I’m the polite glare at quiet hours.”
+
+“I’m the confiscator of rogue rice cookers.”
+
+They sorted students by building, trading names and room numbers like puzzle pieces. Ines counted heads. “Courtyard, then elevators by stacks.”
+
+Coupa cups steamed in their hands as they crossed back. In the EVGR courtyard, sprinklers hissed; someone yawned like a bassoon.
+
+At the elevators, Ishita bumped Ines’s shoulder. “Nice co-RAing.”
+
+“Same. Text me your template for incident logs?”
+
+“Sharing now.”
+
+The doors slid open; residents spilled in, calmer.
+
+
+==================== SCENE 2 ====================
+
+EVGR, 8:47 p.m. Cables snake over Mateo’s desk; his screen blooms with columns: names, room numbers, incident tags.
+“It’s public to staff,” he says. “I’m staff. My bot answers tickets in seconds.”
+Zadie folds her arms in the doorway. “It isn’t public to your startup.”
+“It’s not a startup,” Mateo says. “It’s a tool.”
+“Pull it down,” she says. “Residents didn’t consent to you scraping their insomnia.”
+Ines perches on the mini-fridge. “I’m not writing you an auth script.”
+“You already organized it,” Mateo says, tapping her tidy CSV headers. “Just—export the calendar feed.”
+“No,” Ines says, standing. “I don’t want my name on this.”
+Zadie’s jaw ticks. “If this shows up outside ResEd, I file a report. I don’t want to. Don’t make me.”
+Mateo clicks run anyway. “We’re drowning. My bot floats us.”
+
+Clark Center, 11:12 p.m. The imaging core hums. Ishita scrolls metadata, renames PlateB_2 to PlateA_2, eyes dry.
+“Who swapped wells?” she mutters.
+“Night crew,” the tech says, zipping a jacket. “Clocking out.”
+“I need tomorrow’s slot,” she says. “I’ll fix it.”
+By 12:58 a.m., folders align; the queue accepts her reservation. Her phone buzzes: Zadie: “You up?” Ishita silences it, presses save, and blinks hard at the screen.
+
+
+==================== SCENE 3 ====================
+Arrillaga Dining, Friday 3:12 p.m. Steam fogs the racks; line cooks call times over the hiss.
+
+“Green board. Pinch grip,” Carlos says, setting an onion on the line. “Thumb, index. Knife becomes your hand.”
+
+Ines mirrors him. “I’m slow.”
+
+“Slow is safe until safe is fast.” He curls his fingers. “Claw. Knuckles guide. Tip stays down.”
+
+“Six salmon up!” someone yells. A fryer cracks. Metal on metal.
+
+Ines draws the blade, steady—one, two, three—clean half‑moons.
+
+“Good,” Carlos says. “Now rock. Don’t lift your shoulder; lift your wrist.”
+
+She breathes with the rhythm. Dice collect in a hotel pan like confetti. A line cook leans in. “We’re dying on pico.”
+
+“She’s got you,” Carlos says, then to Ines, “Don’t chase speed; invite it.”
+
+By 5:18 p.m., cilantro, tomatoes, onions stack in neat cambros. Ines’s stance has widened; her elbow stays loose.
+
+“Time?” she asks, sweaty, pleased.
+
+“Five‑nineteen,” Carlos says, glancing at the wall clock. “Wipe. Label.”
+
+At 5:58, he nods toward the punch clock. “Go.”
+
+“I can finish the jalapeños,” she says.
+
+He taps her badge, quiet, firm. “You’re out at six.”
+
+She blinks. “But the rush—”
+
+“I protect my crew,” he says. “Outside shoes on. Eat.”
+
+She peels off her gloves. The knife gleams. “Thank you, Chef.”
+
+“Tomorrow,” he says, grinning, “we teach your left hand.”
+
+
+==================== SCENE 4 ====================
+Lab office, early evening. The centrifuge hum is a metronome.
+
+“Open your CPT tab,” Yifan says, sliding a legal pad over. “We’re going to make this boring and perfect.”
+
+Ishita clicks. “There are four portals. Why are there four portals?”
+
+“Because someone loves portals,” he deadpans. “Section one: employer. We write ‘Stanford Neurosystems Core—internal training placement.’ Not ‘startup.’”
+
+She types. “Hours per week?”
+
+“Twenty. Actual. Put M–Th, 2–7 p.m. Milestones: week 1 onboarding, week 3 pipeline replication, week 6 independent run, week 9 report. Dates here.” He draws tidy boxes; she fills them.
+
+Zoom chimes. HR’s rectangle appears. “Hi, Ishita, just need learning objectives, supervisor letter, and the non‑displacement attestation.”
+
+“Got it,” Yifan says. He’s already drafting. “To whom it may concern: Ms. Gupta will train on confocal alignment, QA of imaging data, and documentation standards. She is not replacing a staff role; duties are educational and time‑bound. Supervision: Yifan Zhu, Ph.D., weekly check‑ins Tuesdays 4 p.m.”
+
+HR nods. “Upload as PDF. Checklist green means we’re done.”
+
+“Objective verbs,” Ishita murmurs, smiling. “Align, validate, document.”
+
+“Beautiful verbs,” Yifan says, pasting dates. “Start May 1. End August 23. Evaluation August 20. Break week June 24.”
+
+HR flashes a thumbs‑up and disappears.
+
+Silence, then a shared exhale.
+
+“Green?” Ishita asks.
+
+Yifan points at the screen—every circle filled. “Green.”
+
+She traces the boxes with her finger. “I know exactly what to do.”
+
+
+==================== SCENE 5 ====================
+Monday, Tresidder lobby. Fluorescents and espresso hiss. Ines refreshes the Financial Aid portal; a red banner blooms: Verification required—unusual deposits.
+
+She taps Join. A headset voice arrives. “Hi, this is Carla with Student Financial Services. We’ll need documentation for the remittances.”
+
+“They’re to my mom,” Ines says. “And my tía. Rent and meds.”
+
+“Great. Please upload: bank statements, proof of source, recipient IDs, letters explaining familial support, translated, signed.”
+
+“Signed by who?”
+
+“A notary is ideal.”
+
+Her phone buzzes.
+Mom: Mija, recibí $60. Gracias. ¿Todo bien?
+Ines: Sí. Necesito fotos de la receta y la renta. Hoy.
+
+She drags PDFs into boxes: April statement, Venmo screenshots, Western Union receipts. The circle spins.
+
+Tuesday, the portal adds a new line: Clarify currency conversions.
+Carla again. “Also employer letter. And your lease.”
+
+“I’m hourly in dining. I have pay stubs.”
+
+“Letter, please.”
+
+Mom: La casera no firma. Puedo mandar audios.
+Ines: Texto, ma. Yo traduzco.
+
+Wednesday, between classes, she uploads a translation. Two assignments go half‑done. Battery at 9%. Her stomach growls at the smell of fries.
+
+The portal flickers, then settles:
+Status: Pending Review.
+
+She closes the laptop, opens her notes app, and sees blank midterm headers staring back.
+
+
+==================== SCENE 6 ====================
+Thursday, 12:37 a.m., CAPS entrance. Heat lamps buzz over a snaking line. Someone in a beanie whispers, “They said N95s till two.”
+
+Ishita thumbs her phone. Slack: Farzaneh: anyone up? quick check on panel C brightness? Farzaneh: tiny tweak before I send to Asha. Farzaneh: Ishita?
+
+A cough behind her. The vending machine rattles. Ishita pinches her nose as a hot trickle starts. “Great,” she mutters, tilting forward.
+
+“Hey—bleed?” a CAPS staffer says, stepping out with a clipboard and glow‑stick lanyard. “Lean, don’t tilt back. Tissue?”
+
+“Thanks,” Ishita says, nasally. Phone buzzes again. Farzaneh: still here—1 a.m. is fine if it’s quick.
+
+Student in line, eyes rimmed red: “Midterms?”
+
+“Lab,” Ishita says, pressing tissue. “You?”
+
+“Econ. And smoke gives me hives.”
+
+The staffer returns. “We’re triaging masks for symptomatic and high‑exposure. You in shared housing?”
+
+“Lab basement,” Ishita says.
+
+“That counts.” The staffer drops an N95 into her palm. “Change if it gets damp. Hydrate.”
+
+1:48 a.m. Ishita walks out, fresh mask fitted, a faint iron taste still in her mouth. The eucalyptus shine under a streetlight.
+
+Slack blooms as she sits on a bench. Farzaneh: adding reviewers now. Farzaneh: Ishita, greenlight?
+
+Her cursor blinks over a pile of unread threads. She doesn’t type. The pings keep blooming.
+
+
+==================== SCENE 7 ====================
+Late afternoon in the helpdesk bullpen: hum of fans, bins of tangled chargers, sun striping the carpet. Two students hover at the counter.
+
+“My Zoom keeps logging me out every forty seconds,” one says, backpack half‑unzipped.
+
+“And my door app says ‘reconnect’ forever,” the other adds, waving a phone like a flag.
+
+Ines swivels from her station. “EVGR C?” They nod. She taps open logs, eyes narrowing. “Captive portal loop. The controller’s shoving them back to login even after token issue.”
+
+The Helpdesk lead leans on the divider. “We’re not network. File to NetOps.”
+
+“I can script a client‑side patch,” Ines says. “Temporary fix till they push.”
+
+“You’re a junior,” the lead says, not unkindly. “Tickets first.”
+
+“I am,” Ines says, already typing. “And I’m under SLA.”
+
+She writes fast: curl to grab the token, add to keychain, flush DHCP, kick wpa_supplicant, pin the cert. The script pings green. She DM’s the students a one‑liner.
+
+“Run that,” she says.
+
+They do. Bars pop full. “Whoa,” the Zoom student grins. “It stopped looping.”
+
+Across the room, monitors light up with resolved tickets. The lead peers at Ines’s repo PR, reads the notes, clicks merge.
+
+“Nice catch,” she says.
+
+Ines lets herself smile, small and steady.
+
+
+==================== SCENE 8 ====================
+The imaging core hums like a polite spaceship. Ishita steadies her hand over the joystick, eyes flicking between the tiled preview and the live histogram.
+
+“Breathe,” Yifan says, leaning just close enough to read the scope’s display. “Drift correction on. Laser at thirty percent. You planned this.”
+
+“What if the nuclei blow out? What if—”
+
+“Execute the plan,” he says, soft. “Z-stack, three microns, Nyquist. Go.”
+
+She clicks. The stage purrs. Slices bloom: crisp membranes, puncta like sequins. No bleed-through. No wobble. The save icon spins, then settles.
+
+Yifan checks a frame. “That’s clean. Like, actually clean.”
+
+Ishita laughs, shaky. “I didn’t even chew my mouthguard.”
+
+“You wear a—”
+
+“Sometimes.” She grins. “Dataset exporting.”
+
+Arrillaga after hours is bright and echoey. Ines arrives with two extra swipes and a victorious wave. “I come bearing legumes and fiscal irresponsibility.”
+
+“Hero,” Ishita says, loading tofu and broccoli. Yifan stacks plates of orange slices like medals.
+
+“So?” Ines asks, sliding into the booth.
+
+“Usable. Quantifiable. Pretty,” Yifan says.
+
+Ishita lifts a spoonful of rice. “My first clean run.”
+
+They clink plastic cups. Ines tears open a soy sauce packet like confetti. “To small wins.”
+
+“And to swipes,” Yifan adds.
+
+“And to belonging,” Ishita says, surprised to hear it aloud, then smiles because it feels true.
+
+
+==================== SCENE 9 ====================
+The lounge lights are jaundiced against the smoke. Windows stay shut; the air purifiers whine. On the TV, a ticker: CLASSES CANCELED. STAY INDOORS.
+
+Mateo stands on a coffee table with his laptop. “Okay, EVGR, meet DormLink. Real‑time supply swaps, mask drops, buddy check‑ins. Scan the QR.”
+
+Phones lift. A chorus of beeps. The group chat explodes:
+
+EVGR‑B: omg it works
+EVGR‑B: anyone have extra MERVs??
+EVGR‑B: i can share my oximeter
+
+Zadie, masked and tight‑eyed: “You cleared this with R&DE?”
+
+“It’s mutual aid,” Mateo says. “Frictionless.”
+
+Ines steps in from the hall, hair frizzed by ash smell. “Friction is when you use RA lists to seed invites.”
+
+“I didn’t,” he says, then: “Just the names. Not the notes.”
+
+Zadie stiffens. “That’s still our data.”
+
+A resident waves. “I matched for an inhaler. Bless.”
+
+Another: “It says my room number by default. How do I turn that off?”
+
+“Settings,” Mateo calls. His phone vibrates nonstop. User count rockets. He grins, then catches Zidie’s stare and dampens it.
+
+New posts stack:
+
+EVGR‑B: why is the bot DMing my floormates?
+EVGR‑B: opt‑out where??
+EVGR‑B: this feels creepy
+
+An RA in a Stanford hoodie edges closer. “Mateo, we’re getting complaints.”
+
+“About what?”
+
+“Privacy. And you using our hotline language.” She lowers her voice. “We need to talk.”
+
+
+==================== SCENE 10 ====================
+
+The lab conference room hums with the purifiers. Naomi flips open a folder. “Quick housekeeping. Can someone map which assays overlap with the startup’s poster last week?”
+
+Farzaneh smiles without teeth. “We love community translation. Different contexts.”
+
+“Budgets, then,” Naomi says. “Grant lines used for any slide that shows a logo?”
+
+A silence. Yifan taps a pen. “We should verify scopes,” he says carefully. “Internal review, then share a sanitized summary.”
+
+Ishita watches her knuckles whiten around a coffee cup.
+
+Naomi’s laptop pings.
+
+[Lab-General]
+Naomi: Re: scopes—can we list which edits to the methods came after the incubator meeting?
+Farzaneh: Let’s keep drafts off email. We’ll do comments on the shared drive, no tracked changes.
+Yifan: Agreed—minimize duplicative records.
+
+Naomi: “For clarity, I’m asking who approved the brightness correction that appeared on both.”
+
+Farzaneh: “Tiny optimizations. Common practice. Let’s not overburden people with documentation during a smoke day.”
+
+Ishita nods because it feels safer than words.
+
+[Lab-General]
+Farzaneh: Table Qs until tomorrow. Focus on safety and deliverables.
+
+Chairs scrape. People stand. Naomi gathers the folder but doesn’t close it.
+
+In the hallway, Yifan murmurs, “If you need language, I have templates.”
+
+Naomi: “I need receipts.”
+
+Farzaneh passes, low voice: “Use Signal.”
+
+Moments later:
+Signal — Farzaneh created a group: Methods Sync
+Signal — Yifan: Keep it high level.
+Signal — Naomi: Starting with money flows.
+
+
+==================== SCENE 11 ====================
+Alarms yowl through the basement, fluorescent light strobing off puddles creeping under the door. Ishita shoves her shoulder into the cold room, breath fogging. “Tray A—keep them level,” she mutters, lifting a stack of organoid plates, lids taped.
+
+“Evacuate now!” a speaker barks. A grad in a raincoat skids by. “Ishita, leave it! We’ll lose our access!”
+
+“We’ll lose the cultures,” she says, already moving. Water freckles her sleeves. The stairwell smells like bleach and wet drywall.
+
+Two labmates peer over the landing. “We can take B and C.”
+
+“Hold them flat. No jostle.” They climb, alarms punching at their ribs. A door bangs open above; night security fills the frame, radio squawking.
+
+“Ma’am, building is under evacuation.”
+
+“Generator-backed incubator on three.” Ishita doesn’t slow. “It’s weeks.”
+
+Security paces backward, eye on the plates. “You’re on camera.”
+
+On three, they shoulder into the warm room. Ishita slides Tray A into the humming incubator, checks CO2, seals. The others follow, hands shaking.
+
+The alarm keeps braying. The readouts settle. “Stable,” she whispers, water dripping off her hair.
+
+Security clicks his pen, watching the display. “Name?”
+
+“Ishita.”
+
+He writes neatly on a damp pad: Badge access during alarm—recorded. Then, softer: “You’re done here now. Out.”
+
+
+==================== SCENE 12 ====================
+Rain needles the loading dock. Ines skids in, bike light stuttering, a cooler banded to her rack. “Dry ice for queue three,” she says, breath white.
+
+The imaging core tech cracks the door. “You’re joking. At three?”
+
+“Window closes at four.” She hauls the cooler past a pallet of kimwipes going soft. A courier in a poncho hovers, clutching a clipboard. “I’ve got slides for seven a.m.,” he says.
+
+“Park it inside,” the tech snaps. “Not in the flood.”
+
+They hustle into the microscope room—filtered hush, monitors blinking blue. Frost blooms along a cryo line, sweat pattering onto the floor. Ines frowns. “You’re dripping on the stage rail.”
+
+“Chiller’s at limit,” the tech says. “We throttled.”
+
+Ines dumps pellets into the sample buckets—fog billows, timers reset. She yanks open a drawer, grabs PTFE tape, a spare clamp, blue shop towels. “Kill flow for thirty seconds.” She braces the cold line with a zip tie, fingers numb. “Now.”
+
+A hiss softens. Drip becomes nothing. The tech checks the feed. “Stable.”
+
+The courier peeks in. “So… the seven a.m.?”
+
+“On schedule,” the tech says.
+
+Ines shoulders her wet jacket. The tech taps a keyboard, adds a note to the run: Saved by Ines, 03:08. Then, quietly, “You kept it alive.”
+
+
+==================== SCENE 13 ====================
+
+Farzaneh’s office hummed—air purifier, grow light over a jungle of cuttings in Falcon tubes, a space heater ticking at her ankles. On the wall, a Nature cover was thumb‑tacked above a whiteboard dense with arrows.
+
+“Late morning hero,” she said as Ishita slipped in, damp cuffs darkening her sleeves. “Sit.”
+
+Farzaneh turned her laptop, smile bright as the grow light. A Jupyter notebook scrolled by; a folder read preprocessing.py.
+
+“Tiny touch-ups,” she said. “CLAHE, gentle gamma. The panels read muddy. Reviewers have 90 seconds.”
+
+“They’re the same raw?” Ishita asked. Her fingers hovered, then fell to her lap. “No selective masks?”
+
+“Global. Uniform. It’s visibility, not invention.” Farzaneh clicked a cell; a before/after popped—organoids crisp, halos gone. “Everyone does it. We’ll note ‘standard histogram normalization.’”
+
+“CLAHE isn’t a standard,” Ishita said softly. “It moves local contrast. Could shift edges.”
+
+Farzaneh laughed like it was a compliment. “You’re so careful. That’s why this will be so clean. We’re not changing biology, we’re showing it.” She slid a thumb drive across the desk. “Swap in the brightened panels before the noon hold.”
+
+Ishita didn’t take it. “Raw stays archived?”
+
+“Of course.” Smile, steady. “Help me make it legible.”
+
+Ishita picked up the drive. “I’ll look.”
+
+“Perfect,” Farzaneh said, already turning back to her inbox. Ishita’s palm felt slick on the plastic.
+
+
+==================== SCENE 14 ====================
+The lab meeting room buzzed soft with the projector fan and the seltzer tap burping in the corner. Farzaneh clicked to the new figure. “Cleaner, right? Panel B now reads at a glance.”
+
+Omar leaned forward. “Where are the unstained negatives? And a no‑drug time‑match for the bright organoids? The caption implies parallel prep.”
+
+Farzaneh smiled at the group. “Omar’s our in‑house auditor.” She didn’t look at him. “Controls exist in the supplement. We’re streamlining for reviewers’ time.”
+
+“They’re not in the supplement,” he said, tapping his laptop. “The spreadsheet placeholders are blank.”
+
+A few heads dipped to screens. Ishita kept her eyes on the keyboard, thumb rubbing a crescent into the spacebar.
+
+“Let’s not bog down,” Farzaneh said, still smiling. “This is a design review, not a repro census. Methods will reflect standard practice.”
+
+“Standard practice would show the baselines,” Omar said. “Otherwise the brightness shift—”
+
+“We’re talking visibility, not invention,” Farzaneh cut in lightly. “Action items: Ishita, finalize Panel B; Naomi, check captions; everyone else, ping me with line edits.”
+
+Silence held a moment, then chairs squeaked. Phones buzzed. On the private thread, a brief banner flashed: “You have been removed from #nature‑fig‑rev.” Omar blinked at his screen. Ishita’s jaw tightened; she said nothing.
+
+
+==================== SCENE 15 ====================
+The engineering library study room hummed with the HVAC and the low clatter of keys. Ines slid her laptop across. “v0.3. Ethics‑audit script. Read‑only tokens only.”
+
+Naomi pulled her braid tighter. “Chain of custody matters. I want hashes on every artifact.”
+
+“Already salted,” Ines said, eyes on the terminal. “Point me at your doc repos.”
+
+Naomi fed credentials, jaw set. Windows bloomed: wikis, Slack exports, SharePoint. The script linted through headers, footers, PDFs. A meter in the corner ticked green.
+
+“Stop there,” Naomi said. “Grant 7421‑B shows up in filename patterns. Cross‑index with any cap table.”
+
+“Access is thin,” Ines warned. “I only have the compliance mirror.”
+
+“Then we mirror the mirror,” Naomi said. “Screens, hashes, timestamps.”
+
+Lines snapped into place. A table rendered: grant numbers → reagent orders → figure IDs.
+
+“Hold,” Naomi whispered. She opened a Delaware filing, eyes skimming. “Quiet LLC, two months after the grant renewal.”
+
+Ines filtered. “Co‑founder: F. Tavassoli. Equity allocation flagged ‘consulting IP.’”
+
+Naomi’s cursor hovered, steady. “Map it to lab outputs.”
+
+Ines clicked. Figure IDs aligned with filing dates. Naomi exhaled, short. “Screenshot. Timestamp. Hash.”
+
+They worked in silence, methodical, as the room’s glass reflected their screens—grant to cap table to paper.
+
+
+==================== SCENE 16 ====================
+Screens threw pale rectangles across the glass. Naomi traced one with her knuckle. “We have, what, five minutes before someone notices the access logs?”
+
+“Three if they’re paranoid,” Ines said, snapping a capture. “Next: Slack thread 10:42:17. Hashing.”
+
+Naomi glanced at the door, then back at the export bar. “If this leaks before we package it, Farzaneh will lock everything and claim we doctored it.”
+
+“Which is why we’re taking the screenshots with timestamps, not editing a thing.” Ines’s cursor danced. “SharePoint index, page 19—see the grant footer? Screenshot. Hash. Chain file updated.”
+
+Naomi’s voice dropped. “They’ll come for me first.”
+
+“They’ll try,” Ines said, steady. “Proof travels faster.” She opened a terminal. “Checksum manifest: done. Off‑site option?”
+
+“Not our drives,” Naomi said. “My stringer account has cold storage.”
+
+“Send me the write‑only key.”
+
+Naomi typed, jaw set. “Key sent.”
+
+Ines pasted, hit enter. “Packaging: PDFs, PNGs, CSVs, logs, hash ledger. Encrypting.”
+
+A whispering progress bar crawled. Naomi captured one more Slack header and murmured, “Timestamp 10:49:03.”
+
+“Upload complete,” Ines said. “Duplicate succeeded. Off‑site verified.”
+
+Naomi exhaled, shoulders unclenching. “Then we’re keeping the truth.”
+
+
+==================== SCENE 17 ====================
+Rain stitched lines off the awning; EVGR’s glass hummed with late light. Arjun shook water from his hoodie and grinned. “I knew you’d ghost a call. So I walked.”
+
+“I didn’t ghost,” Ishita said. “You texted at 11:12 p.m.”
+
+“Because I have something clean. CPT‑compatible. Twenty hours, remote. Title’s ‘applied imaging fellow.’ You’d run the pipeline you already built.”
+
+“Through Stanford HR?” She angled her umbrella to keep the drip off her wrist.
+
+“HR slows everything. We paper it directly—learning agreement, supervisor letter, dates. You get equity, a stipend. It hits your CPT box. Everyone wins.”
+
+“‘Everyone wins’ is not a regulation.” Her phone buzzed in her pocket and she didn’t check it. “Payroll matters. Taxes matter.”
+
+“We can 1099 you. Advisors sign off. Your DSO just cares that it aligns with your major and stays under the cap.” He leaned in, rain pattering. “You’re already doing this for someone else’s Nature figure.”
+
+“That’s not helping your case.”
+
+He laughed softly. “I’m saying you deserve credit and speed.”
+
+She watched a scooter shush past, taillight bleeding red. “If it’s off HR, whose letter? Who reports? What dates? And how do you pay me, exactly?”
+
+Arjun’s grin narrowed. “Let’s open a doc.”
+
+
+==================== SCENE 18 ====================
+
+Steam feathered off two Americano cups. In the café’s corner, Yifan angled his laptop so the blue-white document filled the screen.
+
+“Read this line,” he said, tapping. “‘Consular officers may consider unauthorized employment, including contractor arrangements lacking bona fide employer oversight, as grounds to deny future visas.’”
+
+Ishita traced it with a fingernail. “That’s… vague.”
+
+“It’s specific enough,” Yifan said. “No HR. No payroll. Equity plus a 1099. Remote supervision. CPT requires an employer-employee relationship. If a visa officer decides it wasn’t, you carry that decision into every renewal.”
+
+“Arjun says a learning agreement and advisor sign-off cover it.”
+
+Yifan slid a printed page across. “They don’t outrank consular discretion. They will ask: who evaluates you, who withholds taxes, who owns the workspace. If those answers wobble, you’re not ‘employed’ under CPT; you’re contracting. That’s a past-tense problem at the window.”
+
+She leaned back, the café’s hum flattening. “It would get me paid now. It’s my pipeline.”
+
+“It could make you the example they stamp no.”
+
+She looked at the clause again, clinical font, unblinking. “Maybe,” she said.
+
+She folded the printout, slipped it into her pocket, and closed the laptop with two fingers.
+
+
+==================== SCENE 19 ====================
+Meyer Green buzzed like a beehive at dinnertime. Carlos stood on a picnic table with a borrowed bullhorn. “We’re not swiping into empty accounts,” he yelled. “We’re walking out and eating together.”
+
+“Administration says catered food needs a permit,” a student called.
+
+Carlos grinned. “Good thing generosity isn’t catered.”
+
+A white van pulled to the curb; the door slid open on towers of foil. The smell of beans and cilantro rolled across the lawn.
+
+“Burritos!” someone shouted. “From Taqueria Alegre!”
+
+Ines hopped onto the grass, catching a warm tray. “Careful, it’s hot,” she told Ishita, who already had nitrile gloves on like it was a lab protocol.
+
+“Assembly line?” Ishita asked.
+
+“Assembly line,” Ines said, popping lids off salsa tubs. “Mild’s green.”
+
+Students formed two snaking lines, laughter skipping between them. A security cart idled at the edge, the driver watching, uncertain. Carlos stepped down and started handing out napkins like confetti.
+
+“If you need two, take two,” he told a freshman in a faded hoodie.
+
+“Is this… allowed?” the freshman whispered.
+
+“It’s dinner,” Ines said, pressing a burrito into their hands.
+
+“Tonight,” Ishita added, passing another, “we’re each other’s meal plan.”
+
+
+==================== SCENE 20 ====================
+String lights trembled in the breeze, bright as the headlamps bobbing through the lines. “Veggie trays first on this side,” Ines called, elbow deep in foil and steam.
+
+“Label’s smudged,” Ishita said, peering. “Smells like al pastor.”
+
+“Then it’s al pastor,” Ines decided, easing it onto the table. “Next?”
+
+“Rice. My wrists are noodles.”
+
+“Mine are rice,” Ines said, and they both laughed, thin and tired.
+
+Carlos wove past with a water jug. “Hydrate or mutiny,” he warned.
+
+An undergrad with glitter on their cheek held up a tray. “Can I take two for my roommates? Midterm meltdown.”
+
+“Three,” Ishita said, already wrapping. “Extra napkins.”
+
+Hours thinned the crowd to clusters on blankets, the headlamps becoming fireflies. A security guard waved, then drove off. Someone played a cracked phone speaker; voices drifted, low and happy.
+
+At midnight, the last burrito left the table. Ines folded aluminum into neat silver squares. Ishita swept, corralling tortilla shreds into compost bags.
+
+“Feet?” Ines asked.
+
+“Tragic,” Ishita said. “You?”
+
+“Historic.”
+
+They hefted the trash together, shoulders bumping. Carlos passed, eyes bleary. “You two are saints.”
+
+“Volunteers,” Ishita corrected.
+
+Ines nudged a dropped fork into the bag. “Same difference tonight.”
+
+They stacked empty trays under the soft lights, not talking much, not needing to.
+
+
+==================== SCENE 21 ====================
+Domingos flicked on the back-office light. Chains gleamed. The cot looked like a folded question.
+
+“You sure?” Ines asked, backpack clutched.
+
+“Use the cot. Don’t argue.” He set down a thermos. “Coffee’s honest. Blanket’s clean.”
+
+Her phone buzzed: Financial Aid. She hit speaker; a calm voice spilled out. “This is a notice regarding your refund. Your account has been selected for review. Disbursement is paused pending additional documentation. Please allow five to ten business days—”
+
+“Five to ten?” Ines said to the ceiling.
+
+“—for processing. You may submit receipts via portal. Do not respond to this message.”
+
+The line clicked. She stared at the thermos. “I have rent Friday.”
+
+Domingos handed over a shop T-shirt. “Pillowcase.”
+
+She lay down in jeans, the cot’s canvas tight as a drum. The office smelled like rubber and solvent. Fluorescents hummed; a derailleur ticked inside a parts bin.
+
+“Set an alarm,” he said.
+
+“Four forty-five. Dining at five thirty, helpdesk at noon.”
+
+He nodded, already sorting spokes. “Leave the key in the mail slot.”
+
+At gray light, she folded the blanket into a brick, slipped out past rows of handlebars, and biked to Arrillaga. The shower was hot, quick, and nobody asked anything. She pulled on her polo and rode toward her double shift.
+
+
+==================== SCENE 22 ====================
+The taqueria’s grill hissed. At the back table, under a Virgen de Guadalupe calendar, Mateo drummed a salsa-stained fork against a paper tray.
+
+“You said you needed cash,” he said.
+
+“I need rent Friday,” Ines answered, eyes on the napkin he’d flattened between them. Scope bulleted in greasy pen: scrape, clean, push webhook.
+
+“No invoices, no W‑9,” he added. “You’re ghosting on this. Your school email stays out.”
+
+“That’s not legal,” she said.
+
+“It’s fast.” He tugged open a battered envelope, thumbed through twenties. “Half now, half when the webhook fires. Two nights’ work if you’re efficient.”
+
+She glanced toward the counter, where a cook flipped carnitas with a shovel. “Who’s the client?”
+
+“My bot,” he said, casual. “You’re not touching users. Just endpoints.”
+
+“Endpoints that belong to people.”
+
+“Are you in or not? I’ve asked three others. They wanted contracts.”
+
+She pressed her tongue to a molar, felt the cracked edge of sleep deprivation. “Fine. Terms on the napkin.”
+
+He smirked. “Terms are the napkin.” He tapped the envelope.
+
+She slid it under the table into her tote. “Repo?”
+
+“Drop your personal email.”
+
+She typed it into his phone. His screen chimed. “Invite sent,” he said. “Branch off main, push to ‘tasks.’ No commits from campus Wi‑Fi.”
+
+Her jaw tightened. “I’ll deliver.”
+
+
+==================== SCENE 23 ====================
+
+The co-working nook hummed like a fridge. Ines hunched under a flickering desk lamp, hoodie up, Mateo’s avatar a green dot on her second monitor.
+
+“You’re in?” he said over voice. “Webhook looks quiet.”
+
+“Quiet isn’t clean,” she muttered, scrolling the dashboard. A column labeled cohort_id blinked up at her beside mood_pulse, sleep_delta, CAPS_referral.
+
+She froze. “Where did you get this feed?”
+
+“Endpoint bundle. Don’t touch the pipeline, just shape it.”
+
+“Cohort A and B?” She clicked through a hidden pane: variant=‘prompt_v1’, variant=‘prompt_v0’. The graph pebbled upward under “engagement nudge.”
+
+“Ines, deliverables,” Mateo said. “It’s telemetry.”
+
+“It’s residents,” she said. “My floor.”
+
+Slack pinged. A thread from “DormWell Integrations” revived itself like a ghost: thumbs-up from archived users, “push tonight?” “no paper trail.” She pressed her palm flat on the trackpad, steadying.
+
+“Ines?” Mateo. “Clock’s ticking.”
+
+She opened DevTools, exported CSVs, watched rows pour out like cold rain. “I’m pulling traces.”
+
+“For what?”
+
+“Documentation.”
+
+“Don’t be dramatic. You’re not touching users.”
+
+“I am now.” She zipped logs, checksummed the archive, slid it to a fresh drive. The Slack ghosts kept chiming: “ship pls,” “metrics first.” She muted the channel, killed the voice call.
+
+“Ines,” Mateo said, tinny, impatient. “You good?”
+
+“I’m done,” she said, and hit Export one last time.
+
+
+==================== SCENE 24 ====================
+The quad was scrubbed by wind, leaves ticking against the Gates steps. Ines stood with a plain envelope, hoodie strings tight.
+
+“Is that…?” Zadie asked, hair blown sideways.
+
+“Every dollar he sent,” Ines said. She pressed the envelope into Zadie’s hand. “Return it. No trail to me except the truth.”
+
+“Ines, they’ll say—”
+
+“They can say whatever. I’m done.” She lifted her chin toward the glass doors. “I’m walking out.”
+
+Zadie thumbed open her phone, already pulling up the folder. “I’ve got the CSVs, Slack caps, the invoice stubs. You sure?”
+
+“Yes.” Ines’s voice was steady. “If a door closes, it’s because I shut it.”
+
+Zadie breathed out, then tapped forward. “Naomi?”
+
+Speaker crackled. “I’m here,” Naomi said, crisp. “What am I holding?”
+
+“Receipts for the A/B nudge spend, Mateo’s payouts, timestamps from DormWell,” Zadie said. “Ines exported the telemetry last night.”
+
+“Ines?” Naomi said.
+
+“I’m returning cash and my access,” Ines said. “Use what you need.”
+
+There was a beat, only wind. Then Naomi: “Got them. Clear copies. Thank you.”
+
+Ines squeezed Zadie’s shoulder, turned toward the oval. “Give him the envelope,” she said, and walked away, hair flicked by the breeze like a cut wick.
+
+
+==================== SCENE 25 ====================
+Fluorescents hummed over Dean Klein’s conference room as phones buzzed like cicadas.
+
+“Naomi just pushed,” the press officer said, eyes on her screen. “Headline’s clean. Screenshots in-line.”
+
+Dean Klein straightened his tie. “We’re a containment task force. We contain. Farzaneh?”
+
+“Miscommunication,” Farzaneh said, crisp. “Drafts conflated with production. Early exploratory equity language, not tied to data. We’ll clarify.”
+
+A task force member lifted a printout. “She has the Slack timestamps and the cap table. Public records. We can’t ‘clarify’ those.”
+
+“Then we narrow,” Klein said. “Scope the issue to language, not behavior.”
+
+Naomi’s notification popped again, a quiet chime from someone’s laptop. “She’s added a document repository,” the press officer said.
+
+Farzaneh didn’t flinch. “Our figure edits were cosmetic. Any brightness adjustments preserved ratios. The equity is unrelated.”
+
+“Memo,” Klein said. “Two paragraphs. We take concerns seriously, we’re reviewing limited instances, procedures updated last quarter.”
+
+“Three sentences,” the press officer countered. “Lead with student wellbeing. No mention of equity, just ‘administrative filings.’”
+
+“That’s public,” the task force member said.
+
+“Public doesn’t mean prominent,” Klein replied. “Draft it.”
+
+Farzaneh folded her hands. “Miscommunication, then.”
+
+“Miscommunication,” Klein echoed.
+
+Keys clicked. The press officer read as she typed: “We acknowledge… narrow… ongoing.”
+
+
+==================== SCENE 26 ====================
+The Vaden waiting area felt over-air-conditioned, the seats too clean. Zadie clutched a clipboard she hadn’t filled. Ishita pressed two fingers under her mask, eyes damp.
+
+“Zadie?” a clinician called, soft voice, badge swinging.
+
+Zadie stood and didn’t. Her knees went first. The clipboard clattered. “I can’t—” She folded into the chair again, breath hitching.
+
+“It’s okay,” the clinician said, crouching. “We’ll do intake together. Name?”
+
+“Zadie,” Zadie whispered. “I didn’t sleep. I can’t think. My chest—”
+
+“We’ll help,” the clinician said. “Any immediate safety concerns?”
+
+“No. Just… stop everything.”
+
+Blood bloomed through Ishita’s mask like watercolor. She flinched. “Restroom?” she mouthed.
+
+“Down the hall, left,” the clinician said without looking away from Zadie.
+
+In the restroom, Ishita peeled the mask off, crimson smearing her palm. Paper towels hissed. She pinched her nose, counted: one-two-three. Her hands trembled hard enough to shake the dispenser.
+
+Back in the hall, she leaned against the wall, mask balled in her fist, breathing through her mouth.
+
+“Zadie,” the clinician said, guiding her toward a door. “We’ll get a nurse, take vitals, start now.”
+
+Zadie nodded, eyes glassy. Ishita lifted a thumb weakly. “I’ll be right here.”
+
+“Hall’s fine,” the clinician said. “We’ve got her.”
+
+
+==================== SCENE 27 ====================
+Gates, morning light flat on the whiteboard. Zoom flickered on Asha’s laptop, a COPE page shared. Ishita sat straight, a tissue tucked in her sleeve.
+
+“Again,” Asha said. “From the top.”
+
+Ishita read, voice even. “Dear Dr. Farzaneh: Thank you for your note. I cannot implement the proposed ‘methods tweak’ post‑acceptance. Per COPE guidelines and Nature Research policies on image processing, changes that alter quantitative outcomes must be disclosed prior to peer review.”
+
+“Good. Now receipts.”
+
+Ishita clicked to a Git window. “Version control log: commit 8f1c3d2, ‘final preprocessing,’ timestamped March 3, 09:42. Hash matches Zenodo archive DOI:10.5281/zenodo.XXXXX. Raw TIFFs checksum list attached. OSF project link included.”
+
+“Say the CPT part.”
+
+“I completed all analysis under the approved CPT plan on file; no additional work will be performed.”
+
+Asha capped a marker. “Closer. Add NIH Rigor citation.”
+
+Ishita amended: “Consistent with NIH Rigor and Transparency, I will not alter parameters without preregistration.”
+
+She hesitated. “This will nuke my letter.”
+
+Asha’s eyes didn’t blink. “You’ll keep your name.”
+
+Ishita inhaled, dated the refusal doc—April 12, 09:18—exported to PDF, and hit Send. Zoom chimed in the quiet. Asha nodded at the whiteboard: clean columns, clean lines.
+
+
+==================== SCENE 28 ====================
+Huang courtyard bench, shade pooling under the ginkgo. Ishita balanced her laptop on her knees, shoulders tight, then breathed and hit Forward—Subject: Re: Refusal to implement post‑acceptance “methods tweak”—to the full author list, Farzaneh cc’d, attachments intact.
+
+A couple of undergrads argued about quadcopter propellers nearby. Ping.
+
+Ines (text): Proud of you.
+
+Ishita typed with thumbs. “I’m shaking.”
+
+Ines: That’s adrenaline, not doom. Paper stands either way. You cited COPE, NIH, Zenodo. It’s clean.
+
+Ishita’s screen blinked—Reply‑All from the managing editor: “Acknowledged. Methods remain as accepted. Record updated.” Another from Omar: “Good call.” A one‑liner from Farzaneh: “Noted.”
+
+Ishita stared at “Noted.”
+
+Ines: Okay, listen. People may ice you. Or pretend nothing happened. Both are weather. I’ve got you, but be smart.
+
+Ishita: Smart like… quiet?
+
+Ines: Smart like documented. Don’t isolate. Ping me before any reply.
+
+A breeze lifted a corner of the bench’s flyer; the fountain clicked on. Ishita forwarded the editor’s acknowledgment to her OSF, copied the hash into her notebook, and zipped the laptop shut.
+
+Ines: Coffee later?
+
+Ishita: After imaging queue. Thanks.
+
+Ines: Always. Proud, still. Careful, too.
+
+Ishita slid the phone into her pocket, hands steady now. The thread sat, sealed: tweak declined, paper intact.
+
+
+==================== SCENE 29 ====================
+EVGR studio at 1 a.m. hummed—mini‑fridge, hallway air, the laptop a small blue moon on Ishita’s face. Her Slack bloomed.
+
+Farzaneh: Need your sign‑off on the “final methods patch.” Right now.
+
+Ishita: Methods remain as accepted. Editor confirmed.
+
+Farzaneh: Don’t be literal. Just acknowledge the patch. It streamlines the figure.
+
+Typing bubbles. Stop. Start.
+
+Farzaneh: Also—about your letters. Timelines can get… complicated if we’re not aligned tonight.
+
+Ishita’s cursor stilled. She pulled the editor’s email into the corner, the OSF hash open beside it.
+
+Ishita: I won’t sign off on changes after acceptance.
+
+Farzaneh: It’s a courtesy, not a change. Don’t make this hard. You want me to keep your file moving, yes?
+
+Ishita: I’ll comply with journal policy and documented requests. Nothing else.
+
+Farzaneh: You’re overreacting. One line. “Approved.” That’s all.
+
+Ishita pasted her sentence block.
+
+Ishita: “Per managing editor’s acknowledgment, methods remain as accepted. I will follow documented, traceable procedures. Please send any edits through the journal.”
+
+A long, flat minute. The studio’s microwave blinked 1:01, 1:01, 1:01.
+
+Farzaneh: Noted.
+
+Ishita: For clarity, I’ll upload this exchange to the project record.
+
+Farzaneh: Suit yourself.
+
+The thread went quiet, the laptop glow steady on Ishita’s hands as she saved the PDF and closed the lid.
+
+
+==================== SCENE 30 ====================
+The EVGR courtyard was a wind tunnel at 1:30 a.m., bike rims ticking on empty racks. Ishita paced the walkway, breath fogging. She dialed.
+
+Asha picked up on the second ring, voice grainy. “You okay?”
+
+“She hinted my letters ‘get complicated’ if I don’t approve a patch. I said no. It’s all on Slack.”
+
+“Good,” Asha said. “Now screenshot the thread. Full window, timestamps. Save to a neutral drive.”
+
+“I saved a PDF.”
+
+“Screenshots too. Redundancy is sanity. Then write a brief, factual note. No adjectives. Route it to the department admin, cc the graduate coordinator. Subject line with date and ‘record of interaction.’”
+
+“I feel like I’m snitching.”
+
+“You’re documenting. Keep it procedural. Two paragraphs: what was requested, your response, and that you’ll follow journal policy. Attach the images. Bcc yourself.”
+
+Ishita stopped beneath the lone courtyard heater, fingers thawing. “And Slack logs?”
+
+“Archive the workspace export for your channel. Label by time. Put it somewhere not owned by the lab.”
+
+“Okay.” Ishita exhaled, steadier. “Okay.”
+
+“Text me the sent email.”
+
+She hung up, sat on the cold concrete ledge, and typed: a timestamped note to admin, attachments lined up. Send. Then she zipped the Slack captures, named the folder with the minute and second, and archived the lot. The courtyard hissed. Her hands were still.
+
+
+==================== SCENE 31 ====================
+Late morning pooled yellow on the Green Library reading room, lamps haloing the long oak table. Naomi slid her laptop between dictionaries and someone’s abandoned latte sleeve.
+
+“Headers,” she said, tapping. “Look—Received chain: mailgw-2, 09:12:03, and again at 09:12:11 when Farzaneh forwards to ‘integrity-dashboard@’. DKIM passes on both. Your prototype ZIP name’s in the subject line—‘wifi_audit_v3.zip’—and the SHA in the thread matches the dashboard commit.”
+
+Ines leaned in, jaw tight. “They told the task force it was ‘parallel innovation.’”
+
+Naomi zoomed. “Message-ID is unique to your original. The forwarded thread keeps the same ID, same attachment hash. Even the comment you left—‘don’t ship without consent screen’—shows up before Omar’s name gets scrubbed in the dashboard notes.”
+
+The room hissed with vented air. Someone coughed, pages turned. Ines’s knuckles blanched around her pen. “So I’m not crazy.”
+
+“No,” Naomi said. “You’re archived.”
+
+Ines let out a small, brittle laugh. “And they’ll still say ‘process breakdown.’”
+
+“I’m publishing the headers. I want a line from you. Off-record attribution—description, not name. For now.”
+
+Silence, then the clock’s tick. Ines nodded. “Quote the evidence. Off-record, for now.”
+
+Naomi’s fingers flew. “Got it.”
+
+
+==================== SCENE 32 ====================
+
+Coupa’s patio thrummed—milk wand hiss, chairs scraping, a pigeon eyeing muffin crumbs. Ines cupped a paper cup she hadn’t sipped. “Naomi pushed the headers. My ZIP name. The hash. It’s live.”
+
+Ishita flinched. “She used your comment about the consent screen?”
+
+“It’s in the thread,” Ines said. “They called it ‘parallel innovation’ and forwarded my file. I can go on-record. She wants a name.”
+
+“And you want to?” Ishita’s voice barely rose over the grinder. “Financial aid just thawed your refund. The dining job, Domingos’s hours—”
+
+“I know.” Ines rubbed her thumb raw against the cup seam. “But I’m tired of hearing ‘miscommunication.’”
+
+A breeze flicked napkins. Hoover’s clock tolled a flat two. Ishita stared past the umbrellas. “If I back you publicly, the letters… Farzaneh is already—” She stopped. “My visa depends on people who can ruin it.”
+
+“So we hide?” Ines said, too sharp, then softer. “Sorry.”
+
+Ishita’s phone vibrated with nothing comforting. “Not hide. Think.” She opened the timer app, thumb hovering. “Forty‑eight hours. We read everything, talk to Yifan, legal clinic, whoever. Then decide if we go on-record.”
+
+Ines nodded, jaw set. “Forty‑eight.”
+
+Ishita hit start. The countdown began between them, loud as the grinder.
+
+
+==================== SCENE 33 ====================
+Glass walls, citrus hand sanitizer, the hum of vents over a too-long table. Dean Klein smiled like a wallet opening.
+
+“Impressive work, Ines. The dashboard’s a community asset. We’d like to reflect that—quietly.” He steepled. “A line on the splash: ‘with contributions by I.G.’ No press, no noise.”
+
+“In the footer?” Ines asked.
+
+“Institutional placement,” he said. “And longer term—advisory exposure. Integrity Oversight next cycle. You’d be a voice, not a headline. Win-win.”
+
+“That’s not my file name. Not my timestamps.”
+
+He spread his hands. “Parallel development happens. What matters is continuity. I can keep certain offices from getting…curious. You keep us from crisis theater. Legitimacy lives in outcomes.”
+
+She watched his reflection bend in the glass. “Who else gets this deal?”
+
+“This is bespoke.” He leaned in. “You’re a student with momentum. You don’t need noise.”
+
+“I need the terms,” she said. “Written, specific: placement, wording, committee seat, start date, scope, who signs.”
+
+“We don’t usually formalize internal acknowledgments.”
+
+“Then there’s nothing to discuss.”
+
+A beat. The vents whispered. He nodded, thin. “I’ll have counsel draft language. Today.”
+
+“I’ll review it,” Ines said, standing. “And I’ll take advice before I respond.”
+
+
+==================== SCENE 34 ====================
+Fluorescents buzzed above the carpet. The dean’s assistant lifted a desk phone. “Counsel’s on the line for you.”
+
+Ines took the handset, pressed it to her ear. “This is Ines.”
+
+“Ms. García? Julia Nevin, University Counsel. Quick touchpoint,” the voice said—warm, polished. “We understand you’re considering public statements. I need to flag certain intersections.”
+
+“Intersections,” Ines said.
+
+“Professional conduct. Our student employment policies and aid packages reference institutional reputation and cooperative practice. Escalations—media, social, third‑party advocacy—can be evaluated as non‑cooperative,” Julia said. “That can affect continued eligibility for campus roles or discretionary aid adjustments.”
+
+“Discretionary,” Ines repeated.
+
+“Dining, residence life, IT desk, research hourly. We’d prefer not to see disruptions,” Julia went on. “We encourage internal channels. You’ll find they’re robust.”
+
+“I tried an internal channel,” Ines said. “It spoke in footers.”
+
+A small pause. “To be clear: no threats. Just obligations. You maintain professionalism, the University maintains support. Deviations complicate things. We hope you align.”
+
+“Is there a policy number,” Ines said, “or is ‘complicate’ the citation?”
+
+“Student Handbook, Employment Appendix, Aid Review Guidelines. Happy to email links.”
+
+“I read fast,” she said, and hung up.
+
+The hallway AC hit cold. She wrote three words on a receipt—jobs, aid, conduct—folded it twice, and slid it into her pocket, then walked.
+
+
+==================== SCENE 35 ====================
+The CIS lounge hummed with vending machines and laptop fans. Omar slid a laptop between a bowl of stale pretzels and a dying ficus. “Subject line?” he said.
+
+“Formal complaint regarding data manipulation—Slack thread dated March 12, 02:13,” Ishita replied, already opening her folder. Her voice was clipped, steady.
+
+He typed. “Body: ‘See timestamps 02:13–03:04. Request to ‘preprocess for figure brightness’ without controls noted by Omar Q., concerns raised at lab meeting, thread closed to me at 03:07. Attachments: screenshots, raw export, meeting notes.’”
+
+“You’re citing the channel IDs?” she asked.
+
+“#fzh-figures, #paper-sprint,” he said, pasting. “Also the private DM where they moved it, 03:29. I have headers.”
+
+Ishita pulled up a PDF. “Here’s my refusal. Dated, versioned, sent to Asha, CC’d to admin. It states the exact method I wouldn’t run.”
+
+He skimmed, nodded. “Clean. Add it.”
+
+She hesitated, thumb hovering. “This affects letters. Visa talk started again.”
+
+“And this is the procedure,” he said. “We file; they log.” He pointed at the ORI portal. “Name the act.”
+
+“Accountability,” she said, and dragged the file in.
+
+The page compiled. Omar clicked Submit.
+
+A soft chime. Ticket number populated. He exhaled. She did, too.
+
+“Copy for your records?” he asked.
+
+“Print and PDF,” she said. “Both.”
+
+
+==================== SCENE 36 ====================
+Sunset slid copper across Hoover’s steps, the tower’s shadow bisecting Omar’s shoes. He held his phone like a metronome, eyes flicking between screens. “Media hold for forty-eight,” he said, thumbs moving. “We let compliance acknowledge receipt.”
+
+A buzz. Naomi’s name lit. He read aloud: “Got your ticket. I’ll wait for the initial response window. Asha cc’d.” Another ping: Asha: “Logged. I’ll confirm clock start.”
+
+Omar typed, voice keeping pace. “Naomi, draft ready but don’t publish; keep your notes sealed. If they ask for comment, say ‘pending verification.’” He looked at Ishita. “You send the refusal to the department alias right now, cc Asha, subject matching the ticket number.”
+
+Ishita nodded, tapping. “Sent. And I’ll compile the lab notebook scans—to the shared folder, read‑only.”
+
+Naomi again: “Outline at H+24 for you to sanity‑check.” Asha: “I’ll request preservation of Slack archives. Paper trail started.”
+
+Omar exhaled, shoulders dropping. “Roles: I handle correspondence and deadlines. Asha tracks timestamps. Ishita fields only written requests, no calls. Naomi waits forty‑eight, drafts at twenty‑four, no screenshots shared before that.”
+
+The tower bells started. The steps warmed under them. “We’re aligned,” Omar said.
+
+“Aligned,” Ishita echoed, and their phones fell quiet.
+
+
+==================== SCENE 37 ====================
+Coupa throbbed—milk steam, cardboard squeak, names shouted wrong. Ines held a chipped saucer. Ishita clutched a receipt like a hall pass.
+
+“You knew,” Ines said. “Brightening figures, burying controls. That’s fraud.”
+
+“It was what they asked,” Ishita said. “What they reward. I’m on a clock. Visa, letters, rent.”
+
+“Everyone’s on a clock,” Ines shot back. “We still choose.”
+
+“I chose not to get deported.” Ishita’s voice stayed low. “You can quit a job and sleep in a shop. I lose status; I lose a life.”
+
+“Don’t turn my broke into your shield.” Ines leaned in. “We caught them. We document. We don’t help.”
+
+“I didn’t help,” Ishita said. “I refused the tweak. I wrote it down. But I ran the rest because I need the paycheck to exist next month.”
+
+“Lines matter.”
+
+“So does oxygen.” A barista slid a bowl across. “Ish-EE-tah!”
+
+Ishita picked it up, hands shaking. “You call it ethics like it’s free.”
+
+“You call it survival like it absolves.”
+
+“Like it explains.”
+
+Behind them, grinders screamed. A busser bumped Ines; coffee sloshed.
+
+“Then what?” Ishita asked.
+
+Ines stared past her at the tower’s shadow on the pavement. “I’m not blessing it.”
+
+“I’m not apologizing.”
+
+Silence. Trays between them. The line nudged. They stepped back, separate. Conversation done.
+
+
+==================== SCENE 38 ====================
+Hoover Tower’s arcade threw cool shade over hot concrete. A tour group clustered by a placard; a kid pointed up and yawned. The carillon chimed somewhere out of sight.
+
+Ines adjusted the chipped saucer into a trash can, wiped her palm on her jeans. “Oval’s that way,” she said, mostly to the arches.
+
+“Main Quad’s that way,” Ishita answered, balancing her bowl. “Plates at two. Yifan at four.”
+
+“You always have times,” Ines said. “Never time.”
+
+“I have to keep status.” Ishita’s voice was steady, dry. “It’s not a slogan for me.”
+
+“It’s not a hobby for me,” Ines said. “It’s the only thing I own.”
+
+They walked a few paces under tiles that echoed their steps. A bicyclist rang a bell and swerved between them like water finding a crack.
+
+“You want me to burn it all down.” Ishita stared at the red tiles ahead. “I can’t.”
+
+“I want you to stand next to me,” Ines said. “Not behind an email.”
+
+“I did stand.” Ishita’s jaw worked. “I just kept breathing, too.”
+
+“Then breathe over there.”
+
+“Fine.”
+
+They paused at the arcade’s fork—the Oval blazing left, Main Quad simmering right.
+
+“No plan?” Ishita asked.
+
+“No plan,” Ines said.
+
+They turned, separate, and let the arches hold the space between.
+
+
+==================== SCENE 39 ====================
+
+The booth smelled like coffee and foam. ON AIR glowed red; the engineer counted with two fingers and a nod. Naomi leaned toward the mic, voice low, steady.
+
+“State your name.”
+
+“Ines Romero.”
+
+“Do you confirm you’re willing to go on record?”
+
+“Yes.”
+
+Naomi’s pencil hovered. “Describe the repackaging.”
+
+“They took my ethics-audit script and called it the Integrity Dashboard. My file was ethics_audit.py. Commit 7f2a9bd. First upload: March 12, 02:14:33 a.m. Slack handoff to Farzaneh: March 13, 09:47:09. Dashboard ‘prototype’ appears March 14, 11:02:51, same function names, same comments. They kept my timestamp block at the header. They didn’t even strip it.”
+
+Naomi didn’t look up. “Names?”
+
+“Farzaneh K., Omar flagged controls on March 7, 15:21:12. He’s in the thread. Dean Klein emails March 15, 08:02:04 about ‘alignment’ and a committee seat. I declined.”
+
+“You’re aware of possible blowback—aid, work?”
+
+“Yes.” Ines’s hands were still on her knees. “I’m saying it anyway.”
+
+A hiss of air from the vents. Naomi let silence sit, then: “Anything else you want listeners to hear?”
+
+“That it wasn’t a misunderstanding. It was mine.”
+
+The engineer tapped the glass. Naomi clicked her pen. “Segment’s clean. Embargo holds until Friday, 7:00 a.m.”
+
+
+==================== SCENE 40 ====================
+
+Tressider’s plastic chairs rattled in the afternoon draft. Ines set her laptop on the sun-warmed table, the lid reflecting clouds. She opened Dean Klein’s email.
+
+Subject: Committee Opportunity — Alignment and Next Steps
+
+Klein: Ines—Given your proximity to the matter and our shared goals, I’d like to offer you a provisional seat on the Task Committee. Your insight would be invaluable. Let’s keep this constructive.
+
+She breathed once, twice, then hit Reply All and typed.
+
+Subject: Re: Committee Opportunity — Alignment and Next Steps
+To: Dean Klein
+Cc: faculty-coordinator@stanford.edu
+
+Ines: Dean Klein, I decline the offer. I will not lend my name to a process designed to contain rather than account. My prior work was repackaged without credit; my position is on record. Please direct any questions to me in writing.
+
+She deleted “Best,” left her name alone.
+
+—Ines Romero
+
+She attached her earlier Slack exports, the commit hash screenshot, clicked Send. The whoosh felt mechanical, final.
+
+Three tables over, someone laughed; ice knocked in a plastic cup. A new ping lit the screen.
+
+Klein: Noted. Surprised by the tone. We aim for collaboration.
+
+Ines stared at it, then highlighted and archived. Her sent folder stacked itself neatly, copies to the coordinator sitting like anchors. She closed the laptop and pushed back her chair.
+
+
+==================== SCENE 41 ====================
+EVGR’s hallway smelled like lemon sanitizer and microwaved noodles. Ishita pressed the elevator button; the circle lit, then did nothing. Her phone buzzed in her palm, blue light strobing the brushed steel.
+
+Ishita: Hey—sending you Yifan’s draft letter. You said day‑1 CPT is clean on your end. Need the title + hours. 
+
+Arjun: Perfect. Send resume. We’ll “intern” you. No HR. Starts Monday. 
+
+She exhaled. A bike rolled past with a squeak. The elevator blinked “B” then stalled again.
+
+Ishita: Title? Remote vs on‑site? I need it in the SEVIS note.
+
+Seen 7:14 PM
+
+She waited. The lint trap hush of a dryer down the hall. Someone’s laughter through a door.
+
+Ishita: Arjun?
+
+Seen 7:19 PM
+
+The elevator arrived, full of boxes and a plant strapped with blue tape. She let it close.
+
+Ishita: If Monday, I need the letter tonight. Supervisor name?
+
+Seen 7:27 PM
+
+She watched her own face ghost in the black screen between messages.
+
+Ishita: If it’s off, just say so.
+
+Seen 7:31 PM
+
+No dots. No reply. The hallway hummed.
+
+The button light went out beneath her thumb. She put the phone in her pocket and felt the space it left. The CPT angle wasn’t there anymore. She stopped waiting.
+
+
+==================== SCENE 42 ====================
+Priyanka’s kitchen table was crowded with mugs and an open binder of visa printouts. The ceiling fan ticked like a metronome.
+
+Priyanka: Start with water. You look dehydrated.
+
+Ishita: I’m fine.
+
+Sanjay slid his laptop around. A USCIS page glowed blue.
+
+Sanjay: You post, they Google. Then you get an RFE. They ask for extra proof—pay stubs, schedules, supervisor letters—stuff they can nitpick.
+
+Priyanka: And if it’s consulate time, Delhi gives you 221(g). Your passport sits in a metal tray while they “administratively process.” Weeks. Months.
+
+Ishita: I’m not lying. I’m saying what happened.
+
+Sanjay: They don’t care. They care if you “intend to comply.” That’s the phrase.
+
+Priyanka: We’re talking survival. You need clean CPT history, clean OPT. Quiet is clean.
+
+Ishita stared at the table’s heat ring.
+
+Ishita: So I swallow it because a box might get checked?
+
+Priyanka: You pause so your life doesn’t get paused.
+
+Sanjay: Send Naomi your documents privately, fine. No tweets, no quotes, no panels. Not now.
+
+The kettle chattered. Somewhere, a neighbor laughed.
+
+Ishita: For how long?
+
+Priyanka: Until your card arrives and your status is stable.
+
+Silence gathered between the cups.
+
+Ishita: Okay. I’ll stop. For now.
+
+
+==================== SCENE 43 ====================
+Vaden lawn smelled like cut grass and sunscreen. Students dozed on blankets; sprinklers hissed at the edges.
+
+Zadie shaded her eyes, bright in a clean hoodie. “I’m back. New rules.”
+
+Ines lowered onto the bench, backpack still on. “Rules?”
+
+“Office hours: ten to six. No Slack after nine. I keep the duty phone only on my week, not ‘just in case.’ If you ping me at 2 a.m., I won’t see it.”
+
+Ines’s laugh was tired. “Farzaneh—”
+
+“Is not our circadian rhythm,” Zadie said. “Sleep is not optional. You need eight. Minimum seven.”
+
+“I have dining, helpdesk, residents, Naomi’s emails. Nights are when it quiets.”
+
+Zadie pulled out a small card and a pen. “Write your week. Classes, shifts, two hours for food, one hour for nothing. Color in sleep.”
+
+“That’s… elementary school.”
+
+“Elementary school kids are better at recess than we are.”
+
+Ines stared at the lawn, then began. “Midnight to eight, sleep. Noon burritos with Carlos’s line? I can help at eleven.”
+
+“Fine. But no late-night comms.” Zadie held out her hand.
+
+Ines fished the cracked duty phone from her bag. “Rota gets after midnight. I’m out.”
+
+“Good. Ground under feet,” Zadie said.
+
+Ines exhaled. “Ground under feet.”
+
+
+==================== SCENE 44 ====================
+White Plaza shimmered in noon heat. Card tables lined the fountain, steam lifting from aluminum pans. Carlos, in a faded “UNION YES” tee, barked kindly: “Rice left, beans right, keep the line moving. Veggie in green trays.”
+
+Ines slid tortillas onto plates, wrists quick. A student in a lanyard hovered. “Is this… allowed?”
+
+“It’s lunch,” Carlos said. “You’re allowed to eat.”
+
+A cheer rose from the steps. “Whose campus?” “Our campus!”
+
+A girl in headphones took a burrito, mumbling, “I don’t do politics.”
+
+“You do lunch,” Ines said, handing napkins. “That’s a start.”
+
+Two dining workers in hairnets bumped elbows with Carlos. “Got extra foil in the cart,” one said. “Also, my cousin’s truck’s at Tresidder if you run out.”
+
+A grad with a cardboard sign read: “Fair pay = fair lab.” He offered Ines water. “You from BioE?”
+
+“Helpdesk. Sometimes dining,” she said.
+
+“Then you’re the network,” he grinned.
+
+A CS kid whispered, “If I eat, am I… on a side?”
+
+“You’re on the fed side,” Carlos said. “We’re feeding everyone.”
+
+Ines watched strangers refill trays without fuss, someone slide cash into a jar for the next round, a custodian take a plate last. The plaza felt stitched together by simple hands. She kept plating, listening.
+
+
+==================== SCENE 45 ====================
+The Gates atrium hummed too bright, too cold. Job board screens flickered like bad weather. A red banner flashed: “Program paused due to restructuring.”
+
+“Paused?” Nisha said. “It says ‘paused.’ That’s not canceled.”
+
+Her phone dinged. She went gray. “Subject: change to summer plans.”
+
+“Same subject,” Ravi said, staring at his inbox. “They called it an ‘unfortunate optimization.’”
+
+On the screen, the “safe” column—household‑name logos—emptied row by row, entries collapsing into 404s.
+
+“I already signed housing,” someone whispered.
+
+“Rescinded,” Nisha read. “They’re ‘excited to stay in touch.’ I don’t want to stay in touch, I want my rent.”
+
+A kid in a suit backpack kept refreshing. “My mom’s on speaker.” Tinny voice: “But they promised.”
+
+“They promised a pipeline,” Ravi said. “Pipes don’t work if there’s no water.”
+
+Ishita’s offers spreadsheet lay open on her laptop like a map of suburbs bulldozed overnight. Color‑coded greens turned gray. She muted three group chats and dragged new filters into existence: must sponsor, remote fine, <50 employees okay, contract okay.
+
+“Backup plan?” Nisha asked, eyes wet.
+
+“Plan C,” Ishita said. “Skip the brand names. Aim for places still hiring a human, not a press release.”
+
+She added a column: “can start next week,” saved, and started a new list.
+
+
+==================== SCENE 46 ====================
+The International Center steps radiated heat. Suitcases scraped. A girl sobbed into a passport.
+
+“They pulled Varun for secondary,” Ishita said. “Two hours. For an internship.”
+
+“Pattern-matching is brutal right now,” Yifan said, lowering his voice. “OPT is under a microscope—I‑20 notes, payroll codes, even LinkedIn start dates.”
+
+“I can’t lose the summer. Arjun says day‑one CPT. Clean letter, remote QA.”
+
+“Arjun’s vendors share EINs and copy‑paste offer text,” Yifan said, tapping his folder. “CBP and consular see that trail. Mismatched SOC code? Ghost HR? You’re the one who pays.”
+
+“I have rent.”
+
+“You have a degree that maps to actual roles. E‑Verify. W‑2. Supervisor who exists. Description that says ‘image analysis,’ not ‘special projects.’”
+
+She watched two officers walk by, badges catching sun. “People are getting through.”
+
+“People are also getting turned around. Your file already has stress—labs, timelines. Don’t add Arjun’s smoke.”
+
+Ishita thumbed open Signal, stared at the green dot, and hit delete. “Fine. No CPT.”
+
+“Good,” Yifan said. “We aim small. Three vetted labs, two startups with proper HR. Start date flexible, duties tied to your code.”
+
+She opened her spreadsheet. New filters: E‑Verify, W‑2, STEM SOC. “Then we hunt.”
+
+
+==================== SCENE 47 ====================
+Wildfire haze turned Stanford red into sepia. Programs doubled as fans. A toddler in a tiny mortarboard kept tugging his mother’s KN95.
+
+“Names will be read as printed,” the announcer droned. A cheer rose anyway.
+
+“Ishita!” Her father waved his phone. “Your aunt is on WhatsApp video. Say something.”
+
+“Tell her I can’t feel my legs,” Ishita said, grinning under her mask. “And that I’m finally done.”
+
+Zara bumped her shoulder. “Did Yifan’s spreadsheet save you or nah?”
+
+“My spreadsheet saved me,” Ishita shot back. Her phone buzzed. HR: E‑Verify confirmed. Start date adjustable. Title: Imaging Data Analyst.
+
+She exhaled. “W‑2. Real supervisor. Same SOC as my degree.”
+
+“Look at you,” Zara said. “Legal adulting.”
+
+Families clapped for a mispronounced surname. Confetti cannons coughed weakly.
+
+Another buzz: Ines: Rolling my knives in towels. Domingos keeps sneaking empanadas into my duffel. Bus at 3. You good?
+
+Ishita: E‑Verify yes. I’m staying. You?
+
+Ines: Oakland for now. Then south.
+
+The dean’s voice boomed: “By the authority vested in me—”
+
+Caps lifted like a tired flock.
+
+Her mother squeezed her hand. “Job?”
+
+“Job,” Ishita said.
+
+Around them, classmates shouted into the smoke, names colliding with sirens from somewhere beyond the stadium. Degrees conferred; one thread knotted, others pulled free. Paths, at last, set.
+
+
+==================== SCENE 48 ====================
+The fountain was switched off, a bowl of ash‑tinged coins. They perched on the rim, gowns stuffed into backpacks.
+
+“You leaving tonight?” Ishita asked.
+
+“Bus at three,” Ines said. “Oakland couch. Then south when I line up hours.” She nudged a pebble. “You?”
+
+“HR says Monday. Real badge.” Ishita flicked open her phone. “Okay. Calendars.”
+
+Ines snorted. “Truce via Google.”
+
+“Logistics,” Ishita said. “Fifteen minutes, periodic. I do better with slots.”
+
+“I don’t,” Ines said. “Shifts move. Prep runs long. Also, I hate calendar links.”
+
+“Fine. Options.” Ishita held the screen between them. “First Sundays at five? Or third Thursdays after seven. Bay time.”
+
+“Third Thursdays,” Ines said. “But text first. If I’m on a line, I’ll send a voice note when hands are clean.”
+
+“I want signal, not vibes.” Ishita typed. “Twenty minutes. If you cancel twice, you pick the new time.”
+
+“If you reschedule into my dinner, you owe me a photo of your plate,” Ines said. “Proof of eating.”
+
+Ishita’s mouth twitched. “Deal.”
+
+They tapped Save—two notifications added to two lives. Waterless, the basin reflected the weak sky. They stood.
+
+“Text me when you board.”
+
+“Put it on your spreadsheet,” Ines said, and they both let themselves laugh, soft as evening.
+
