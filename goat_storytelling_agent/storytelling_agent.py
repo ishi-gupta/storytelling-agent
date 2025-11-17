@@ -7,6 +7,7 @@ import traceback
 
 from goat_storytelling_agent import utils
 from goat_storytelling_agent.plan import Plan
+from story_presets import get_preset
 
 
 SUPPORTED_BACKENDS = ["hf", "llama.cpp", "openai"]
@@ -194,7 +195,8 @@ class StoryAgent:
     def __init__(self, backend_uri, backend="hf", request_timeout=120,
                  max_tokens=4096, n_crop_previous=400,
                  prompt_engine=None, form='novel',
-                 extra_options={}, scene_extra_options={}, model="gpt-5"):
+                 extra_options={}, scene_extra_options={}, model="gpt-5",
+                 story_preset=None):
 
         self.backend = backend.lower()
         if self.backend not in SUPPORTED_BACKENDS:
@@ -207,6 +209,9 @@ class StoryAgent:
         
         # Store model for OpenAI backend
         self.model = model if self.backend == "openai" else None
+        
+        # Store story preset configuration (default to medium)
+        self.story_preset = story_preset if story_preset else get_preset('medium')
 
         if prompt_engine is None:
             from goat_storytelling_agent import prompts
@@ -352,7 +357,7 @@ class StoryAgent:
         dict
             Dict with book plan
         """
-        messages = self.prompt_engine.create_plot_chapters_messages(book_spec, self.form)
+        messages = self.prompt_engine.create_plot_chapters_messages(book_spec, self.form, self.story_preset)
         plan = []
         while not plan:
             text_plan = self.query_chat(messages)
@@ -415,7 +420,7 @@ class StoryAgent:
             text_act, chs = Plan.act_2_str(plan, i)
             act_chapters[i] = chs
             messages = self.prompt_engine.split_chapters_into_scenes_messages(
-                i, text_act, self.form)
+                i, text_act, self.form, self.story_preset)
             act_scenes = self.query_chat(messages)
             act['act_scenes'] = act_scenes
             all_messages.append(messages)
@@ -500,7 +505,7 @@ class StoryAgent:
         """
         text_plan = Plan.plan_2_str(plan)
         messages = self.prompt_engine.scene_messages(
-            scene, sc_num, ch_num, text_plan, self.form)
+            scene, sc_num, ch_num, text_plan, self.form, self.story_preset)
         if previous_scene:
             previous_scene = utils.keep_last_n_words(previous_scene,
                                                      n=self.n_crop_previous)
@@ -535,7 +540,7 @@ class StoryAgent:
         """
         text_plan = Plan.plan_2_str(plan)
         messages = self.prompt_engine.scene_messages(
-            scene, sc_num, ch_num, text_plan, self.form)
+            scene, sc_num, ch_num, text_plan, self.form, self.story_preset)
         if current_scene:
             current_scene = utils.keep_last_n_words(current_scene,
                                                     n=self.n_crop_previous)

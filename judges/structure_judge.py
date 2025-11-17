@@ -22,7 +22,7 @@ if not OPENAI_API_KEY:
     raise ValueError("Please set OPENAI_API_KEY environment variable (you can use a .env file)")
 
 MODEL = "gpt-5"
-SESSION_ID = "20251028_121006"  # Numeric session ID (e.g., "1", "2", "3") or old format
+SESSION_ID = "9"  # Numeric session ID (e.g., "1", "2", "3") or old format
 # =======================
 
 
@@ -121,12 +121,16 @@ def main():
         "structure_analysis": structure_analysis
     }
     
-    output_path = os.path.join(sess_dir, "structure_analysis.json")
+    # Save to evaluations/ folder
+    eval_dir = os.path.join(sess_dir, "evaluations")
+    os.makedirs(eval_dir, exist_ok=True)
+    
+    output_path = os.path.join(eval_dir, "structure_analysis.json")
     with open(output_path, "w", encoding="utf-8") as f:
         json.dump(output, f, indent=2, ensure_ascii=False)
     
     # Also save human-readable version
-    readable_path = os.path.join(sess_dir, "structure_analysis.txt")
+    readable_path = os.path.join(eval_dir, "structure_analysis.txt")
     with open(readable_path, "w", encoding="utf-8") as f:
         f.write("=" * 80 + "\n")
         f.write("STORY STRUCTURE ANALYSIS\n")

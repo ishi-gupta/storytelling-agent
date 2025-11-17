@@ -7,9 +7,11 @@ Generates stories with comprehensive logging
 import json
 import datetime
 import os
+import argparse
 from typing import Dict, List, Tuple, Any
 from dotenv import load_dotenv
 from goat_storytelling_agent.storytelling_agent import StoryAgent
+from story_presets import get_preset
 
 def get_next_session_id(logs_dir: str) -> int:
     """Get the next available session ID (numeric, starting from 1)"""
@@ -35,8 +37,13 @@ def get_next_session_id(logs_dir: str) -> int:
 class LoggingStoryAgent(StoryAgent):
     """Enhanced StoryAgent with comprehensive logging"""
     
-    def __init__(self, *args, **kwargs):
+    def __init__(self, topic=None, length_preset='medium', *args, **kwargs):
         super().__init__(*args, **kwargs)
+        
+        # Store generation metadata
+        self.topic = topic
+        self.length_preset = length_preset
+        self.generation_start_time = datetime.datetime.now()
         
         # Create logs directory
         self.logs_dir = "story_generation_logs"
@@ -48,16 +55,55 @@ class LoggingStoryAgent(StoryAgent):
         self.session_dir = os.path.join(self.logs_dir, f"session_{self.session_id}")
         os.makedirs(self.session_dir, exist_ok=True)
         
+        # Create plans and evaluations folders
+        self.plans_dir = os.path.join(self.session_dir, "plans")
+        self.evaluations_dir = os.path.join(self.session_dir, "evaluations")
+        os.makedirs(self.plans_dir, exist_ok=True)
+        os.makedirs(self.evaluations_dir, exist_ok=True)
+        
+        # Create seed.json with initial metadata
+        self.seed_data = {
+            "version": "1.0",
+            "session_id": self.session_id,
+            "generated_at": self.generation_start_time.isoformat(),
+            "topic": topic,
+            "length_preset": length_preset,
+            "model": kwargs.get('model', 'gpt-5'),
+            "word_count": None,
+            "scene_count": None,
+            "generation_time_seconds": None
+        }
+        self.save_seed()
+        
         # Initialize log data
         self.log_data = {
             "session_id": self.session_id,
-            "timestamp": datetime.datetime.now().isoformat(),
-            "topic": None,
+            "timestamp": self.generation_start_time.isoformat(),
+            "topic": topic,
             "steps": []
         }
         
-        print(f"📁 Logging session: {self.session_id}")
-        print(f"📁 Logs will be saved to: {self.session_dir}")
+        print(f"📁 Session: {self.session_id}")
+        print(f"📂 Plans: {self.plans_dir}")
+        print(f"📂 Evaluations: {self.evaluations_dir}")
+    
+    def save_seed(self):
+        """Save seed.json with generation metadata"""
+        seed_file = os.path.join(self.session_dir, "seed.json")
+        with open(seed_file, "w", encoding='utf-8') as f:
+            json.dump(self.seed_data, f, indent=2, ensure_ascii=False)
+    
+    def save_plan_artifact(self, filename: str, data: Any, as_json: bool = False):
+        """Save a planning artifact to the plans/ folder"""
+        filepath = os.path.join(self.plans_dir, filename)
+        
+        with open(filepath, 'w', encoding='utf-8') as f:
+            if as_json:
+                json.dump(data, f, indent=2, ensure_ascii=False)
+            else:
+                f.write(str(data))
+        
+        print(f"  💾 Saved: {filename}")
     
     def log_step(self, step_name: str, data: Any, status: str = "info"):
         """Log a step"""
@@ -133,6 +179,7 @@ class LoggingStoryAgent(StoryAgent):
             self.log_step("init_book_spec_start", {"topic": topic})
             _, book_spec = self.init_book_spec(topic)
             self.log_step("init_book_spec_success", {"book_spec": book_spec})
+            self.save_plan_artifact("1_initial_book_spec.txt", book_spec)
             print(f"✅ Book spec completed")
             
             # Step 2: Enhanced Book Specification
@@ -140,6 +187,7 @@ class LoggingStoryAgent(StoryAgent):
             self.log_step("enhance_book_spec_start", {"input_book_spec": book_spec})
             _, book_spec = self.enhance_book_spec(book_spec)
             self.log_step("enhance_book_spec_success", {"enhanced_spec": book_spec})
+            self.save_plan_artifact("2_enhanced_book_spec.txt", book_spec)
             print(f"✅ Enhanced book spec completed")
             
             # Step 3: Chapter Planning
@@ -147,6 +195,7 @@ class LoggingStoryAgent(StoryAgent):
             self.log_step("create_plot_chapters_start", {"book_spec": book_spec})
             _, plan = self.create_plot_chapters(book_spec)
             self.log_step("create_plot_chapters_success", {"plan": plan})
+            self.save_plan_artifact("3_initial_plot.json", plan, as_json=True)
             print(f"✅ Plot chapters completed with {len(plan)} acts")
             
             # Step 4: Enhanced Chapter Planning
@@ -154,6 +203,7 @@ class LoggingStoryAgent(StoryAgent):
             self.log_step("enhance_plot_chapters_start", {"plan": plan})
             _, plan = self.enhance_plot_chapters(book_spec, plan)
             self.log_step("enhance_plot_chapters_success", {"enhanced_plan": plan})
+            self.save_plan_artifact("4_enhanced_plot.json", plan, as_json=True)
             print(f"✅ Enhanced plot chapters completed")
             
             # Step 5: Scene Breakdown
@@ -161,6 +211,7 @@ class LoggingStoryAgent(StoryAgent):
             self.log_step("split_chapters_into_scenes_start", {"plan": plan})
             _, plan = self.split_chapters_into_scenes(plan)
             self.log_step("split_chapters_into_scenes_success", {"scene_plan": plan})
+            self.save_plan_artifact("5_scene_plan.json", plan, as_json=True)
             print(f"✅ Scene breakdown completed")
             
             # Step 6: Scene Text Generation
@@ -203,18 +254,31 @@ class LoggingStoryAgent(StoryAgent):
                     f.write(scene)
                     f.write("\n\n")
             
+            # Calculate final stats
+            full_story_text = "\n\n".join(form_text)
+            word_count = len(full_story_text.split())
+            generation_time = (datetime.datetime.now() - self.generation_start_time).total_seconds()
+            
+            # Update seed.json with final stats
+            self.seed_data["word_count"] = word_count
+            self.seed_data["scene_count"] = total_scenes
+            self.seed_data["generation_time_seconds"] = round(generation_time, 1)
+            self.save_seed()
+            
             # Final logging
             final_stats = {
                 "num_scenes": total_scenes,
-                "total_length": sum(len(scene) for scene in form_text),
+                "word_count": word_count,
+                "total_length": len(full_story_text),
+                "generation_time_seconds": generation_time,
                 "story_file": story_file
             }
             
             self.log_step("generate_story_success", final_stats)
             
             print(f"\n🎉 STORY GENERATION COMPLETE!")
-            print(f"📊 Generated {total_scenes} scenes total")
-            print(f"📊 Total text length: {sum(len(scene) for scene in form_text)} characters")
+            print(f"📊 Generated {total_scenes} scenes, {word_count} words")
+            print(f"⏱️  Generation time: {round(generation_time, 1)}s")
             
             return form_text
             
@@ -223,6 +287,31 @@ class LoggingStoryAgent(StoryAgent):
             raise
 
 def main():
+    # Parse command line arguments
+    parser = argparse.ArgumentParser(
+        description='Generate stories with the GOAT Storytelling Agent',
+        formatter_class=argparse.RawDescriptionHelpFormatter,
+        epilog="""
+Examples:
+  %(prog)s --length short --topic "a robot learning to love"
+  %(prog)s --length medium  # Uses default topic
+  %(prog)s --topic "time travel paradox"  # Uses default length (medium)
+        """
+    )
+    parser.add_argument(
+        '--length',
+        choices=['short', 'medium', 'long'],
+        default='medium',
+        help='Story length preset: short (~5min/1000 words), medium (~10min/2000 words), long (~15min/3000 words)'
+    )
+    parser.add_argument(
+        '--topic',
+        type=str,
+        default='a detective solving a mystery in a haunted mansion',
+        help='Story topic/premise (default: "a detective solving a mystery in a haunted mansion")'
+    )
+    args = parser.parse_args()
+    
     # Load environment variables from .env file
     load_dotenv()
     
@@ -231,12 +320,18 @@ def main():
     if not OPENAI_API_KEY:
         raise ValueError("Please set OPENAI_API_KEY environment variable (you can use a .env file)")
     
+    # Get the preset configuration
+    preset = get_preset(args.length)
+    
     # Create the story agent with logging
     writer = LoggingStoryAgent(
+        topic=args.topic,
+        length_preset=args.length,
         backend_uri=OPENAI_API_KEY,
         backend="openai",
         model="gpt-5",
         max_tokens=2000,
+        story_preset=preset,  # Pass preset to base StoryAgent
         extra_options={
             # GPT-5 only supports default temperature (1.0) and top_p (1.0)
             "temperature": 1.0,
@@ -246,10 +341,13 @@ def main():
     
     print("🎭 GOAT Storytelling Agent with OpenAI + Comprehensive Logging")
     print("=" * 80)
+    print(f"📏 Length: {args.length.upper()} (~{preset['reading_time']}, target {preset['target_words']} words)")
+    print(f"📝 Topic: {args.topic}")
+    print("=" * 80)
     
     # Generate a complete story with full logging
-    print("\n📚 Generating a complete story with full trace logging...")
-    topic = "a detective solving a mystery in a haunted mansion"
+    print("\n📚 Generating story...")
+    topic = args.topic
     
     try:
         novel_scenes = writer.generate_story_with_logging(topic)

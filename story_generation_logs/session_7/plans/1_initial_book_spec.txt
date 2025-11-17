@@ -1,0 +1,8 @@
+Genre: Contemporary romance with corporate mystery 
+Place: New York City (Union Square, DUMBO, Midtown VC corridors, Williamsburg, Roosevelt Island tech campus) 
+Time: Present day (post-2020 hybrid work era) 
+Theme: Trust vs. ambition; ethics of data; intimacy under surveillance; immigrant hustle; the cost of hypergrowth 
+Tone: Grounded, tense, witty; zero sap, sharp dialogue; emotionally honest 
+Point of View: Alternating close third (two leads), occasional interludes via internal company Slack threads/emails 
+Characters: Noor Rahman — Staff ML engineer on H‑1B, built Smart Canvas; ambitious, uneasy about silent data ingestion; Eli Park — external privacy counsel brought in for the government pilot; principled, drawn to Noor, torn between duty and her risk; Ava Kincaid — magnetic TaskWeave CEO, brand-obsessed, hides the training-corpora truth; Victor Trent — COO, ex-Oracle, growth-at-any-cost enforcer; Sasha Levin — Head of Growth, runs the “expansion events” funnel driving covert data intake; Priya Desai — GC, politically careful, redlines risk but caves under board pressure; Jules Nguyen — DevOps lead, access to logs; wants out, keeps receipts; Amaya Ortiz — tech lead at NYC municipal agency pilot, suspects overreach; Rohan Mehta — VC partner eyeing the Series C, pushes vanity metrics, digs for inside info; Zara Haddad — Noor’s Williamsburg roommate, undocumented past, pushes Noor to protect herself, not the company
+Premise:  - TaskWeave, a polished enterprise productivity suite, is prepping a Series C and a government pilot. A chic launch at Pier 17 reveals a new “Smart Canvas” that auto-summarizes meetings. The demo works; the private beta has been quietly ingesting customer content beyond declared scopes to train models.

@@ -1,0 +1,8 @@
+Genre: Contemporary romance with corporate mystery
+Place: New York City (Flatiron, DUMBO, Hudson Yards, LIC)
+Time: Present day (2024–2025)
+Theme: Trust vs. ambition; privacy and data ethics; the intimacy of work; love under scrutiny
+Tone: Grounded, tense, witty; tech-realistic
+Point of View: Alternating close third (Maya Chen and Aaron Wolfe) 
+Characters: Maya Chen—31, Spindle director of product for Sprintboard; wants VP before IPO; quietly approved a shadow data capture to juice demos; Aaron Wolfe—34, due‑diligence lead at Apex Ridge (Series C); ex‑privacy engineer; embedded to vet risk, drawn to Maya, suspects off‑book data; Victor Hale—Spindle CEO, valuation‑obsessed; Leila Farooq—CTO, ships fast, trims ethics; Dani Park—Head of Data Science, summarizer ingests “anonymized” calendars; Rishi Patel—Security lead, blocked from product logs; Ava Morales—GC, pushing consent overhaul, sidelined; Jonah Kim—rival PM angling for Maya’s role, leaks internally; Sloane Mercer—tech reporter circling a misuse story; Felix Domínguez—Apex partner pressuring Aaron to bless the deal; Elena Volkova—CEO of data vendor ClearLambda with murky sourcing; Tom Reyes—IT admin at a marquee client flagging meeting‑scrape anomalies; Priya Desai—Maya’s roommate, ER nurse, blunt outside‑tech check.
+Premise:  - Spindle readies “Sprintboard,” a sleek meeting-notes and workflow orchestration tool, while courting a $150M Series C and prepping an eventual IPO.

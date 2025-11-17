@@ -21,30 +21,83 @@ function StoryPlanPanel({ session }) {
     );
   }
 
-  const formatJSON = (data) => {
-    if (!data) return 'No data available';
-    return JSON.stringify(data, null, 2);
+  // Render seed metadata
+  const renderSeed = () => {
+    if (!seed || Object.keys(seed).length === 0) {
+      return <p className="empty-text">No seed data available</p>;
+    }
+    
+    return (
+      <div className="seed-container">
+        <div className="seed-section">
+          <h3 className="seed-section-title">📋 Generation Info</h3>
+          <div className="seed-grid">
+            <div className="seed-item">
+              <span className="seed-label">Topic</span>
+              <span className="seed-value">{seed.topic || 'Unknown'}</span>
+            </div>
+            <div className="seed-item">
+              <span className="seed-label">Length Preset</span>
+              <span className="seed-value">{seed.length_preset || 'Unknown'}</span>
+            </div>
+            <div className="seed-item">
+              <span className="seed-label">Model</span>
+              <span className="seed-value">{seed.model || 'Unknown'}</span>
+            </div>
+            <div className="seed-item">
+              <span className="seed-label">Generated</span>
+              <span className="seed-value">
+                {seed.generated_at ? new Date(seed.generated_at).toLocaleString() : 'Unknown'}
+              </span>
+            </div>
+          </div>
+        </div>
+
+        <div className="seed-section">
+          <h3 className="seed-section-title">📊 Statistics</h3>
+          <div className="seed-grid">
+            <div className="seed-item">
+              <span className="seed-label">Word Count</span>
+              <span className="seed-value">{seed.word_count?.toLocaleString() || 'Unknown'}</span>
+            </div>
+            <div className="seed-item">
+              <span className="seed-label">Scene Count</span>
+              <span className="seed-value">{seed.scene_count || 'Unknown'}</span>
+            </div>
+            <div className="seed-item">
+              <span className="seed-label">Generation Time</span>
+              <span className="seed-value">
+                {seed.generation_time_seconds ? `${seed.generation_time_seconds}s` : 'Unknown'}
+              </span>
+            </div>
+            <div className="seed-item">
+              <span className="seed-label">Version</span>
+              <span className="seed-value">{seed.version || '1.0'}</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    );
   };
 
-  const formatSeed = () => {
-    if (!seed || Object.keys(seed).length === 0) return 'No seed data available';
+  // Render plot data nicely
+  const renderPlot = (plotData) => {
+    if (!plotData) return <p className="empty-text">No data available</p>;
     
-    return `📋 GENERATION METADATA
-${'═'.repeat(50)}
+    if (typeof plotData === 'string') {
+      return <pre className="plan-text">{plotData}</pre>;
+    }
 
-Topic: ${seed.topic || 'Unknown'}
-Length Preset: ${seed.length_preset || 'Unknown'}
-Model: ${seed.model || 'Unknown'}
-Generated: ${seed.generated_at ? new Date(seed.generated_at).toLocaleString() : 'Unknown'}
+    // If it's structured JSON with acts/chapters
+    if (plotData.acts || Array.isArray(plotData)) {
+      return (
+        <div className="plot-structured">
+          <pre className="plan-json">{JSON.stringify(plotData, null, 2)}</pre>
+        </div>
+      );
+    }
 
-📊 STATS
-${'═'.repeat(50)}
-
-Word Count: ${seed.word_count || 'Unknown'}
-Scene Count: ${seed.scene_count || 'Unknown'}
-Generation Time: ${seed.generation_time_seconds ? `${seed.generation_time_seconds}s` : 'Unknown'}
-
-Version: ${seed.version || '1.0'}`;
+    return <pre className="plan-json">{JSON.stringify(plotData, null, 2)}</pre>;
   };
 
   return (
@@ -57,7 +110,7 @@ Version: ${seed.version || '1.0'}`;
             className={`plan-tab ${activeTab === 'seed' ? 'active' : ''}`}
             onClick={() => setActiveTab('seed')}
           >
-            Seed
+            📊 Metadata
           </button>
         )}
         {plans.initial_book_spec && (
@@ -65,7 +118,7 @@ Version: ${seed.version || '1.0'}`;
             className={`plan-tab ${activeTab === 'initial_spec' ? 'active' : ''}`}
             onClick={() => setActiveTab('initial_spec')}
           >
-            1. Initial Spec
+            1️⃣ Initial Spec
           </button>
         )}
         {plans.enhanced_book_spec && (
@@ -73,7 +126,7 @@ Version: ${seed.version || '1.0'}`;
             className={`plan-tab ${activeTab === 'enhanced_spec' ? 'active' : ''}`}
             onClick={() => setActiveTab('enhanced_spec')}
           >
-            2. Enhanced Spec
+            2️⃣ Enhanced Spec
           </button>
         )}
         {plans.initial_plot && (
@@ -81,7 +134,7 @@ Version: ${seed.version || '1.0'}`;
             className={`plan-tab ${activeTab === 'initial_plot' ? 'active' : ''}`}
             onClick={() => setActiveTab('initial_plot')}
           >
-            3. Initial Plot
+            3️⃣ Initial Plot
           </button>
         )}
         {plans.enhanced_plot && (
@@ -89,7 +142,7 @@ Version: ${seed.version || '1.0'}`;
             className={`plan-tab ${activeTab === 'enhanced_plot' ? 'active' : ''}`}
             onClick={() => setActiveTab('enhanced_plot')}
           >
-            4. Enhanced Plot
+            4️⃣ Enhanced Plot
           </button>
         )}
         {plans.scene_plan && (
@@ -97,51 +150,38 @@ Version: ${seed.version || '1.0'}`;
             className={`plan-tab ${activeTab === 'scene_plan' ? 'active' : ''}`}
             onClick={() => setActiveTab('scene_plan')}
           >
-            5. Scene Plan
+            5️⃣ Scene Plan
           </button>
         )}
       </div>
 
       <div className="plan-content">
-        {activeTab === 'seed' && (
-          <pre className="plan-text">
-            {formatSeed()}
-          </pre>
-        )}
+        {activeTab === 'seed' && renderSeed()}
         
         {activeTab === 'initial_spec' && (
-          <pre className="plan-text">
-            {plans.initial_book_spec || 'No initial book spec available'}
-          </pre>
+          <div className="spec-container">
+            <pre className="plan-text">
+              {plans.initial_book_spec || 'No initial book spec available'}
+            </pre>
+          </div>
         )}
         
         {activeTab === 'enhanced_spec' && (
-          <pre className="plan-text">
-            {plans.enhanced_book_spec || 'No enhanced book spec available'}
-          </pre>
+          <div className="spec-container">
+            <pre className="plan-text">
+              {plans.enhanced_book_spec || 'No enhanced book spec available'}
+            </pre>
+          </div>
         )}
         
-        {activeTab === 'initial_plot' && (
-          <pre className="plan-text">
-            {formatJSON(plans.initial_plot)}
-          </pre>
-        )}
+        {activeTab === 'initial_plot' && renderPlot(plans.initial_plot)}
         
-        {activeTab === 'enhanced_plot' && (
-          <pre className="plan-text">
-            {formatJSON(plans.enhanced_plot)}
-          </pre>
-        )}
+        {activeTab === 'enhanced_plot' && renderPlot(plans.enhanced_plot)}
         
-        {activeTab === 'scene_plan' && (
-          <pre className="plan-text">
-            {formatJSON(plans.scene_plan)}
-          </pre>
-        )}
+        {activeTab === 'scene_plan' && renderPlot(plans.scene_plan)}
       </div>
     </div>
   );
 }
 
 export default StoryPlanPanel;
-

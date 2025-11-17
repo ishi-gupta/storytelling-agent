@@ -1,0 +1,32 @@
+================================================================================
+SIMPLE STRUCTURE ANALYSIS
+Session: 9
+================================================================================
+
+THE CORE PLOT (2-3 sentences max)
+A fast-growing startup’s “Smart Minutes” feature secretly pulls and enriches user data, tripping privacy, security, and compliance alarms. Product lead Maya and auditor Aaron uncover re-identification paths and PHI exposure, battle exec pressure to ship, and force a freeze, vendor exit, BAAs, and consent-first rebuild. The board ultimately mandates a pause and controls overhaul over short-term revenue.
+
+MAIN CHARACTERS (3-5 people max)
+- Maya: Product lead torn between shipping and integrity; becomes the driver of a consent-first pivot.
+- Aaron: Compliance/risk auditor who surfaces the data/identity leaks and insists on evidence, logs, and containment.
+- Ava: Privacy counsel who triggers the DPIA, pushes high-risk designation, and authorizes freezes.
+- Leila: Engineering leader focused on velocity; her shared admin practices and joins amplify risk.
+- Victor: Power broker/executive pressure who pushes minimization and optics over disclosure.
+
+KEY EVENTS (5-8 beats)
+1) Demo reveals unscoped calendar data and hidden scraping; investors bite while compliance gaps surface.
+2) Looker/infra traces show PHI-like content, broad S3 access, static hashing, and joins that can re-identify “anonymous” text.
+3) DPIA called; consent UI/ledger scoped; security blocks raw logs, then Aaron/Rishi reconstruct timelines and exposures.
+4) Evidence of risky joins (ClearLambda), lineage fork, and “shadow feed” powering top-line metrics; execs push to ship Zero Click anyway.
+5) Incident deepens: cloned badge + stale shared admin token enable policy edits; Jonah’s workstation implicated.
+6) Press clock starts; Maya rejects spin, triggers P1: freeze enrichments, revoke tokens/keys, legal hold on raw artifacts, snapshots to keep dashboards alive.
+7) Board votes to pause flows, disclose within 48 hours, terminate vendor, purge derived data, and rebuild consent-first; BAAs executed for health tenants.
+8) New regime: CAB approvals, least-privilege, audit streams, kill switches, and ethics latency baked into SLAs.
+
+STORY TYPE
+Tech-ethics corporate thriller/drama: Will the company ship growth fueled by shadow data, or halt and rebuild on explicit consent and governance?
+
+ISSUES (if any)
+- Name collision: “Sloane” appears as both an internal exec and later as an outside journalist.
+- Tom’s role shifts (analyst vs GC) without clear handoff.
+- Jonah’s accountability is implied but unresolved on-screen.

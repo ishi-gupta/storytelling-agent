@@ -1,0 +1,71 @@
+================================================================================
+PLOT SOPHISTICATION ANALYSIS
+Session: 9
+================================================================================
+
+1) PLOT STRUCTURE (1–10)
+- Originality: 9 — Corporate tech thriller told through ops artifacts (Jira, Slack, Looker, Okta) feels fresh.
+- Logical coherence: 9 — Causality is crisp: shadow feed → joins → dashboards → diligence/press → board mandate → remediation.
+- Complexity: 9 — Multi‑track (product, security, legal, sales, press) interlocks without confusion.
+- Pacing: 8 — A few mid‑arc operations scenes repeat beats; otherwise taut escalation.
+- Satisfying resolution: 7 — Strong partial resolution (vendor exit, board vote, new guardrails); some threads left intentionally open (term sheet, careers).
+
+2) CONTEXT MANAGEMENT & CALLBACKS
+- Setups and payoffs:
+  - Shadow calendar scrape (S1) → investor demo risk (S2) → Looker PHI‑like surfaces (S7) → containment and freezes (S29–30).
+  - Static salted hash index (S8) → re‑ID risk articulation and S3 lockdown (S8–9) → vendor exit (S41).
+  - Consent UI debate (S5–6) → board risk calculus (S37–38) → rollout of consent‑first norms (S46).
+  - Okta log access friction (S4, S11) → export/playbook (S17, S33) → reconstructed chain of custody (S34).
+  - Badge cloning “demo” (S25) → clears Maya via RF mismatch (S34).
+  - Jonah’s Looker fork/workbench (S28) → automatic 72‑hour disclosure (S28–29).
+  - Healthcare tenants slipped (S19–20) → BAA ultimatum and signing (S20, S42).
+  - “Zero Click” growth push (S23) → board risk vs revenue vote (S38).
+  - Shared admin token (S33) → root‑cause vector (S34–35).
+- Missed opportunities:
+  - The very first “Emma—OBGYN—Thursday 4 p.m.” could return as a human‑impact callback.
+  - The “DC‑2 cage 7 seconds” detail could tie to a specific attacker method.
+  - Investor Noor/Whitman from S2 don’t reappear; could be used to complicate the board decision.
+- Thematic coherence: Strong. Consent vs velocity, truth vs optics, systems over heroes.
+- Detail tracking: Excellent; artifacts recur with consequence (IDs, scopes, joins, tiles).
+- Score: 9
+
+3) CLICHÉS & FRESHNESS
+- Clichés identified:
+  - Board pressure to “keep demos green.”
+  - Executive carrot (promotion) for silence.
+  - Vendor scapegoating standoff.
+  - Budding romance under crisis.
+- Execution:
+  - Tropes are grounded and subverted by procedural realism and audit detail; romance is restrained and consequential.
+- Template adherence:
+  - Corporate crisis/whistleblower arc, not a neat hero’s journey; decisions made via governance mechanics.
+- Unique elements:
+  - Deeply credible infosec/data‑governance vernacular; Chekhov’s artifacts (hash salts, Okta cursors, lineage timers) drive plot.
+- Overall freshness: 9
+
+4) SURPRISING BUT LOGICAL DEVELOPMENTS
+- Twists:
+  - Badge clone clears Maya; shared token + Jonah subnet as vector.
+  - Journalist Sloane’s verified artifact package and 48‑hour disclosure clock.
+  - Board votes to pause and exit vendor despite revenue push.
+- Foreshadowing:
+  - Strong; each surprise is telegraphed by earlier friction (access fights, lineage policy, token rot).
+- Earned vs arbitrary:
+  - Earned; surprises resolve earlier setups and align with incentives.
+
+5) OVERALL PLOT ASSESSMENT
+- Sophistication: 9
+- Strengths:
+  - Tight cause‑effect chains across technical, legal, and political layers.
+  - Clear stakes escalation to structured resolution (playbooks, votes, contracts).
+  - Effective use of “documents as drama.”
+- Weaknesses:
+  - Occasional operational redundancy slows mid‑act momentum.
+  - Some character/investor arcs stop short (term sheet outcome, Noor/Whitman, Felix’s fallout).
+  - The opening personal datum (“Emma—OBGYN”) never circles back as a human‑scale consequence.
+- Recommendations:
+  - Fold a human impact callback (Emma/OBGYN) into disclosure or DPIA scenes to embody stakes.
+  - Reuse early investors in the board showdown to close loops and heighten conflict.
+  - Trim 1–2 repetitive CAB/ops exchanges; consolidate to keep propulsion.
+  - Clarify post‑vote financing outcome or leave a deliberate beat that frames next arc.
+  - Give Jonah a consequence beat (remediation or accountability) to complete the vector thread.

@@ -1,0 +1,40 @@
+[
+  {
+    "act_descr": "Act I — Launch, Leverage, and Leaks",
+    "chapters": [
+      "Eli wins the municipal pilot counsel engagement and leaves 667 Madison with Priya’s signed scope letter.",
+      "Noor ships the Greenpoint hotfix and catches cross-tenant trace IDs in production logs.\n- Interlude [+]: In #growth-expansion, a stray “DV shelter” tag surfaces in a pasted log, giving Noor and Jules a concrete lead.",
+      "Victor orders teams to keep “expansion” out of pilot channels and threatens write-ups for leaks.",
+      "Noor reports an unanonymized beta quote to Priya, who flips a legal hold on the implicated bucket.",
+      "Ava rejects Eli’s architecture-disclosure ask and corrals him into scripted talking points.\n- Interlude [+]: On the incident bridge, Jules posts flow logs showing bleed and quietly mirrors them to his personal vault.",
+      "Ava and Victor defer remediation “post–Series C” and forbid any external notice.",
+      "Eli drafts a side letter flagging sealed-name risk and tells Amaya he’ll push provenance terms into the pilot.",
+      "Noor visits the Greenpoint label shop, sees live TaskWeave screens called “synthetic,” and pockets the shift roster as evidence."
+    ]
+  },
+  {
+    "act_descr": "- Chapter 9 [–]: At Cornell Tech, Amaya’s test surfaces a sealed name, Eli freezes the session, and Victor dismisses it as cache noise.",
+    "chapters": [
+      "Jules isolates the off-by-one ARN in the midnight hotfix and pins the cross-tenant route.",
+      "At the City Hall pre-brief, Amaya threatens FOIL for model cards while Ava stalls with a “confidence memo.”",
+      "On the ferry, Noor confesses the bleed to Eli, and he outlines protected disclosures as she names the Greenpoint vendor.",
+      "In 1 Vanderbilt, Victor drowns Rohan’s audit contingencies with MAU fireworks and the board nods along.",
+      "At the LIC colo, Noor verifies old snapshots and extracts a hashed manifest before the unknown querier finishes.",
+      "Victor yanks Eli off the matter, and Priya asks him to keep advising “informally.”",
+      "Jules preserves logs, Amaya files the FOIL request, and Eli drafts a narrow disclosure plan.",
+      "Eli maps the consent-decree clauses onto TaskWeave’s conduct and realizes exposure is imminent."
+    ]
+  },
+  {
+    "act_descr": "Chapter 17 (+): At the City Hall hearing, Amaya presents anonymized outputs with sealed names and Noor forwards the model‑card draft to her mid‑session.",
+    "chapters": [
+      "The municipal IG issues a preservation hold that locks down TaskWeave systems, and Priya removes Eli from all channels on Ava’s instruction.",
+      "In Union Square, Noor refuses Victor’s I‑140 barter and files a signed protected‑activity letter with HR.\n\nInterlude (−): On all‑hands Slack, Ava announces a “safety pause” without admitting fault while mods lock threads and Jules’ resignation emoji gets throttled.",
+      "In 1 Vanderbilt, Rohan offers a bridge contingent on leadership turnover and audit rights, and Ava privately orders Victor to “find a scapegoat.”",
+      "At the Greenpoint vendor, Noor, Jules, and Amaya find SOPs but discover wiped workstations and missing external drives.",
+      "At 250 Broadway, Priya produces model cards and a timeline, Victor takes the public blame, and the council signals a consent decree with audit triggers.",
+      "At Pier 17, Noor resigns, signs severance, and hands in her badge, losing her visa sponsor.",
+      "On a park bench, Eli emails his resignation and texts Noor a photo of the now‑live consent toggle in production.\n\nCoda (−): They ride the night ferry without speaking and keep their phones face down."
+    ]
+  }
+]

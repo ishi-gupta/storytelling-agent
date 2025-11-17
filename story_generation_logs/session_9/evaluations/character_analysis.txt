@@ -1,0 +1,151 @@
+================================================================================
+CHARACTER & MOTIVATION ANALYSIS
+Session: 9
+================================================================================
+
+1) MAIN CHARACTERS
+
+- Maya (Head of Product/Exec-in-waiting)
+  - Motivation: Ship breakthrough product; win term sheet/VP title while keeping momentum.
+  - Internal conflict: Ambition vs integrity; speed/growth pressure vs privacy/compliance truth.
+  - Arc: From rationalizing concealment and “UI-first fixes” to leading full containment, disclosure, vendor exit, and consent-first rebuild; rejects career carrot to tell the truth.
+  - Consistency score: 9
+
+- Aaron (Risk/Compliance/Advisor)
+  - Motivation: Evidence-based integrity; end-to-end auditability; do the right thing even if costly.
+  - Internal conflict: Career pressure (Felix) vs uncompromising accuracy; attraction to Maya vs boundaries.
+  - Arc: Stays principled; moves from combative watchdog to structured partner with governance playbooks.
+  - Consistency score: 10
+
+- Ava (Privacy/Legal lead)
+  - Motivation: Regulatory durability; DPIA accuracy; enforce process over optics.
+  - Internal conflict: Throughput demands vs procedural rigor under time pressure.
+  - Arc: Holds firm from “DPIA now, containment first” to board‑mandated freeze; becomes decisive backbone.
+  - Consistency score: 9
+
+- Rishi (Security/Identity/Infra)
+  - Motivation: Technical correctness; clean sequences; robust logging and tokens.
+  - Internal conflict: Balancing availability (demos) with strict controls.
+  - Arc: From blocked access friction to co‑authoring rigorous rotation/immutability/log restoration; gatekeeper with empathy.
+  - Consistency score: 9
+
+- Leila (Engineering leader)
+  - Motivation: Velocity; keep demos and pipelines green; minimize friction.
+  - Internal conflict: Operational pragmatism vs accountability (shared admin, fast fixes).
+  - Arc: From defensive “we need speed” to accepting CAB, least privilege, and evidentiary discipline (begrudgingly).
+  - Consistency score: 8
+
+- Jonah (Data/Looker/Ops)
+  - Motivation: Show value; compelling dashboards; narrative lift.
+  - Internal conflict: Curiosity/impact vs boundaries (joins and scoping).
+  - Arc: From risky join and shadow‑powered tiles to rollbacks/war‑room compliance; remains more reactive than reflective.
+  - Consistency score: 7
+
+- Felix (Consulting partner; Aaron’s boss)
+  - Motivation: Close deals; maintain optics; reward “judgment” = palatable narratives.
+  - Internal conflict: Minimal—ethics vs revenue tilts to revenue.
+  - Arc: Pressures euphemism, removes Aaron from client, frames risk as tone problem; remains consistent antagonist.
+  - Consistency score: 9
+
+- Victor (Internal exec power broker)
+  - Motivation: Land term sheet; control narrative; promote those who comply.
+  - Internal conflict: None—pure instrumentalism.
+  - Arc: Tempts, threatens, then sidelines Maya; consistent coercive force.
+  - Consistency score: 9
+
+- Tom Reyes (Client/GC/compliance counterpart)
+  - Motivation: Papered risk (BAAs, caps); enforce stoppage without euphemism.
+  - Internal conflict: Keep deal alive vs minimum legal floor.
+  - Arc: Forces freezes and BAAs, negotiates super‑cap, stays hard‑line but pragmatic; trusted external spine.
+  - Consistency score: 9
+
+
+2) CHARACTER PSYCHOLOGY
+
+- Maya
+  - Psychological realism: 9
+  - Reactions/decisions: Credible toggling between spin and duty; believable refusal of VP carrot.
+  - Depth beyond plot: Ambition, loyalty to craft, private vulnerability.
+  - Emotional authenticity: High—tired humor, guilt, resolve.
+
+- Aaron
+  - Psychological realism: 10
+  - Reactions/decisions: Evidence-first, process-purist; personal/professional boundary setting rings true.
+  - Depth: Strong ethos, methodical mind, quiet anger.
+  - Emotional authenticity: High without melodrama.
+
+- Ava
+  - Psychological realism: 9
+  - Reactions/decisions: DPIA rigor, crisp commands under stress; no-nonsense legal voice.
+  - Depth: Principles over politics; steady moral compass.
+  - Emotional authenticity: Controlled but human.
+
+- Rishi
+  - Psychological realism: 9
+  - Reactions/decisions: Precise, cautious; insists on sequence proof and logs; cooperative under pressure.
+  - Depth: Pride in clean systems; operational empathy.
+  - Emotional authenticity: Understated, convincing.
+
+- Leila
+  - Psychological realism: 8
+  - Reactions/decisions: Velocity bias, shared tokens—sadly realistic; begrudging shift to controls.
+  - Depth: Somewhat one-note early; later shows professional pride adapting.
+  - Emotional authenticity: Frustration reads real.
+
+- Jonah
+  - Psychological realism: 8
+  - Reactions/decisions: “Neat” joins, rollback when caught—believable data PM/analyst behavior.
+  - Depth: Limited interiority; motive = impact/recognition more than ethics.
+  - Emotional authenticity: Adequate.
+
+- Felix
+  - Psychological realism: 9
+  - Reactions/decisions: Optics over truth; plausible consulting pressure dynamics.
+  - Depth: Purposefully narrow; chillingly consistent.
+  - Emotional authenticity: Persuasive corporate menace.
+
+- Victor
+  - Psychological realism: 9
+  - Reactions/decisions: Carrot-and-stick politics; credible board liaison pressure.
+  - Depth: Flat by design (pure expedience).
+  - Emotional authenticity: Icy, effective.
+
+- Tom
+  - Psychological realism: 9
+  - Reactions/decisions: BAA or suspend; super‑cap; relentless documentation.
+  - Depth: Legal rigor plus client pragmatism.
+  - Emotional authenticity: Steady, credible.
+
+
+3) RELATIONSHIPS & DYNAMICS
+
+- Maya ↔ Aaron: Central axis; friction → principled partnership. They challenge each other into higher integrity; romantic undertone handled with restraint.
+- Maya ↔ Victor/Felix/Leila: Power pressures vs ethics; Maya pivots from accommodating to confrontational leadership.
+- Aaron ↔ Felix: Value clash; costs Aaron politically; deepens his integrity stance.
+- Team (Ava, Rishi, Maya): Forms an effective containment triad; trust grows through decisive action.
+- Interactions: Believable, high‑stakes, jargon-accurate; characters do change each other (notably Maya and Leila).
+
+
+4) CHARACTER DESIGN QUALITY
+
+- Interesting and nuanced? Yes. Especially Maya/Aaron/Ava/Rishi; antagonists are sharp, credible.
+- Clear wants, fears, stakes? Yes. Ambition vs ethics; job/reputation vs compliance exposure; term sheet vs regulatory risk.
+- More than plot devices? Yes for leads; Jonah/Leila start schematic but gain shading; Victor/Felix intentionally emblematic.
+- Motivations drive story? Yes. Every escalation emerges from conflicting incentives and roles.
+
+
+5) STRENGTHS & WEAKNESSES
+
+- Strengths
+  - Moral complexity without speechifying; decisions feel earned.
+  - Strong procedural/technical realism that informs psychology.
+  - Consistent voices under stress; crisp, high‑signal dialogue.
+  - Clear arcs: Maya’s turn; Aaron’s steadfastness; Leila’s grudging compliance.
+
+- Weaknesses
+  - Some figures (Victor, Felix) verge on archetype; minimal inner life by design.
+  - Jonah’s interiority and learning are thin; mostly reactive.
+  - Priya and Sloane are effective but underdeveloped beyond function.
+  - The romance thread is light—works, but could carry a touch more aftermath.
+
+Overall: Compelling, psychologically credible ensemble driven by conflicting incentives. The leads are deep, consistent, and emotionally authentic; secondary antagonists are realistic if somewhat emblematic.

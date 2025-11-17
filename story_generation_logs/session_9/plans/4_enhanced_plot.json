@@ -1,0 +1,40 @@
+[
+  {
+    "act_descr": "Act I",
+    "chapters": [
+      "Maya wows investors with a Sprintboard “Smart Minutes” demo secretly juiced by a shadow calendar scrape.",
+      "Aaron embeds and flags stale DPAs, missing DPIA, redacted Okta logs, and Rishi’s blocked access to product logs.",
+      "Maya and Aaron co-write consent copy in a late-night standup, trading dry jokes while tightening Jira scopes.",
+      "Tom Reyes reports PHI-like phrases in Looker, and Aaron traces token scope creep and an exposed S3 audio-hash index.",
+      "Maya books a DPIA workshop with Ava and locks a short-term consent patch while syncing remediation tasks in Jira with Aaron.",
+      "Jonah circulates a Looker join re-identifying “anonymous” attendees, Aaron gets only a PDF instead of Okta export, badge logs pin a 2 a.m. data-center visit to Maya’s card, Sloane calls, and the demo pipeline dies."
+    ]
+  },
+  {
+    "act_descr": "Act II",
+    "chapters": [
+      "Aaron and Maya diff Snowflake grants in LIC and catch ClearLambda enriching “anonymous” text via corp directories, staging a freeze on that join. (+)",
+      "In a DPIA workshop, Ava marks the feature high‑risk while Felix orders Aaron to bless by EOD and Victor dangles VP to Maya tied to the term sheet. (-)",
+      "Rishi traces the service account’s elevated access to a mis‑tagged SCIM sync and pulls enough Okta API rows to time the bad group inheritance. (+)",
+      "Tom Reyes flags a Sprintboard task echoing Priya’s trauma case and threatens license pulls over missing BAAs after Maya confirms healthcare tenants slipped in. (-)",
+      "In a DUMBO bar, Maya and Aaron run a war‑room, kiss outside, and schedule removal of the shadow feed from demo pipelines. (+)",
+      "Jonah publishes Looker tiles tying conversion jumps to the shadow feed for board review as Leila orders “Zero Click” to ship and Aaron confronts Maya over a midnight Okta edit from her admin token. (-)",
+      "Aaron proves visitor temp badges can clone IDs with a script and drafts a token‑rotation and log‑restoration plan with Rishi. (+)",
+      "Sloane circulates a near‑final misuse draft, Tom sets a 48‑hour BAA ultimatum, Felix threatens Aaron’s partner track, and lineage shows Jonah forking Maya’s demo model, starting a 72‑hour disclosure clock. (-)"
+    ]
+  },
+  {
+    "act_descr": "Act III",
+    "chapters": [
+      "Maya triggers the incident playbook with Ava, freezes ClearLambda in Snowflake, revokes Okta tokens, rotates keys, and legal‑holds raw.calendar. (+)",
+      "Victor corners Maya in Hudson Yards and orders her to downplay healthcare exposure or forget the VP and the term sheet. (-)",
+      "Aaron restores full Okta exports via API, proves a visitor badge cloned Maya’s ID, and ties the 2 a.m. edit to Jonah’s workstation using Leila’s shared admin token. (+)",
+      "Sloane gets a confirmed leak from an internal source and alerts her editor, forcing a 48‑hour disclosure window. (-)",
+      "In the boardroom, Maya presents a consent‑first rebuild and vendor exit; Ava backs it, and the board votes to pause and disclose. (+)",
+      "Leila resists losing change control, admits the shared token policy, and engineering stalls while Rishi enforces new approvals. (-)",
+      "Maya executes the ClearLambda termination with clawback; Tom signs an interim BAA after reviewing the DPIA and PHI segregation plan. (+)",
+      "Aaron declines Felix’s “bless‑it” promotion, and Felix pulls him off a flagship diligence to signal consequences. (-)",
+      "On the LIC waterfront, Maya and Aaron set no‑secrets rules, he agrees to advise pro bono, and Flatiron ships Sprint “Friction, On Purpose.” (+)"
+    ]
+  }
+]

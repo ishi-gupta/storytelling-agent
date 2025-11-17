@@ -5,6 +5,7 @@ import StoryViewer from './components/StoryViewer';
 import JudgePanel from './components/JudgePanel';
 import JudgeModal from './components/JudgeModal';
 import StoryPlanPanel from './components/StoryPlanPanel';
+import { Panel, PanelGroup, PanelResizeHandle } from 'react-resizable-panels';
 
 function App() {
   const [sessions, setSessions] = useState([]);
@@ -41,45 +42,55 @@ function App() {
   return (
     <div className="App">
       <header className="app-header">
-        <h1>📚 GOAT Story Viewer</h1>
+        <h1>📊 Story Evaluation Dashboard</h1>
         <p>{sessions.length} stories generated</p>
       </header>
       
-      <div className="app-layout">
-        <SessionList
-          sessions={sessions}
-          selectedSession={selectedSession}
-          onSelectSession={setSelectedSession}
-        />
+      <PanelGroup direction="horizontal" className="app-layout">
+        <Panel defaultSize={20} minSize={15} maxSize={35}>
+          <SessionList
+            sessions={sessions}
+            selectedSession={selectedSession}
+            onSelectSession={setSelectedSession}
+          />
+        </Panel>
         
-        <div className="main-content">
-          <div className="view-toggle">
-            <button 
-              className={`toggle-btn ${viewMode === 'story' ? 'active' : ''}`}
-              onClick={() => setViewMode('story')}
-            >
-              📖 Story
-            </button>
-            <button 
-              className={`toggle-btn ${viewMode === 'plans' ? 'active' : ''}`}
-              onClick={() => setViewMode('plans')}
-            >
-              📋 Plans
-            </button>
+        <PanelResizeHandle className="resize-handle" />
+        
+        <Panel defaultSize={55} minSize={30}>
+          <div className="main-content">
+            <div className="view-toggle">
+              <button 
+                className={`toggle-btn ${viewMode === 'story' ? 'active' : ''}`}
+                onClick={() => setViewMode('story')}
+              >
+                📖 Story
+              </button>
+              <button 
+                className={`toggle-btn ${viewMode === 'plans' ? 'active' : ''}`}
+                onClick={() => setViewMode('plans')}
+              >
+                📋 Plans
+              </button>
+            </div>
+            
+            {viewMode === 'story' ? (
+              <StoryViewer session={selectedSession} />
+            ) : (
+              <StoryPlanPanel session={selectedSession} />
+            )}
           </div>
-          
-          {viewMode === 'story' ? (
-            <StoryViewer session={selectedSession} />
-          ) : (
-            <StoryPlanPanel session={selectedSession} />
-          )}
-        </div>
+        </Panel>
         
-        <JudgePanel
-          session={selectedSession}
-          onSelectJudge={setSelectedJudge}
-        />
-      </div>
+        <PanelResizeHandle className="resize-handle" />
+        
+        <Panel defaultSize={25} minSize={20} maxSize={40}>
+          <JudgePanel
+            session={selectedSession}
+            onSelectJudge={setSelectedJudge}
+          />
+        </Panel>
+      </PanelGroup>
 
       {selectedJudge && (
         <JudgeModal

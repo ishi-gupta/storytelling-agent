@@ -1,0 +1,8 @@
+Genre: Contemporary romance with corporate mystery/suspense
+Place: New York City (SoHo, DUMBO, Long Island City, Midtown offices, Tribeca bars)
+Time: Present day, over six months
+Theme: Trust vs. ambition; ethics in data; love under professional conflict; whistleblowing; power, secrecy, and work-life boundaries
+Tone: Grounded, tense, intimate; no melodrama, no fairy-tale wins
+Point of View: Alternating close third (Nora Patel, Eli Park) 
+Characters: Nora Patel—senior data scientist, ethics-first, spots Orion; Eli Park—director of strategic partnerships/legal liaison, juggling Series D diligence and feelings for Nora; Priya Desai—statistician on Nora’s team, flags impossible Metreon gains; Adrian Voss—charismatic CEO, growth-at-all-costs; Miko Tanaka—CTO, frames Orion as R&D enrichment; Cass Bloom—growth ops PM running data-broker integrations behind product; Julian Rhee—Metreon VP Ops, eager for results, possibly complicit; Mara Ellison—Series D lead investor, applies pressure; Tomás Alvarez—security engineer who can trace the backdoor.
+Premise:  - RelayWorks preps a Series D and a flagship launch for “Pulse,” an analytics layer that mines calendar/email metadata to surface “organizational drag.” A marquee case study with Metreon Logistics claims 28% productivity gains in 60 days. - Nora spots a hidden service called Orion pinging a backdoor API that “enriches” client data with third-party datasets. Priya flags that Metreon’s gains are statistically impossible without tampering.

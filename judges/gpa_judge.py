@@ -23,7 +23,7 @@ if not OPENAI_API_KEY:
     raise ValueError("Please set OPENAI_API_KEY environment variable (you can use a .env file)")
 
 MODEL = "gpt-5"
-SESSION_ID = "1"  # Numeric session ID (e.g., "1", "2", "3") or old format (e.g., "20251028_121006")
+SESSION_ID = "9"  # Numeric session ID (e.g., "1", "2", "3") or old format (e.g., "20251028_121006")
 # =======================
 
 
@@ -141,7 +141,10 @@ def main():
         "action": action_json,
     }
 
-    out_path = os.path.join(sess_dir, "gpa_evaluation.json")
+    # Save to evaluations/ folder
+    eval_dir = os.path.join(sess_dir, "evaluations")
+    os.makedirs(eval_dir, exist_ok=True)
+    out_path = os.path.join(eval_dir, "gpa_evaluation.json")
     with open(out_path, "w", encoding="utf-8") as f:
         json.dump(result, f, indent=2, ensure_ascii=False)
     print(f"✅ Saved GPA evaluation to: {out_path}")

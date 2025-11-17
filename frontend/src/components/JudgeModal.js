@@ -4,83 +4,134 @@ import './JudgeModal.css';
 function JudgeModal({ judge, onClose }) {
   if (!judge) return null;
 
-  // Extract and format the main text content from judge data
-  const getFormattedContent = () => {
-    // Structure judges - already formatted text
-    if (judge.data.structure_analysis) {
-      return { type: 'text', content: judge.data.structure_analysis };
-    }
-    if (judge.data.structure_analysis_simple) {
-      return { type: 'text', content: judge.data.structure_analysis_simple };
-    }
-    
-    // GPA judge - format the three sections nicely
-    if (judge.data.goal || judge.data.plan || judge.data.action) {
-      let formatted = '';
-      
-      const formatSection = (data) => {
-        try {
-          // Try to parse as JSON and pretty-print
-          const parsed = typeof data === 'string' ? JSON.parse(data) : data;
-          return JSON.stringify(parsed, null, 2);
-        } catch (e) {
-          // If not valid JSON, return as-is
-          return typeof data === 'string' ? data : JSON.stringify(data, null, 2);
-        }
-      };
-      
-      if (judge.data.goal) {
-        formatted += '═══════════════════════════════════════\n';
-        formatted += '📋 GOAL EVALUATION\n';
-        formatted += '═══════════════════════════════════════\n\n';
-        formatted += formatSection(judge.data.goal);
-        formatted += '\n\n';
-      }
-      
-      if (judge.data.plan) {
-        formatted += '═══════════════════════════════════════\n';
-        formatted += '🗺️  PLAN EVALUATION\n';
-        formatted += '═══════════════════════════════════════\n\n';
-        formatted += formatSection(judge.data.plan);
-        formatted += '\n\n';
-      }
-      
-      if (judge.data.action) {
-        formatted += '═══════════════════════════════════════\n';
-        formatted += '⚡ ACTION EVALUATION\n';
-        formatted += '═══════════════════════════════════════\n\n';
-        formatted += formatSection(judge.data.action);
-      }
-      
-      return { type: 'text', content: formatted };
-    }
-    
-    // Character analysis or other judges
-    if (judge.data.analysis || judge.data.character_analysis) {
-      const analysis = judge.data.analysis || judge.data.character_analysis;
-      return { 
-        type: 'text', 
-        content: typeof analysis === 'string' ? analysis : JSON.stringify(analysis, null, 2)
-      };
-    }
-    
-    // Default: show formatted JSON
-    return { type: 'json', content: JSON.stringify(judge.data, null, 2) };
-  };
+  // Format analysis content with proper structure
+  const renderContent = () => {
+    const data = judge.data;
 
-  const { type, content } = getFormattedContent();
+    // Structure judges (simple & detailed) - already well formatted
+    if (data.structure_analysis || data.structure_analysis_simple) {
+      const content = data.structure_analysis || data.structure_analysis_simple;
+      return (
+        <div className="judge-formatted">
+          <pre className="judge-text">{content}</pre>
+        </div>
+      );
+    }
+
+    // GPA Judge - show three sections with nice headers
+    if (data.goal || data.plan || data.action) {
+      return (
+        <div className="judge-formatted">
+          {data.goal && (
+            <div className="judge-section">
+              <h3 className="section-title">📋 Goal Evaluation</h3>
+              <div className="section-content">
+                <pre className="judge-json">{JSON.stringify(data.goal, null, 2)}</pre>
+              </div>
+            </div>
+          )}
+          
+          {data.plan && (
+            <div className="judge-section">
+              <h3 className="section-title">🗺️ Plan Evaluation</h3>
+              <div className="section-content">
+                <pre className="judge-json">{JSON.stringify(data.plan, null, 2)}</pre>
+              </div>
+            </div>
+          )}
+          
+          {data.action && (
+            <div className="judge-section">
+              <h3 className="section-title">⚡ Action Evaluation</h3>
+              <div className="section-content">
+                <pre className="judge-json">{JSON.stringify(data.action, null, 2)}</pre>
+              </div>
+            </div>
+          )}
+        </div>
+      );
+    }
+
+    // Character Analysis
+    if (data.character_analysis) {
+      return (
+        <div className="judge-formatted">
+          <pre className="judge-text">{data.character_analysis}</pre>
+        </div>
+      );
+    }
+
+    // Plot Analysis
+    if (data.plot_analysis) {
+      return (
+        <div className="judge-formatted">
+          <pre className="judge-text">{data.plot_analysis}</pre>
+        </div>
+      );
+    }
+
+    // Writing Quality
+    if (data.writing_analysis || data.overall_assessment) {
+      return (
+        <div className="judge-formatted">
+          {data.overall_assessment && (
+            <div className="judge-section">
+              <h3 className="section-title">📊 Overall Assessment</h3>
+              <div className="section-content">
+                <pre className="judge-json">{JSON.stringify(data.overall_assessment, null, 2)}</pre>
+              </div>
+            </div>
+          )}
+          
+          {data.scene_analyses && (
+            <div className="judge-section">
+              <h3 className="section-title">📝 Scene Analyses</h3>
+              <div className="section-content">
+                {data.scene_analyses.map((scene, idx) => (
+                  <div key={idx} className="scene-analysis">
+                    <h4 className="scene-title">Scene {scene.scene_number || idx + 1}</h4>
+                    <pre className="judge-json">{JSON.stringify(scene, null, 2)}</pre>
+                  </div>
+                ))}
+              </div>
+            </div>
+          )}
+          
+          {data.writing_analysis && (
+            <div className="judge-section">
+              <pre className="judge-text">{data.writing_analysis}</pre>
+            </div>
+          )}
+        </div>
+      );
+    }
+
+    // Generic analysis field
+    if (data.analysis) {
+      return (
+        <div className="judge-formatted">
+          <pre className="judge-text">{typeof data.analysis === 'string' ? data.analysis : JSON.stringify(data.analysis, null, 2)}</pre>
+        </div>
+      );
+    }
+
+    // Fallback: show raw JSON
+    return (
+      <div className="judge-formatted">
+        <pre className="judge-json">{JSON.stringify(data, null, 2)}</pre>
+      </div>
+    );
+  };
 
   return (
     <div className="modal-overlay" onClick={onClose}>
       <div className="modal-content" onClick={e => e.stopPropagation()}>
         <div className="modal-header">
-          <h2>{judge.name.toUpperCase()} Evaluation</h2>
+          <h2>{judge.name} Evaluation</h2>
           <button className="close-button" onClick={onClose}>×</button>
         </div>
         <div className="modal-body">
-          <div className={type === 'json' ? 'judge-output' : 'judge-output-formatted'}>
-            {content}
-          </div>
+          {renderContent()}
         </div>
       </div>
     </div>
@@ -88,4 +139,3 @@ function JudgeModal({ judge, onClose }) {
 }
 
 export default JudgeModal;
-

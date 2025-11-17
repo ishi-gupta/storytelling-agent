@@ -1,0 +1,166 @@
+================================================================================
+WRITING QUALITY ANALYSIS
+Session: 9
+Total scenes: 46 | Analyzed: 5
+================================================================================
+
+
+================================================================================
+SCENE 1
+Length: 1274 characters
+================================================================================
+
+1. PROSE QUALITY: 8
+- Crisp, vivid, economical. Strong rhythm and purposeful word choice; a few bits of jargon could alienate.
+
+2. CLARITY: 8
+- Stakes and conflict are clear. A couple terms (“shadow scrape,” “tenant”) may momentarily confuse non-tech readers.
+
+3. SHOW VS TELL: 9
+- Emotions and power dynamics shown through dialogue and action; sensory details are minimal but effective.
+
+4. DIALOGUE QUALITY: 9
+- Natural, distinct voices; advances tension and character; snappy and purposeful.
+
+5. PACING & RHYTHM: 8
+- Tight, propulsive. Short sentences punctuate conflict well.
+
+6. TECHNICAL CRAFT: 9
+- Clean grammar, consistent tense/POV, solid paragraphing.
+
+7. OVERALL ASSESSMENT
+- Scene quality score (average): 8.5
+- Strengths: Sharp dialogue; high tension; clear ethical conflict; lean, confident prose with strong subtext.
+- Weaknesses: Jargon risks reader friction; minimal sensory grounding; one line feels slogan-like.
+- Specific feedback:
+  - Add one concrete sensory beat (screen flicker, cursor blink, AC hum rising) and a brief visual of the exposed data to anchor stakes.
+  - Soften or nuance the aphoristic “Integrity is not a backlog ticket” with a small action beat or rephrase to feel less slogan-driven.
+
+
+================================================================================
+SCENE 2
+Length: 1350 characters
+================================================================================
+
+1. PROSE QUALITY (1-10): 9
+- Sharp imagery (“terrarium… like a runway”), crisp diction, varied rhythm, strong flow, precise description.
+
+2. CLARITY (1-10): 8
+- The pitch setup and stakes are clear; light jargon may briefly haze non‑tech readers but context rescues it.
+
+3. SHOW VS TELL (1-10): 8
+- Emotions and power dynamics shown via gestures and dialogue; could use one more sensory beat or internal cue.
+
+4. DIALOGUE QUALITY (1-10): 9
+- Distinct voices, natural cadence, advances stakes, efficient and subtext‑driven.
+
+5. PACING & RHYTHM (1-10): 9
+- Tight, propulsive, good sentence variation; never drags.
+
+6. TECHNICAL CRAFT (1-10): 9
+- Clean grammar, consistent tense/POV, strong paragraphing.
+
+7. OVERALL ASSESSMENT
+- Scene quality score (average of above): 8.7
+- Strengths: Economical, vivid prose; confident, character‑revealing dialogue; clear dynamics; strong momentum.
+- Weaknesses: Jargon density risks alienation; emotional stakes and sensory texture are a bit thin.
+- Specific feedback:
+  1) Add a brief physical tell from Maya or Kara (e.g., a throat swallow, finger tremor, heat from the projector) to deepen tension.
+  2) Swap one abstract term (“ephemeral processing,” “discard exhaust”) for a concrete metaphor or quick clarifier to ground non‑experts.
+
+
+================================================================================
+SCENE 3
+Length: 1427 characters
+================================================================================
+
+1. PROSE QUALITY: 8
+- Crisp, economical language; sharp images (“tabs sprouting,” “carbonation ticking”). Strong rhythm and flow; occasional jargon density.
+
+2. CLARITY: 8
+- The conflict is clear (compliance gaps blocking launch). Acronyms (DPA/DPIA) may confuse non-specialists; stakes are implied rather than explicit.
+
+3. SHOW VS TELL: 9
+- Emotions and power dynamics shown through actions, dialogue, and props; minimal exposition; tactile/sensory details used well.
+
+4. DIALOGUE QUALITY: 9
+- Snappy, credible, character-distinct; advances tension and stakes; great verbal sparring.
+
+5. PACING & RHYTHM: 9
+- Tight and propulsive; effective sentence variety; no drag.
+
+6. TECHNICAL CRAFT: 9
+- Clean grammar, consistent POV/tense, solid paragraphing.
+
+7. OVERALL ASSESSMENT
+- Scene quality score (average): 8.7
+- Strengths: Sharp, economical prose; vivid micro-details; strong, purposeful dialogue; clear conflict and tension; effective corporate realism.
+- Weaknesses: Heavy jargon risks narrowing accessibility; emotional/character stakes could be slightly fuller; scene setting is lean.
+- Specific feedback:
+  - Briefly surface the human or business consequence (e.g., risk to launch date, penalties) in one line to anchor stakes beyond process.
+  - Add one telling physical beat or inner flicker from Nikhil or Aaron to deepen character texture without slowing the pace.
+
+
+================================================================================
+SCENE 4
+Length: 1274 characters
+================================================================================
+
+1. PROSE QUALITY: 8
+- Crisp, economical lines; vivid opener; strong word choice. Could use a touch more sensory texture and sentence variety beyond dialogue beats.
+
+2. CLARITY: 9
+- Stakes of access vs policy are clear; action is easy to follow. Some jargon may be opaque to non-technical readers.
+
+3. SHOW VS TELL: 8
+- Tension shown through clipped dialogue and actions (badge red, crossed arms). Could add a few concrete sensory/emotional beats to deepen subtext.
+
+4. DIALOGUE QUALITY: 9
+- Natural, distinct voices; advances conflict; strong subtext of power/policy. Excellent economy.
+
+5. PACING & RHYTHM: 8
+- Brisk and focused; staccato suits the scene. A brief beat of internal or physical reaction could modulate rhythm.
+
+6. TECHNICAL CRAFT: 9
+- Clean grammar, consistent POV/tense, tight paragraphing.
+
+7. OVERALL ASSESSMENT
+- Scene quality score (average): 8.5
+- Strengths: Taut, realistic dialogue; clear conflict; efficient worldbuilding; strong atmosphere from first line.
+- Weaknesses: Heavy jargon risks narrowing accessibility; minimal sensory detail and interiority; rhythm dominated by short exchanges.
+- Specific feedback:
+  - Add 1–2 physical or sensory beats (e.g., a screen flicker, a knot of tension in a jaw, the cold grease on a napkin) to enrich texture and vary rhythm.
+  - Hint at consequences (audit deadline, breach risk, exec pressure) in a single line to raise stakes and broaden reader investment beyond process.
+
+
+================================================================================
+SCENE 5
+Length: 1399 characters
+================================================================================
+
+1. PROSE QUALITY: 9
+- Varied, tight sentences; vivid yet economical details; smooth flow; sharp, specific diction.
+
+2. CLARITY: 9
+- Scene and stakes are clear; jargon is understandable in context; action is easy to follow.
+
+3. SHOW VS TELL: 9
+- Emotions and dynamics shown through banter and physical beats; strong sensory opener; minimal exposition.
+
+4. DIALOGUE QUALITY: 9
+- Natural, witty, distinct voices; advances character and task; balanced with brief narrative.
+
+5. PACING & RHYTHM: 9
+- Brisk and engaging; good sentence variety; never drags.
+
+6. TECHNICAL CRAFT: 10
+- Clean grammar/punctuation; tight paragraphs; consistent POV/tense.
+
+7. OVERALL ASSESSMENT
+- Scene quality score (average of above): 9.2
+- Strengths: Crisp, authentic dialogue; concrete product details; ethical tension handled lightly; vivid opening image; confident control of tone.
+- Weaknesses: Stakes remain low/emotional interiority is minimal; reliance on jargon/bulleted list slightly flattens texture mid-scene.
+- Specific feedback:
+  - Insert a quick physical beat or sensory cue mid-bullets (e.g., the espresso machine sputters; Maya rubs her eyes) to vary texture and underscore fatigue/relief.
+  - Ground the UI moment with one concrete on-screen visual (a micro-line describing the CTA layout) to anchor readers who aren’t product-savvy.
+

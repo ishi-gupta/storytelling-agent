@@ -189,3 +189,200 @@ extraordinary for Dr. Helen Carr. The walls of her office bore silent
 witness to a remarkable revelation, one that could change the course 
 of history.
 ```
+
+## Quick Start with OpenAI
+
+The simplest way to generate a complete story is using the command-line interface with OpenAI GPT-5:
+
+### 1. Setup Environment
+
+Create a `.env` file with your OpenAI API key:
+```bash
+OPENAI_API_KEY=your_api_key_here
+```
+
+### 2. Generate a Story
+
+```bash
+python generate_story.py --length medium --topic "a detective solving a mystery"
+```
+
+**Story Length Options:**
+- `--length short`: ~5 min read (~1,000 words, 3 acts, 3 chapters, 6 scenes)
+- `--length medium`: ~10 min read (~2,000 words, 3 acts, 6-9 chapters) [default]
+- `--length long`: ~15 min read (~3,000 words, 3 acts, 9-12 chapters)
+
+**Example:**
+```bash
+# Generate a short romance story
+python generate_story.py --length short --topic "a romance set in Paris"
+
+# Generate a long mystery story (uses default topic if omitted)
+python generate_story.py --length long
+```
+
+## Session Structure
+
+Each story generation creates a structured session directory with all artifacts:
+
+```
+story_generation_logs/session_5/
+├── seed.json                    # Generation metadata
+├── final_story.txt              # Complete story text
+├── generation_log.json          # Detailed generation log
+├── generation_log.txt           # Human-readable log
+├── plans/                       # Planning artifacts
+│   ├── 1_initial_book_spec.txt
+│   ├── 2_enhanced_book_spec.txt
+│   ├── 3_initial_plot.json
+│   ├── 4_enhanced_plot.json
+│   └── 5_scene_plan.json
+└── evaluations/                 # Judge evaluations
+    ├── gpa_evaluation.json
+    ├── structure_analysis.json
+    └── structure_analysis_simple.json
+```
+
+### seed.json Format
+
+Contains generation metadata for reproducibility and tracking:
+```json
+{
+  "version": "1.0",
+  "session_id": "5",
+  "generated_at": "2025-11-10T14:30:00",
+  "topic": "a detective solving a mystery",
+  "length_preset": "medium",
+  "model": "gpt-5",
+  "word_count": 2143,
+  "scene_count": 18,
+  "generation_time_seconds": 342.5
+}
+```
+
+## Story Evaluation (Judges)
+
+Evaluate generated stories with specialized judges. All judges automatically save their outputs to `evaluations/` within the session directory.
+
+### 1. GPA Judge (Grammar, Plot, Appeal)
+```bash
+python judges/gpa_judge.py
+```
+Evaluates three dimensions with detailed scores:
+- **Grammar**: Technical quality, readability, style
+- **Plot**: Structure, pacing, coherence
+- **Appeal**: Engagement, emotional impact, memorability
+
+**Output**: `evaluations/gpa_evaluation.json`
+
+### 2. Structure Judge (Detailed Analysis)
+```bash
+python judges/structure_judge.py
+```
+Comprehensive structural analysis including:
+- Complete plot summary (3-5 paragraphs)
+- Character profiles with roles and arcs
+- Key plot beats (8-12 major events)
+- Story essence and coherence check
+
+**Output**: `evaluations/structure_analysis.json` + `.txt`
+
+### 3. Structure Judge Simple (Elevator Pitch)
+```bash
+python judges/structure_judge_simple.py
+```
+Concise "what is this story about?" summary:
+- Core plot (2-3 sentences)
+- Main characters (3-5 max)
+- Key events (5-8 beats)
+- Story type and issues
+
+**Output**: `evaluations/structure_analysis_simple.json` + `.txt`
+
+### 4. Character Judge (Character Analysis)
+```bash
+python judges/character_judge.py
+```
+Evaluates character depth and consistency:
+- Character motivations and internal conflicts
+- Psychological realism (1-10 scores)
+- Character arcs and relationships
+- Design quality (nuance, depth, believability)
+
+**Output**: `evaluations/character_analysis.json` + `.txt`
+
+### 5. Plot Judge (Sophistication & Clichés)
+```bash
+python judges/plot_judge.py
+```
+Analyzes plot construction:
+- Originality, coherence, complexity, pacing (1-10 scores)
+- Context management (Chekov's guns, callbacks)
+- Cliché usage and freshness
+- Surprising but logical developments
+
+**Output**: `evaluations/plot_analysis.json` + `.txt`
+
+### 6. Writing Quality Judge (Prose Evaluation)
+```bash
+python judges/writing_quality_judge.py
+```
+Evaluates writing craft scene-by-scene:
+- Prose quality, clarity, show vs tell
+- Dialogue quality and pacing
+- Technical craft (grammar, structure)
+- Specific improvement suggestions per scene
+
+**Output**: `evaluations/writing_quality.json` + `.txt`
+
+### Running All Judges
+```bash
+# Evaluate a specific session
+cd judges
+python gpa_judge.py
+python structure_judge.py
+python structure_judge_simple.py
+python character_judge.py
+python plot_judge.py
+python writing_quality_judge.py
+```
+
+**Note**: Edit the `SESSION_ID` variable at the top of each judge script to specify which session to evaluate.
+
+## Story Evaluation Dashboard
+
+### Export Stories to Frontend
+
+Generate the data file for the evaluation dashboard:
+```bash
+python export_sessions.py
+```
+
+This reads all sessions from `story_generation_logs/` and creates `frontend/public/data.json` with:
+- Story text
+- Generation metadata (seed.json)
+- All planning stages
+- Judge evaluations
+
+### Launch the Viewer
+
+```bash
+cd frontend
+npm install  # First time only
+npm start
+```
+
+Open `http://localhost:3000` to view stories with:
+- 📚 Session browser with length badges
+- 📖 Full story viewer
+- 📋 Planning stages viewer (all 5 stages)
+- ⚖️ Judge evaluations display
+- 🔍 Toggle between Story and Plans views
+
+### Refresh Data
+
+After generating new stories or running judges:
+1. Run `python export_sessions.py` to update data
+2. Refresh browser to see new content
+
+## Advanced Usage
