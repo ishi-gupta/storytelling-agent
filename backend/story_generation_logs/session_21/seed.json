@@ -1,0 +1,11 @@
+{
+  "version": "1.0",
+  "session_id": "21",
+  "generated_at": "2025-11-29T19:10:57.072995",
+  "topic": "test story",
+  "length_preset": "short",
+  "model": "gpt-5",
+  "word_count": null,
+  "scene_count": null,
+  "generation_time_seconds": null
+}

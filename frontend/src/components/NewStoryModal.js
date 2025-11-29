@@ -17,26 +17,36 @@ function NewStoryModal({ onClose, onSubmit }) {
     setIsSubmitting(true);
     
     try {
+      // Create abort controller for timeout (2 minutes for GPT-5 API)
+      const controller = new AbortController();
+      const timeoutId = setTimeout(() => controller.abort(), 120000); // 2 minutes
+      
       const response = await fetch('http://localhost:5001/api/generate/start', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
         },
-        body: JSON.stringify({ topic, length })
+        body: JSON.stringify({ topic, length }),
+        signal: controller.signal
       });
 
+      clearTimeout(timeoutId);
       const data = await response.json();
       
       if (response.ok) {
-        alert(`Story generation started! Session ${data.session_id} will appear shortly.`);
-        onSubmit();
+        alert(`✨ Story created! Opening session ${data.session_id}...`);
+        onSubmit(data.session_id); // Pass session ID back
         onClose();
       } else {
         alert(`Error: ${data.error}`);
         setIsSubmitting(false);
       }
     } catch (error) {
-      alert(`Error: ${error.message}`);
+      if (error.name === 'AbortError') {
+        alert('⏱️ Generation is taking longer than expected. Please wait and refresh the page in a moment.');
+      } else {
+        alert(`Error: ${error.message}`);
+      }
       setIsSubmitting(false);
     }
   };
@@ -90,7 +100,7 @@ function NewStoryModal({ onClose, onSubmit }) {
               className="submit-btn"
               disabled={isSubmitting}
             >
-              {isSubmitting ? 'Starting...' : 'Generate Story'}
+              {isSubmitting ? '🎨 Generating (30-60s)...' : '✨ Generate Story'}
             </button>
           </div>
         </form>

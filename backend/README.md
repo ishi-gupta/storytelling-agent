@@ -58,3 +58,4 @@ This endpoint provides live data and replaces the need to run `export_sessions.p
 - CORS is enabled to allow React frontend (port 3000) to connect
 - All paths are relative, so it works anywhere
 
+

@@ -192,16 +192,34 @@ of history.
 
 ## Quick Start with OpenAI
 
-The simplest way to generate a complete story is using the command-line interface with OpenAI GPT-5:
+### Interactive Wizard (Recommended for Testing)
 
-### 1. Setup Environment
+Generate stories step-by-step with manual editing and approval at each stage:
+
+```bash
+python interactive_wizard.py
+```
+
+This CLI wizard:
+- Generates one planning step at a time
+- Lets you edit each file manually before continuing
+- Validates syntax (fields for specs, JSON for plots)
+- Perfect for testing the generation flow without a web UI
+
+**See [CLI_WIZARD_GUIDE.md](CLI_WIZARD_GUIDE.md) for detailed instructions.**
+
+### Automatic Generation
+
+Generate a complete story automatically using the command-line interface:
+
+#### 1. Setup Environment
 
 Create a `.env` file with your OpenAI API key:
 ```bash
 OPENAI_API_KEY=your_api_key_here
 ```
 
-### 2. Generate a Story
+#### 2. Generate a Story
 
 ```bash
 python generate_story.py --length medium --topic "a detective solving a mystery"

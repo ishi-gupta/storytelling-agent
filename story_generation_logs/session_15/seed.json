@@ -1,0 +1,10 @@
+{
+  "topic": "a very short story about a bean, every chapter is like 5 words",
+  "length_preset": "short",
+  "model": "gpt-5",
+  "generated_at": "2025-11-17T14:49:53.120393",
+  "status": "wizard_in_progress",
+  "version": "2.0",
+  "current_step": "spec",
+  "last_updated": "2025-11-17T14:50:06.958258"
+}

@@ -1,7 +1,7 @@
 system = (
-    "You are a helpful assistant for fiction writing. "
-    "Always cut the bullshit and provide concise outlines with useful details. "
-    "Do not turn your stories into fairy tales, be realistic.")
+    "You are a creative assistant for fiction writing. "
+    "Provide detailed outlines that bring stories to life. "
+    "Honor and enhance the tone and style specified by the user.")
 
 book_spec_fields = ['Genre', 'Place', 'Time', 'Theme',
                     'Tone', 'Point of View', 'Characters', 'Premise']
@@ -63,12 +63,25 @@ def create_plot_chapters_messages(book_spec, form, story_preset):
     acts = story_preset.get('acts', 3)
     chapters_instruction = story_preset.get('chapters_instruction', 'Break down the plot into chapters')
     
+    # Create clear format example
+    format_example = """Act 1: [Brief act description]
+- Chapter 1: [Chapter description]
+- Chapter 2: [Chapter description]
+
+Act 2: [Brief act description]
+- Chapter 3: [Chapter description]
+- Chapter 4: [Chapter description]
+
+Act 3: [Brief act description]
+- Chapter 5: [Chapter description]
+- Chapter 6: [Chapter description]"""
+    
     messages = [
         {"role": "user", "content": (
-            f"Come up with a plot for a bestseller-grade {form} in {acts} acts taking inspiration from its description. "
-            f"{chapters_instruction}\n"
-            "Use the following structure:\nActs\n- Chapters\n\n"
-            f"Early {form} description:\n\"\"\"{book_spec}\"\"\".")}
+            f"Come up with a plot for a {form} in {acts} acts taking inspiration from its description. "
+            f"{chapters_instruction}\n\n"
+            f"Use EXACTLY this format (with Act 1, Act 2, Act 3 headers):\n\n{format_example}\n\n"
+            f"Story description:\n\"\"\"{book_spec}\"\"\".")}
     ]
     return messages
 

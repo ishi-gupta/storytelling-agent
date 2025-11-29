@@ -1,0 +1,9 @@
+{
+  "topic": "a robot learning to feel emotions",
+  "length_preset": "short",
+  "model": "gpt-5",
+  "generated_at": "2025-11-17T14:47:41.346760",
+  "status": "wizard_in_progress",
+  "version": "2.0",
+  "current_step": "spec"
+}

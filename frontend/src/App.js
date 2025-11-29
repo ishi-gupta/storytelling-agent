@@ -5,6 +5,7 @@ import StoryViewer from './components/StoryViewer';
 import JudgePanel from './components/JudgePanel';
 import JudgeModal from './components/JudgeModal';
 import StoryPlanPanel from './components/StoryPlanPanel';
+import StoryWizard from './components/StoryWizard';
 import { Panel, PanelGroup, PanelResizeHandle } from 'react-resizable-panels';
 
 function App() {
@@ -14,26 +15,25 @@ function App() {
   const [loading, setLoading] = useState(true);
   const [viewMode, setViewMode] = useState('story'); // 'story' or 'plans'
 
-  useEffect(() => {
-    // Fetch sessions from Flask backend
-    const fetchSessions = async () => {
-      try {
-        const response = await fetch('http://localhost:5001/api/sessions');
-        const data = await response.json();
-        setSessions(data.sessions);
-        
-        // Auto-select first session if none selected
-        if (data.sessions.length > 0 && !selectedSession) {
-          setSelectedSession(data.sessions[0]);
-        }
-        
-        setLoading(false);
-      } catch (err) {
-        console.error('Error loading sessions from Flask:', err);
-        setLoading(false);
+  const fetchSessions = async () => {
+    try {
+      const response = await fetch('http://localhost:5001/api/sessions');
+      const data = await response.json();
+      setSessions(data.sessions);
+      
+      // Auto-select first session if none selected
+      if (data.sessions.length > 0 && !selectedSession) {
+        setSelectedSession(data.sessions[0]);
       }
-    };
+      
+      setLoading(false);
+    } catch (err) {
+      console.error('Error loading sessions from Flask:', err);
+      setLoading(false);
+    }
+  };
 
+  useEffect(() => {
     // Initial fetch
     fetchSessions();
 
@@ -43,6 +43,20 @@ function App() {
     // Cleanup interval when component unmounts
     return () => clearInterval(pollInterval);
   }, [selectedSession]);
+
+  const handleNewStory = async (sessionId) => {
+    // Wait a moment for the session to be created
+    setTimeout(async () => {
+      await fetchSessions();
+      // Find and select the new session
+      const newSession = sessions.find(s => s.id === `session_${sessionId}`);
+      if (newSession) {
+        setSelectedSession(newSession);
+      }
+      // Auto-switch to Plans view
+      setViewMode('plans');
+    }, 1000);
+  };
 
   if (loading) {
     return (
@@ -65,6 +79,7 @@ function App() {
             sessions={sessions}
             selectedSession={selectedSession}
             onSelectSession={setSelectedSession}
+            onNewStory={handleNewStory}
           />
         </Panel>
         
@@ -90,7 +105,20 @@ function App() {
             {viewMode === 'story' ? (
               <StoryViewer session={selectedSession} />
             ) : (
-              <StoryPlanPanel session={selectedSession} />
+              // Show wizard if session is in progress, otherwise show plans
+              selectedSession?.seed?.status === 'generating' ? (
+                <StoryWizard 
+                  session={selectedSession}
+                  onComplete={() => {
+                    // Refresh sessions when wizard completes
+                    fetch('http://localhost:5001/api/sessions')
+                      .then(res => res.json())
+                      .then(data => setSessions(data.sessions));
+                  }}
+                />
+              ) : (
+                <StoryPlanPanel session={selectedSession} />
+              )
             )}
           </div>
         </Panel>

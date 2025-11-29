@@ -1,0 +1,8 @@
+{
+  "topic": "test story",
+  "length_preset": "short",
+  "model": "gpt-5",
+  "generated_at": "2025-11-29T19:10:57.039352",
+  "status": "generating",
+  "version": "2.0"
+}

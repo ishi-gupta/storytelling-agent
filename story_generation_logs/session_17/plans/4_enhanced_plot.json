@@ -1,0 +1,40 @@
+[
+  {
+    "act_descr": "Act I",
+    "chapters": [
+      "Maya buys a last‑minute ticket to Paris and texts Lila, who cheers. [+]",
+      "A storm delays her JFK flight for hours and she almost turns back. [-]",
+      "She arrives at dawn, finds the Canal Airbnb, and Sylvie greets her with tulips and keys. [+]",
+      "Spring rain soaks her, her phone dies, and she gets lost along the canal. [-]",
+      "She warms up at Samir’s café, eats a hot croissant, and leaves with his hand‑drawn map. [+]",
+      "She fumbles French at lunch, receives the wrong dish, and spills water on herself. [-]",
+      "Étienne retrieves her dropped phrasebook, helps with the bill, and walks her home over the footbridge at sunset. [+]"
+    ]
+  },
+  {
+    "act_descr": "Act II",
+    "chapters": [
+      "Maya meets Camille in Montmartre and they shoot portraits around Sacré‑Cœur at golden hour. [+]",
+      "Maya loses her wallet on the funicular and spends two hours filing a report at the police kiosk. [-]",
+      "Étienne tutors her over a canal picnic, and she orders lunch in French without help. [+]",
+      "A sudden squall ruins her film roll and she slips on wet cobblestones, scraping her knee. [-]",
+      "Sylvie drops off warm madeleines and a hand‑drawn map, and books Maya for a neighborhood dinner. [+]",
+      "Maya takes the wrong métro to Belleville, misses Camille’s market pop‑up, and arrives as stalls close. [-]",
+      "Samir comps her coffee, introduces regulars, and she wins a friendly pétanque game by the canal. [+]",
+      "A café bill mix‑up leaves her short on cash, and she washes dishes an hour to settle it. [-]",
+      "Étienne finds her a perfect used phrasebook in the Latin Quarter and they share a first kiss on Pont des Arts. [+]"
+    ]
+  },
+  {
+    "act_descr": "Act III",
+    "chapters": [
+      "Maya reaches Montmartre in a light rain, finds Camille’s pop‑up, and sees her portrait hanging by the door as they hug. [+]",
+      "A sudden downpour sends people scattering, and Maya slips on the steps and cracks her phone screen. [-]",
+      "Lila’s voicemail cheers her, she buys a cheap screen film at a kiosk, and she and Camille share hot crêpes under a storefront awning. [+]",
+      "Maya arrives ten minutes late to meet Étienne by the canal and catches him turning away with a tight smile. [-]",
+      "She jogs after him, apologizes, and he invites her to Sylvie’s neighborhood dinner that evening. [+]",
+      "A stalled métro traps them between stations for twenty minutes, and they arrive last to Sylvie’s table. [-]",
+      "They help plate the lemon tart, share toasts with neighbors, and pencil a summer return date and daily call time on Sylvie’s map. [+]"
+    ]
+  }
+]

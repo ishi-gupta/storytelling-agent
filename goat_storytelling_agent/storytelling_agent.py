@@ -359,10 +359,20 @@ class StoryAgent:
         """
         messages = self.prompt_engine.create_plot_chapters_messages(book_spec, self.form, self.story_preset)
         plan = []
-        while not plan:
+        max_retries = 3
+        retry_count = 0
+        
+        while not plan and retry_count < max_retries:
             text_plan = self.query_chat(messages)
             if text_plan:
                 plan = Plan.parse_text_plan(text_plan)
+                if not plan:
+                    retry_count += 1
+                    print(f"⚠️  Warning: Plot parsing failed, retry {retry_count}/{max_retries}")
+                    if retry_count >= max_retries:
+                        print(f"❌ Error: Failed to parse plot after {max_retries} attempts")
+                        print(f"📄 Raw output (first 500 chars):\n{text_plan[:500]}")
+                        raise ValueError(f"Could not parse plot into correct format after {max_retries} attempts")
         return messages, plan
 
     def enhance_plot_chapters(self, book_spec, plan):
@@ -384,18 +394,33 @@ class StoryAgent:
         """
         text_plan = Plan.plan_2_str(plan)
         all_messages = []
-        for act_num in range(3):
+        
+        # Use the actual number of acts in the plan, not hardcoded 3
+        num_acts = len(plan) if plan else 3
+        
+        # Ensure plan has the right number of acts
+        if len(plan) < num_acts:
+            # Pad with empty acts if needed
+            while len(plan) < num_acts:
+                plan.append({'act_descr': '', 'chapters': []})
+        
+        for act_num in range(num_acts):
             messages = self.prompt_engine.enhance_plot_chapters_messages(
                 act_num, text_plan, book_spec, self.form)
             act = self.query_chat(messages)
             if act:
                 act_dict = Plan.parse_act(act)
-                while len(act_dict['chapters']) < 2:
+                max_retries = 3
+                retry_count = 0
+                while len(act_dict['chapters']) < 2 and retry_count < max_retries:
                     act = self.query_chat(messages)
                     act_dict = Plan.parse_act(act)
-                else:
+                    retry_count += 1
+                
+                # Only update if we got valid chapters
+                if len(act_dict['chapters']) >= 1:
                     plan[act_num] = act_dict
-                text_plan = Plan.plan_2_str(plan)
+                    text_plan = Plan.plan_2_str(plan)
             all_messages.append(messages)
         return all_messages, plan
 

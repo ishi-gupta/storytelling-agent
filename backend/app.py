@@ -87,23 +87,23 @@ def load_session(session_path):
     # Load plans
     plans_dir = session_path / "plans"
     if plans_dir.exists():
-        plan_files = {
-            "1_initial_book_spec.txt": "initial_book_spec",
-            "2_enhanced_book_spec.txt": "enhanced_book_spec",
-            "3_initial_plot.json": "initial_plot",
-            "4_enhanced_plot.json": "enhanced_plot",
-            "5_scene_plan.json": "scene_plan"
-        }
+        plan_files = [
+            "1_initial_book_spec.txt",
+            "2_enhanced_book_spec.txt",
+            "3_initial_plot.json",
+            "4_enhanced_plot.json",
+            "5_scene_plan.json"
+        ]
         
-        for filename, key in plan_files.items():
+        for filename in plan_files:
             plan_file = plans_dir / filename
             if plan_file.exists():
                 if filename.endswith('.json'):
                     with open(plan_file, 'r', encoding='utf-8') as f:
-                        session_data["plans"][key] = json.load(f)
+                        session_data["plans"][filename] = json.load(f)
                 else:
                     with open(plan_file, 'r', encoding='utf-8') as f:
-                        session_data["plans"][key] = f.read()
+                        session_data["plans"][filename] = f.read()
     
     # Load evaluations (judges)
     eval_dir = session_path / "evaluations"
@@ -222,26 +222,221 @@ def start_generation():
         with open(session_dir / "seed.json", 'w', encoding='utf-8') as f:
             json.dump(seed_data, f, indent=2, ensure_ascii=False)
         
-        # Start story generation in background (non-blocking)
-        # Get the path to the generate_story.py script
-        script_path = BASE_DIR / "generate_story.py"
-        python_path = sys.executable
+        # Generate ONLY Step 1 (initial book spec) for the wizard
+        # Import the agent - use base StoryAgent since LoggingStoryAgent has path issues
+        import sys
+        sys.path.insert(0, str(BASE_DIR))
+        from goat_storytelling_agent.storytelling_agent import StoryAgent
+        from story_presets import get_preset
         
-        # Run in background without blocking, pass session ID to avoid race condition
-        subprocess.Popen(
-            [python_path, str(script_path), '--length', length, '--topic', topic, '--session-id', str(next_id)],
-            cwd=str(BASE_DIR),
-            stdout=subprocess.DEVNULL,
-            stderr=subprocess.DEVNULL
+        # Get API key
+        api_key = os.getenv('OPENAI_API_KEY')
+        if not api_key:
+            return jsonify({"error": "OPENAI_API_KEY not set"}), 500
+        
+        preset = get_preset(length)
+        
+        # Create agent instance - use base StoryAgent
+        agent = StoryAgent(
+            backend_uri=api_key,
+            backend="openai",
+            model="gpt-5",
+            max_tokens=2000,
+            story_preset=preset,
+            extra_options={"temperature": 1.0, "top_p": 1.0}
         )
+        
+        # Manually set paths for saving
+        agent.session_dir = str(session_dir)
+        agent.plans_dir = str(session_dir / "plans")
+        
+        # Generate ONLY initial book spec (Step 1)
+        # Don't run full story generation - wizard will handle the rest
+        _, initial_spec = agent.init_book_spec(topic)
+        
+        # Save the plan manually
+        plan_file = session_dir / "plans" / "1_initial_book_spec.txt"
+        with open(plan_file, 'w', encoding='utf-8') as f:
+            f.write(initial_spec)
         
         return jsonify({
             "session_id": str(next_id),
-            "status": "started",
-            "message": f"Story generation started for session {next_id}"
+            "status": "generating",
+            "message": f"Initial book spec generated for session {next_id}",
+            "initial_spec": initial_spec
         })
     
     except Exception as e:
+        return jsonify({"error": str(e)}), 500
+
+
+@app.route('/api/session/<session_id>/save-plan', methods=['POST'])
+def save_plan_edit(session_id):
+    """
+    Save user edits to a plan file
+    POST /api/session/session_15/save-plan or POST /api/session/15/save-plan
+    Body: { "filename": "1_initial_book_spec.txt", "content": "..." }
+    """
+    try:
+        data = request.json
+        filename = data.get('filename')
+        content = data.get('content')
+        
+        # Handle both "session_23" and "23" formats
+        if not session_id.startswith('session_'):
+            session_id = f"session_{session_id}"
+        
+        session_dir = SESSIONS_DIR / session_id
+        plan_path = session_dir / "plans" / filename
+        
+        # Save the edited content
+        with open(plan_path, 'w', encoding='utf-8') as f:
+            f.write(content)
+        
+        return jsonify({
+            "success": True,
+            "message": f"Saved {filename}"
+        })
+    
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
+
+
+@app.route('/api/session/<session_id>/generate-next', methods=['POST'])
+def generate_next_step(session_id):
+    """
+    Generate the next step in the story planning process
+    POST /api/session/session_15/generate-next or POST /api/session/15/generate-next
+    Body: { "current_step": 1 }
+    
+    Steps:
+    1 → enhance book spec
+    2 → create plot
+    3 → enhance plot
+    4 → create scene plan
+    5 → generate full story
+    """
+    try:
+        current_step = request.json.get('current_step')
+        
+        # Handle both "session_23" and "23" formats
+        if not session_id.startswith('session_'):
+            session_id = f"session_{session_id}"
+        
+        session_dir = SESSIONS_DIR / session_id
+        
+        # Load seed to get topic and length
+        with open(session_dir / "seed.json", 'r') as f:
+            seed = json.load(f)
+        
+        # Import the existing agent
+        import sys
+        sys.path.insert(0, str(BASE_DIR))
+        from generate_story import LoggingStoryAgent
+        from story_presets import get_preset
+        
+        # Get API key
+        api_key = os.getenv('OPENAI_API_KEY')
+        if not api_key:
+            return jsonify({"error": "OPENAI_API_KEY not set"}), 500
+        
+        preset = get_preset(seed.get('length_preset', 'medium'))
+        
+        # Create agent instance - use base StoryAgent
+        from goat_storytelling_agent.storytelling_agent import StoryAgent
+        
+        agent = StoryAgent(
+            backend_uri=api_key,
+            backend="openai",
+            model="gpt-5",
+            max_tokens=2000,
+            story_preset=preset,
+            extra_options={"temperature": 1.0, "top_p": 1.0}
+        )
+        
+        result = None
+        next_step = current_step + 1
+        result_filename = None
+        
+        # Execute the appropriate generation step
+        if current_step == 1:
+            # Enhance book spec
+            with open(session_dir / "plans" / "1_initial_book_spec.txt", 'r') as f:
+                initial_spec = f.read()
+            
+            _, result = agent.enhance_book_spec(initial_spec)
+            result_filename = "2_enhanced_book_spec.txt"
+            
+            # Save manually
+            with open(session_dir / "plans" / result_filename, 'w', encoding='utf-8') as f:
+                f.write(result)
+        
+        elif current_step == 2:
+            # Create plot from enhanced spec
+            with open(session_dir / "plans" / "2_enhanced_book_spec.txt", 'r') as f:
+                enhanced_spec = f.read()
+            
+            _, result = agent.create_plot_chapters(enhanced_spec)
+            result_filename = "3_initial_plot.json"
+            
+            # Save manually
+            with open(session_dir / "plans" / result_filename, 'w', encoding='utf-8') as f:
+                json.dump(result, f, indent=2, ensure_ascii=False)
+            
+            result = json.dumps(result, indent=2)  # Convert to string for frontend
+        
+        elif current_step == 3:
+            # Enhance plot
+            with open(session_dir / "plans" / "2_enhanced_book_spec.txt", 'r') as f:
+                book_spec = f.read()
+            with open(session_dir / "plans" / "3_initial_plot.json", 'r') as f:
+                initial_plot = json.load(f)
+            
+            _, result = agent.enhance_plot_chapters(book_spec, initial_plot)
+            result_filename = "4_enhanced_plot.json"
+            
+            # Save manually
+            with open(session_dir / "plans" / result_filename, 'w', encoding='utf-8') as f:
+                json.dump(result, f, indent=2, ensure_ascii=False)
+            
+            result = json.dumps(result, indent=2)
+        
+        elif current_step == 4:
+            # Create scene plan
+            with open(session_dir / "plans" / "4_enhanced_plot.json", 'r') as f:
+                enhanced_plot = json.load(f)
+            
+            _, result = agent.split_chapters_into_scenes(enhanced_plot)
+            result_filename = "5_scene_plan.json"
+            
+            # Save manually
+            with open(session_dir / "plans" / result_filename, 'w', encoding='utf-8') as f:
+                json.dump(result, f, indent=2, ensure_ascii=False)
+            
+            result = json.dumps(result, indent=2)
+        
+        elif current_step == 5:
+            # Generate full story (this will take a while)
+            # For now, just trigger the existing generation
+            return jsonify({
+                "next_step": 6,
+                "message": "Full story generation started",
+                "generating": True
+            })
+        
+        else:
+            return jsonify({"error": "Invalid step number"}), 400
+        
+        return jsonify({
+            "success": True,
+            "next_step": next_step,
+            "result": result,
+            "filename": result_filename
+        })
+    
+    except Exception as e:
+        import traceback
+        traceback.print_exc()
         return jsonify({"error": str(e)}), 500
 
 

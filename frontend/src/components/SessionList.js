@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import './SessionList.css';
 import NewStoryModal from './NewStoryModal';
 
-function SessionList({ sessions, selectedSession, onSelectSession }) {
+function SessionList({ sessions, selectedSession, onSelectSession, onNewStory }) {
   const [showNewStoryModal, setShowNewStoryModal] = useState(false);
 
   // Extract just the number from session ID (handles both "5" and "session_5")
@@ -46,8 +46,12 @@ function SessionList({ sessions, selectedSession, onSelectSession }) {
       {showNewStoryModal && (
         <NewStoryModal
           onClose={() => setShowNewStoryModal(false)}
-          onSubmit={() => {
-            // Modal will close itself, just refresh will happen via polling
+          onSubmit={(sessionId) => {
+            setShowNewStoryModal(false);
+            // Notify parent about new story
+            if (onNewStory) {
+              onNewStory(sessionId);
+            }
           }}
         />
       )}
